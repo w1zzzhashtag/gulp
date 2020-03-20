@@ -12,41 +12,35 @@ var concat      = require('gulp-concat');
 
 
 gulp.task('serve', function() {
-
     browserSync.init({
         server: "./app"
     });
-
+    gulp.watch("app/block/**/*.scss", gulp.series('sassCompile'));
     gulp.watch("app/scss/**/*.scss", gulp.series('sass'));
-    gulp.watch("app/block/**/*.scss", gulp.series('sassBlock'));
     gulp.watch("app/**/*.html").on('change', browserSync.reload);
     gulp.watch("app/js/**/*.js").on('change', browserSync.reload);
+    gulp.watch("app/block/**/*.js").on('change', browserSync.reload);
 });
 
-gulp.task('libsCss', function() {
+
+gulp.task('sassCompile', function() {
     return gulp.src([
         'node_modules/normalize.css/normalize.css',
         'node_modules/slick-carousel/slick/slick.css',
-        'node_modules/animate.css/animate.css'
-      ])
-      .pipe(concat('libs.scss'))
-      .pipe(gulp.dest('app/scss'))
-      .pipe(browserSync.stream());
-})
-
+        'node_modules/animate.css/animate.css',
+        'app/block/**/*.scss'
+    ])
+    .pipe(concat('compile.scss'))
+    .pipe(gulp.dest("app/scss"))
+    .pipe(browserSync.stream());
+});
 gulp.task('sass', function() {
-    return gulp.src("app/scss/**/*.scss")
-        .pipe(sass())
-        .pipe(gulp.dest("app/css"))
-        .pipe(browserSync.stream()); 
+    return gulp.src('app/scss/*.scss')
+    .pipe(sass())
+    .pipe(gulp.dest("app/css"))
+    .pipe(browserSync.stream());
 });
 
-gulp.task('sassBlock', function() {
-    return gulp.src("app/block/**/*.scss")
-        .pipe(sass())
-        .pipe(gulp.dest("app/block"))
-        .pipe(browserSync.stream());
-});
 
 gulp.task('libsJs', function(){
     return gulp.src([
@@ -89,8 +83,6 @@ gulp.task('clean:dist', async function() {
     return del.sync('dist/');
 })
 
-gulp.task('build', gulp.series('clean:dist', gulp.parallel('libsCss', 'libsJs', 'sass', 'sassBlock', 'useref', 'images', 'fonts')))
-gulp.task('default', gulp.series(gulp.parallel('libsCss', 'libsJs', 'sass', 'sassBlock'), 'serve') )
-// gulp.task('build', gulp.parallel('sass', 'useref', 'images', 'fonts'))
-// gulp.task('default', gulp.series('clean:dist',  'build', 'serve'));
+gulp.task('build', gulp.series('clean:dist', gulp.parallel('libsJs', 'sassCompile', 'sass',  'useref', 'images', 'fonts')))
+gulp.task('default', gulp.series(gulp.parallel('libsJs', 'sassCompile', 'sass'), 'serve') )
   
