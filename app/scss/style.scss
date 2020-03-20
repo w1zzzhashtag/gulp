@@ -37,3 +37,16 @@ body {
     background-color: #2F2F2F;
     overflow-x: hidden;
 }
+::selection {
+  color: #fff;
+  background-color: #444;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background: #2F2F2F;
+}
+body::-webkit-scrollbar-thumb {
+  background:#FBA549;
+  border-radius: 2px;
+}

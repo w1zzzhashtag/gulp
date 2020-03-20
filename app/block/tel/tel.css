@@ -1,9 +1,0 @@
-.tel::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 25px;
-  height: 25px;
-  background-image: url(/img/tel/tel.png);
-  background-size: cover; }

@@ -1,11 +1,11 @@
-.banner {
+.about {
     width: 100%;
     position: relative;
-    background-image: url(/img/banner/banner-bgc.png);
+    background-image: url(/img/about/about-bgc.png);
     background-repeat: no-repeat;
-    background-position: center bottom;
+    background-position: right bottom;
     background-size: auto;
-    min-height: calc(100vh - 100px);
+    min-height: 100vh;
     display: flex;
     align-items: center;
 }
