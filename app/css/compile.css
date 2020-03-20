@@ -3185,6 +3185,27 @@ template {
     background: #FBA549;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); }
 
+.ourService {
+  width: 100%;
+  position: relative;
+  background-image: url(/img/ourService/ourService-bgc.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center; }
+
+.ourService__container {
+  display: flex; }
+
+.ourService__widget {
+  position: absolute;
+  left: 0; }
+
+.ourService__widget__img {
+  width: 900px; }
+
 .slider__content {
   position: absolute;
   bottom: 60px;
