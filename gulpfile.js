@@ -21,31 +21,33 @@ gulp.task('serve', function() {
     gulp.watch("app/block/**/*.scss", gulp.series('sassBlock'));
     gulp.watch("app/**/*.html").on('change', browserSync.reload);
     gulp.watch("app/js/**/*.js").on('change', browserSync.reload);
+    gulp.watch("app/block/**/*.js").on('change', browserSync.reload);
 });
 
 gulp.task('libsCss', function() {
     return gulp.src([
         'node_modules/normalize.css/normalize.css',
         'node_modules/slick-carousel/slick/slick.css',
+        'node_modules/slick-carousel/slick/slick-theme.css',
         'node_modules/animate.css/animate.css'
       ])
       .pipe(concat('libs.scss'))
       .pipe(gulp.dest('app/scss'))
-      .pipe(browserSync.stream());
+      .pipe(browserSync.stream())
 })
 
 gulp.task('sass', function() {
     return gulp.src("app/scss/**/*.scss")
         .pipe(sass())
         .pipe(gulp.dest("app/css"))
-        .pipe(browserSync.stream()); 
+        .pipe(browserSync.stream())
 });
 
 gulp.task('sassBlock', function() {
     return gulp.src("app/block/**/*.scss")
         .pipe(sass())
         .pipe(gulp.dest("app/block"))
-        .pipe(browserSync.stream());
+        .pipe(browserSync.stream())
 });
 
 gulp.task('libsJs', function(){
@@ -54,7 +56,7 @@ gulp.task('libsJs', function(){
     ])
       .pipe(concat('libs.js'))
       .pipe(gulp.dest('app/js'))
-      .pipe(browserSync.stream());
+      .pipe(browserSync.stream())
   });
 
 

@@ -11,6 +11,8 @@ h1,
 h2,
 h3,
 h4,
+h5,
+h6,
 p,
 ul[class],
 ol[class],
@@ -30,4 +32,8 @@ body {
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
+    font-family: 'Inter', sans-serif;
+    color: #000;
+    background-color: #2F2F2F;
+    overflow-x: hidden;
 }

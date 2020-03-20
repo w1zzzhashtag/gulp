@@ -1,0 +1,25 @@
+.slider__pagintaions {
+    display: flex;
+    position: absolute;
+    left: 90px;
+    bottom: 60px;
+    button {
+        background-color: #fff;
+        cursor: pointer;
+        border: none;
+        border-radius: 50%;
+        outline: none;
+        width: 20px;
+        height: 20px;
+        font-size: 0;
+        margin-right: 5px;
+        box-sizing: content-box;
+        padding: 0;
+    }
+    .slick-active {
+        button {
+            background-color: #3D3939;
+            border: 3px solid #FBA549;
+        }
+    }
+}

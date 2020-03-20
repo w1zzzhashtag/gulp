@@ -3,22 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Documetnt</title>
+    <title>RIADI pro</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Inter:400,700,800,900&display=swap&subset=cyrillic" rel="stylesheet">
 
     <!-- build:css css/style.min.css-->
-    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/libs.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+
+    <link rel="stylesheet" href="/block/container/container.css">
+    <link rel="stylesheet" href="/block/main/main.css">
+
+
+    <link rel="stylesheet" href="/block/header/header.css">
+    <link rel="stylesheet" href="/block/header/header__container.css">
+    <link rel="stylesheet" href="/block/logo/logo.css">
+    <link rel="stylesheet" href="/block/logo/logo--wrap.css">
+    <link rel="stylesheet" href="/block/header/header__item.css">
+    <link rel="stylesheet" href="/block/header/header__item__link.css">
+    <link rel="stylesheet" href="/block/header/header__item__subtitle.css">
+    <link rel="stylesheet" href="/block/mail/mail.css">
+    <link rel="stylesheet" href="/block/tel/tel.css">
+    <link rel="stylesheet" href="/block/header/header__btn.css">
+    <link rel="stylesheet" href="/block/burger/burger--wrap.css">
+    <link rel="stylesheet" href="/block/burger/burger__title.css">
+    <link rel="stylesheet" href="/block/burger/burger.css">
+    <link rel="stylesheet" href="/block/burger/burger__item.css">
+
+
+    <link rel="stylesheet" href="/block/banner/banner.css">
+    <link rel="stylesheet" href="/block/banner/banner__container.css">
+    <link rel="stylesheet" href="/block/banner/banner__content.css">
+    <link rel="stylesheet" href="/block/banner/banner__title.css">
+    <link rel="stylesheet" href="/block/banner/banner__desc.css">
+    <link rel="stylesheet" href="/block/banner/banner__btn.css">
+    <link rel="stylesheet" href="/block/banner/banner__slider.css">
+    <link rel="stylesheet" href="/block/slider/slider.css">
+    <link rel="stylesheet" href="/block/slider/slider__item.css">
+    <link rel="stylesheet" href="/block/slider/slider__item__img.css">
+    <link rel="stylesheet" href="/block/slider/slider__content.css">
+    <link rel="stylesheet" href="/block/slider/slider__content__title.css">
+    <link rel="stylesheet" href="/block/slider/slider__content__subtititle.css">
+    <link rel="stylesheet" href="/block/slider/slider__pagintaions.css">
     <!-- endbuild -->
 </head>
 <body>
     
-   
+   <header class="header">
+       <div class="container header__container">
+            <a href="/" class="logo--wrap">
+                <img src="/img/logo/logo.png" alt="Логотип RIADI pro" class="logo">
+            </a> 
+            <!-- /.logo--wrap -->
+
+            <div class="header__item tel">
+                <a href="tel:+79820777555" class="header__item__link">+7 (9820) 777-555</a> 
+                <!-- /.header__item__link -->
+                <span class="header__item__subtitle">Менеджер</span> 
+                <!-- /.header__item__subtitle -->
+            </div>
+            <!-- /.header__item -->
+
+            <div class="header__item mail">
+                <a href="mailto:info@riadi.pro" class="header__item__link">info@riadi.pro</a> 
+                <!-- /.header__item__link -->
+                <span class="header__item__subtitle">Пишите нам</span> 
+                <!-- /.header__item__subtitle -->
+            </div>
+            <!-- /.header__item -->
+
+            <a href="#" class="header__btn">Акции</a> 
+            <!-- /.header__btn -->
+
+            <div class="burger--wrap">
+                <span class="burger__title">Меню</span>
+                <!-- /.burger__title -->
+                <div class="burger">
+                    <div class="burger__item"></div>
+                    <!-- /.burger__item -->
+                    <div class="burger__item"></div>
+                    <!-- /.burger__item -->
+                    <div class="burger__item"></div>
+                    <!-- /.burger__item -->
+                </div>
+                <!-- /.burger -->
+            </div>
+            <!-- /.burger--wrap -->
+       </div>
+       <!-- /.container header__container -->
+   </header>
+   <!-- /.header -->
+
+   <main class="main">
+       <section class="banner">
+           <div class="container banner__container">
+               <div class="banner__content">
+                   <h1 class="banner__title">Полноформатное инженерное сопровождение</h1>
+                   <!-- /.banner__title -->
+                   <p class="banner__desc">От проектирования и строительства новых объектов, до текущего сопровождения действующих инфраструктур. </p>
+                   <!-- /.banner__desc -->
+                   <div class="banner__btn">ПОДАТЬ ЗАЯВКУ</div>
+                   <!-- /.banner__btn -->
+               </div>
+               <!-- /.banner__content -->
+           </div>
+           <!-- /.container banner__container -->
+
+           <div class="banner__slider">
+               <div class="slider">
+                   <div class="slider__item">
+                       <img src="/img/slider/slider__item__img-1.jpg" class="slider__item__img" alt="">
+                       <div class="slider__content">
+                           <h6 class="slider__content__title">ГАРАНТИЯ</h6>
+                           <!-- /.slider__content__title -->
+                           <span class="slider__content__subtititle">дипломированные специалисты!</span>
+                           <!-- /.slider__contennt__subtititle -->
+                       </div>
+                       <!-- /.slider__content -->
+                   </div>
+                   <div class="slider__item">
+                       <img src="/img/slider/slider__item__img-2.jpg" class="slider__item__img" alt="">
+                       <div class="slider__content">
+                           <h6 class="slider__content__title">быстрое</h6>
+                           <!-- /.slider__content__title -->
+                           <span class="slider__content__subtititle">обслуживание
+                            и монтаж</span>
+                           <!-- /.slider__contennt__subtititle -->
+                       </div>
+                       <!-- /.slider__content -->
+                   </div>
+                   <div class="slider__item">
+                       <img src="/img/slider/slider__item__img-3.jpg" class="slider__item__img" alt="">
+                       <div class="slider__content">
+                           <h6 class="slider__content__title">только</h6>
+                           <!-- /.slider__content__title -->
+                           <span class="slider__content__subtititle">качественное
+                            обслуживание</span>
+                           <!-- /.slider__contennt__subtititle -->
+                       </div>
+                       <!-- /.slider__content -->
+                   </div>
+               </div>
+               <!-- /.slider -->
+           </div>
+           <!-- /.banner__slider -->
+       </section>
+       <!-- /.banner -->
+   </main>
+   <!-- /.main -->
     
    
     <!-- build:js js/main.min.js -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="/js/libs.js"></script>
     <script src="/js/main.js"></script>
+    <script src="/block/slider/slider.js"></script>
     <!-- endbuild -->
 </body>
 </html>

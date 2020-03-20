@@ -1,0 +1,9 @@
+.mail::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  background-image: url(/img/mail/mail.png);
+  background-size: cover; }
