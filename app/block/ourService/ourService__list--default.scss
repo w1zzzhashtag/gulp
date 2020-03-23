@@ -1,0 +1,12 @@
+.ourService__list--default {
+    width: 335px;
+    padding: 25px 20px 25px 60px;
+    .ourService__list__link  {
+        &:hover {
+            color: #fff;
+        }
+        &::before {
+            background-color: #fff;
+        }
+    }
+}

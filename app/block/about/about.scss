@@ -3,9 +3,10 @@
     position: relative;
     background-image: url(/img/about/about-bgc.png);
     background-repeat: no-repeat;
-    background-position: right bottom;
-    background-size: auto;
-    min-height: 100vh;
+    background-position: right top;
+    background-size: auto 110%;
+    height: calc(560px + 200px);
+    padding: 50px 0 100px;
     display: flex;
     align-items: center;
 }

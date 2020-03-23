@@ -1,0 +1,18 @@
+.become-our-client__title {
+    color: #2F2F2F;
+    position: relative;
+    letter-spacing: 0.03em;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 1.45em;
+    line-height: 1em;
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -20px;
+        width: 20%;
+        height: 10px;
+        background-color: #FFAD58;
+    }
+}

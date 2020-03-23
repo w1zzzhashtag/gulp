@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RIADI pro</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Inter:400,700,800,900&display=swap&subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inter:400,500,700,800,900&display=swap&subset=cyrillic" rel="stylesheet">
 
     <!-- build:css css/style.min.css-->
+ 
     <link rel="stylesheet" href="/css/compile.css">
     <link rel="stylesheet" href="/css/style.css">
     
@@ -60,6 +61,7 @@
    </header>
    <!-- /.header -->
 
+
    <main class="main">
        <section class="banner">
            <div class="container banner__container">
@@ -68,7 +70,7 @@
                    <!-- /.banner__title -->
                    <p class="banner__desc">От проектирования и строительства новых объектов, до текущего сопровождения действующих инфраструктур.</p>
                    <!-- /.banner__desc -->
-                   <div class="btn">ПОДАТЬ ЗАЯВКУ</div>
+                   <button class="btn">ПОДАТЬ ЗАЯВКУ</button>
                    <!-- /.banner__btn -->
                </div>
                <!-- /.banner__content -->
@@ -117,17 +119,63 @@
        <!-- /.banner -->
 
        <section class="ourService">
-           <div class="container ourService__container">
-
+        <div class="ourService__widget">
+            <div class="ourService__widget__img--wrap">
+                <img src="/img/ourService/ourService__widget__img.jpg" alt="Наши услуги RIADI PRO" class="ourService__widget__img">
+            </div>
+            <!-- /.ourService__widget__img--wrap -->
+        </div>
+        <!-- /.ourService__widget -->
+           <div class="ourService__container">
+                <div class="ourService__content">
+                    <span class="main__subtitle ourService__subtitle">Мы предлагаем</span>
+                    <h2 class="main__title ourService__title">Наши услуги</h2>
+                    <div class="ourService__info">
+                        <div class="ourService__list ourService__list--default">
+                            <span class="ourService__list__title">Мы выполняем следующие виды работ:</span> 
+                            <!-- /.ourService__list__title -->
+                            <a href="#" class="ourService__list__link">демонтажные</a>
+                            <!-- /.ourService__list__link -->
+                            <a href="#" class="ourService__list__link">отделочные</a>
+                            <!-- /.ourService__list__link -->
+                            <a href="#" class="ourService__list__link">монтажные</a>
+                            <!-- /.ourService__list__link -->
+                            <a href="#" class="ourService__list__link">электромонтажные</a>
+                            <!-- /.ourService__list__link -->
+                            <a href="#" class="ourService__list__link">КИПиА</a>
+                            <!-- /.ourService__list__link -->
+                            <a href="#" class="ourService__list__link">пусконаладочные</a>
+                            <!-- /.ourService__list__link -->
+                            <a href="#" class="ourService__list__link">проектные</a>
+                            <!-- /.ourService__list__link -->
+                        </div>
+                        <!-- /.ourService__list -->
+                        <div class="ourService__list ourService__list--white">
+                            <span class="ourService__list__title">А так же монтаж и
+                                обслуживание систем:</span> 
+                            <!-- /.ourService__list__title -->
+                            <a href="#" class="ourService__list__link">вентиляции</a>
+                            <!-- /.ourService__list__link -->
+                            <a href="#" class="ourService__list__link">теплоснабжения</a>
+                            <!-- /.ourService__list__link -->
+                            <a href="#" class="ourService__list__link">кондиционирования</a>
+                            <!-- /.ourService__list__link -->
+                            <a href="#" class="ourService__list__link">водоснабжения</a>
+                            <!-- /.ourService__list__link -->
+                            <a href="#" class="ourService__list__link">канализации и водоотведения</a>
+                            <!-- /.ourService__list__link -->
+                            <a href="#" class="ourService__list__link">электроснабжения</a>
+                            <!-- /.ourService__list__link -->
+                            <a href="#" class="ourService__list__link">автоматизация</a>
+                            <!-- /.ourService__list__link -->
+                        </div>
+                        <!-- /.ourService__list -->
+                    </div>
+                    <!-- /.ourService__info -->
+                </div>
            </div>
            <!-- /.container ourService__container -->
-           <div class="ourService__widget">
-               <div class="ourService__widget__img--wrap">
-                   <img src="/img/ourService/ourService__widget__img.jpg" alt="Наши услуги RIADI PRO" class="ourService__widget__img">
-               </div>
-               <!-- /.ourService__widget__img--wrap -->
-           </div>
-           <!-- /.ourService__widget -->
+           
        </section>
        <!-- /.ourService -->
 
@@ -150,10 +198,88 @@
            <!-- /.about__widget -->
        </section>
        <!-- /.about -->
+
+       <section class="become-our-client">
+           <div class="container become-our-client__container">
+               <h2 class="become-our-client__title">Стать нашим клиентом просто</h2>
+               <div class="become-our-client__content">
+                   <div class="become-our-client__item">
+                       <img src="/img/become-our-client/become-our-client__item__img-1.png" alt="" class="become-our-client__item__img">
+                       <span class="become-our-client__item__title">ВЫ ЗВОНИТЕ</span> 
+                       <!-- /.become-our-client__item__title -->
+                       <span class="become-our-client__item__desc">Указываете какой вид работ Вас интересует</span> 
+                       <!-- /.become-our-client__item__desc -->
+                    </div>
+                   <!-- /.become-our-client__item -->
+                   <div class="become-our-client__item">
+                       <img src="/img/become-our-client/become-our-client__item__img-2.png" alt="" class="become-our-client__item__img">
+                       <span class="become-our-client__item__title">ОБГОВАРИВАЕМ ДЕТАЛИ</span> 
+                       <!-- /.become-our-client__item__title -->
+                       <span class="become-our-client__item__desc">Вам предоставляется персональный менеджер</span> 
+                       <!-- /.become-our-client__item__desc -->
+                    </div>
+                   <!-- /.become-our-client__item -->
+                   <div class="become-our-client__item">
+                       <img src="/img/become-our-client/become-our-client__item__img-3.png" alt="" class="become-our-client__item__img">
+                       <span class="become-our-client__item__title">МЫ ПРОВОДИМ ДИАГНОСТИКУ</span> 
+                       <!-- /.become-our-client__item__title -->
+                       <span class="become-our-client__item__desc">Выявляем неполадки в оборудовании</span> 
+                       <!-- /.become-our-client__item__desc -->
+                    </div>
+                   <!-- /.become-our-client__item -->
+                   <div class="become-our-client__item">
+                       <img src="/img/become-our-client/become-our-client__item__img-4.png" alt="" class="become-our-client__item__img">
+                       <span class="become-our-client__item__title">ОТПРАВЛЯЕМ БРИГАДУ</span> 
+                       <!-- /.become-our-client__item__title -->
+                       <span class="become-our-client__item__desc">Для ремонта и обслуживания оборудования</span> 
+                       <!-- /.become-our-client__item__desc -->
+                    </div>
+                   <!-- /.become-our-client__item -->
+               </div>
+               <!-- /.become-our-client__content -->
+           </div>
+           <!-- /.container become-our-client__container -->
+       </section>
+       <!-- /.become-our-client -->
    </main>
    <!-- /.main -->
+
+
+   <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__info">
+                <a href="/" class="logo--wrap">
+                    <img src="/img/logo/logo.png" alt="Логотип RIADI pro" class="logo">
+                </a> 
+                <!-- /.logo--wrap -->
+                <span class="footer__info__address footer__info__text--light">
+                    432035, Россия, 
+                    Ульяновская область, г. Ульяновск, 
+                    проспект Гая, д. 100, офис 19 (2 этаж).
+                </span> 
+                <!-- /.footer__info__address footer__info__text--light -->
+                <div class="footer__info__item">
+                    <span class="footer__info__text--bold">Телефон:</span>
+                    <a href="tel:+79820777555" class="footer__info__text--light">+7 (9820) 77-75-55</a>
+                    <a href="tel:+79022105662" class="footer__info__text--light">+7 (902) 210-56-62</a>
+                </div>
+                <!-- /.footer__info__item -->
+                <div class="footer__info__item">
+                    <span class="footer__info__text--bold">Email:</span>
+                    <a href="mailto:info@riadi.pro" class="footer__info__text--light">info@riadi.pro</a>
+                </div>
+                <!-- /.footer__info__item -->
+            </div>
+            <!-- /.footer__info -->
+            <nav class="footer__nav">
+                
+            </nav>
+            <!-- /.footer__nav -->
+        </div>
+        <!-- /.container footer__container -->
+   </footer>
+   <!-- /.footer -->
     
-   
     <!-- build:js js/main.min.js -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="/js/libs.js"></script>

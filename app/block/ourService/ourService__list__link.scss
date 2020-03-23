@@ -1,0 +1,26 @@
+.ourService__list__link {
+    font-size: 16px;
+    line-height: 1.2em;
+    margin-bottom: 0.5em;
+    letter-spacing: 0.02em;
+    color: #000000;
+    padding-left: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    transition: all .5s;
+    &:hover {
+        &::before {
+            background-color: #000;
+        }
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 10px;
+        height: 10px;
+        transition: all .5s;
+    }
+}

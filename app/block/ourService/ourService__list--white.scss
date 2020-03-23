@@ -1,0 +1,15 @@
+.ourService__list--white {
+    width: 400px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    padding: 35px 70px;
+    margin: -10px 0;
+    .ourService__list__link  {
+        &:hover {
+            color: #FF8200;
+        }
+        &::before {
+            background-color: #EE7E07;
+        }
+    }
+}
