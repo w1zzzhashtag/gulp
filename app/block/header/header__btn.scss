@@ -1,7 +1,31 @@
 .header__btn {
-    color: #EE0707;
+    color: #fff;
     letter-spacing: 0.02em;
     font-size: 20px;
     line-height: 1em;
     font-weight: 800;
+    padding: 0.5em 1.8em;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: all .3s;
+    &:hover {
+        color: #000;
+        &::before {
+            transform: translateY(95%);
+        }
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        background-color: #F17E01;
+        width: 100%;
+        height: 100%;
+        border-radius: .4em;
+        z-index: -1;
+        transition: all .2s;
+    }
+   
 }
