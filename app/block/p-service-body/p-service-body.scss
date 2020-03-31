@@ -1,9 +1,20 @@
 .p-service-body {
     width: 100%;
     position: relative;
-    background: url(/img/p-service-body/p-service-body-bgc--right.png) right bottom / auto no-repeat,
-                url(/img/p-service-body/p-service-body-bgc--left.png) left top/ auto no-repeat;
+    z-index: 0;
+    background: url(/img/p-service-body/p-service-body-bgc--right.png) right bottom / 40% no-repeat,
+                url(/img/p-service-body/p-service-body-bgc--left.png) left top / 30% no-repeat;
     display: flex;
     align-items: center;
-    padding: 50px 0 100px;
+    padding: 50px 0;
+    &::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        background-color: #FFAD58;
+        width: calc((100% - 1300px) / 2 + 450px);
+        height: 500px;
+        top: 200px;
+        z-index: -1;
+    }
 }

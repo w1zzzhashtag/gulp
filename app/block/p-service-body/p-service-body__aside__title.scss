@@ -1,0 +1,17 @@
+.p-service-body__aside__title {
+    font-size: 18px;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+    color: #1B1919;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: .8em;
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: 50%;
+        height: 5px;
+        background-color: #FFAD58;
+    }
+}
