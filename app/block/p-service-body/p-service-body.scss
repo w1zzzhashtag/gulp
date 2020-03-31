@@ -1,0 +1,9 @@
+.p-service-body {
+    width: 100%;
+    position: relative;
+    background: url(/img/p-service-body/p-service-body-bgc--right.png) right bottom / auto no-repeat,
+                url(/img/p-service-body/p-service-body-bgc--left.png) left top/ auto no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 50px 0 100px;
+}

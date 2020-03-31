@@ -2979,44 +2979,6 @@ template {
     -webkit-animation-iteration-count: 1 !important;
     animation-iteration-count: 1 !important; } }
 
-.about {
-  width: 100%;
-  position: relative;
-  background-image: url(/img/about/about-bgc.png);
-  background-repeat: no-repeat;
-  background-position: right top;
-  background-size: auto 110%;
-  height: calc(560px + 200px);
-  padding: 50px 0 100px;
-  display: flex;
-  align-items: center; }
-
-.about__container {
-  display: flex;
-  align-items: center;
-  height: 100%; }
-
-.about__content {
-  width: 500px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; }
-
-.about__desc {
-  font-size: 18px;
-  line-height: 1.2em;
-  letter-spacing: 0.03em;
-  color: #FFFFFF;
-  margin: 1.5em 0; }
-
-.about__widget {
-  position: absolute;
-  right: 0;
-  top: 100px; }
-
-.about__widget__img {
-  width: 800px; }
-
 .banner {
   width: 100%;
   position: relative;
@@ -3056,24 +3018,6 @@ template {
   font-size: 48px;
   line-height: 1.2em;
   margin-bottom: 0.8em; }
-
-.btn {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.65) 0%, #FF8200 100%), #EE7E07;
-  border: 1px solid #BC7F3F;
-  box-sizing: border-box;
-  border-radius: 25px;
-  font-size: 16px;
-  line-height: 1em;
-  font-weight: 700;
-  letter-spacing: 0.05em;
-  color: #1B1B1B;
-  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
-  padding: .75em .9em;
-  cursor: pointer;
-  outline: none;
-  transition: all .3s; }
-  .btn:hover {
-    box-shadow: 0px 0px 20px rgba(238, 126, 7, 0.6), 0px 4px 4px rgba(0, 0, 0, 0.25); }
 
 .become-our-client {
   width: 100%;
@@ -3137,6 +3081,44 @@ template {
     height: 10px;
     background-color: #FFAD58; }
 
+.about {
+  width: 100%;
+  position: relative;
+  background-image: url(/img/about/about-bgc.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: auto 110%;
+  height: calc(560px + 200px);
+  padding: 50px 0 100px;
+  display: flex;
+  align-items: center; }
+
+.about__container {
+  display: flex;
+  align-items: center;
+  height: 100%; }
+
+.about__content {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; }
+
+.about__desc {
+  font-size: 18px;
+  line-height: 1.2em;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  margin: 1.5em 0; }
+
+.about__widget {
+  position: absolute;
+  right: 0;
+  top: 100px; }
+
+.about__widget__img {
+  width: 800px; }
+
 .burger--active .burger__item--1 {
   transform: rotate(135deg) translate(8px, -9px); }
 
@@ -3195,6 +3177,24 @@ template {
   position: relative;
   transition: all .2s; }
 
+.btn {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.65) 0%, #FF8200 100%), #EE7E07;
+  border: 1px solid #BC7F3F;
+  box-sizing: border-box;
+  border-radius: 25px;
+  font-size: 16px;
+  line-height: 1em;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #1B1B1B;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  padding: .75em .9em;
+  cursor: pointer;
+  outline: none;
+  transition: all .3s; }
+  .btn:hover {
+    box-shadow: 0px 0px 20px rgba(238, 126, 7, 0.6), 0px 4px 4px rgba(0, 0, 0, 0.25); }
+
 .container {
   width: 1300px;
   margin: 0 auto; }
@@ -3247,6 +3247,12 @@ template {
   padding: 25px 50px 60px;
   background-color: #F17E01;
   flex-grow: 1; }
+
+.logo--wrap {
+  width: 250px; }
+
+.logo {
+  width: 100%; }
 
 .header {
   width: 100%;
@@ -3357,12 +3363,6 @@ template {
     transform: translateX(-110%);
     background-color: rgba(241, 126, 1, 0.9);
     transition: all .3s; }
-
-.logo--wrap {
-  width: 250px; }
-
-.logo {
-  width: 100%; }
 
 .mail::before {
   content: '';
@@ -3501,6 +3501,26 @@ template {
 
 .ourService__widget__img {
   width: 800px; }
+
+.p-service-banner {
+  width: 100%;
+  height: 300px; }
+
+.p-service-banner__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.p-service-body {
+  width: 100%;
+  position: relative;
+  background: url(/img/p-service-body/p-service-body-bgc--right.png) right bottom/auto no-repeat, url(/img/p-service-body/p-service-body-bgc--left.png) left top/auto no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 50px 0 100px; }
+
+.p-service-body__container {
+  display: flex; }
 
 .tel::before {
   content: '';
