@@ -55,7 +55,7 @@ gulp.task('libsJs', function(){
 
 
 gulp.task('useref', function() {
-    return gulp.src("app/*.html")
+    return gulp.src("app/**/*.html")
     .pipe(useref())
     .pipe(gulpIf('*.js', uglify()))
     .pipe(gulpIf('*.css', cssnano()))
