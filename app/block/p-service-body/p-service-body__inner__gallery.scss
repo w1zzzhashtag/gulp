@@ -1,0 +1,10 @@
+.p-service-body__inner__gallery {
+    width: 100%;
+    margin: 2em 0;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:    "img-1 img-2 video"
+                            "img-3 img-4 video";
+                            grid-template-rows: 1fr 1fr;
+                            grid-template-columns: 1fr 1fr 2.7fr;
+}

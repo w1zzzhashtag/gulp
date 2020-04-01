@@ -1,0 +1,8 @@
+.p-service-body__inner__list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.p-service-body__inner__list * {
+    margin-bottom: 1.5em;
+}

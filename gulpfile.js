@@ -45,7 +45,7 @@ gulp.task('sass', function() {
 
 gulp.task('libsJs', function(){
     return gulp.src([
-      'node_modules/slick-carousel/slick/slick.js'
+      'node_modules/slick-carousel/slick/slick.js',
     ])
       .pipe(concat('libs.js'))
       .pipe(gulp.dest('app/js'))
@@ -79,12 +79,22 @@ gulp.task('fonts', function() {
     .pipe(gulp.dest('dist/fonts'))
 });
 
+gulp.task('libs', function() {
+    return gulp.src('app/libs/**/*')
+    .pipe(gulp.dest('dist/libs'))
+});
+
+gulp.task('docs', function() {
+    return gulp.src('app/docs/*/*')
+    .pipe(gulp.dest('dist/docs'))
+});
+
 
 
 gulp.task('clean:dist', async function() {
     return del.sync('dist/');
 })
 
-gulp.task('build', gulp.series('clean:dist', gulp.parallel('libsJs', 'sassCompile', 'sass',  'useref', 'images', 'fonts')))
+gulp.task('build', gulp.series('clean:dist', gulp.parallel('libsJs', 'sassCompile', 'sass',  'useref', 'images', 'fonts', 'libs', 'docs')))
 gulp.task('default', gulp.series(gulp.parallel('libsJs', 'sassCompile', 'sass'), 'serve') )
   

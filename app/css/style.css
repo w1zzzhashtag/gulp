@@ -45,11 +45,11 @@ section {
   color: #fff;
   background-color: #444; }
 
-body::-webkit-scrollbar {
+*::-webkit-scrollbar {
   width: 10px;
   height: 10px;
   background: #2F2F2F; }
 
-body::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
   background: #FBA549;
   border-radius: 2px; }
