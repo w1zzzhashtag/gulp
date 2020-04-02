@@ -3199,6 +3199,55 @@ template {
   width: 1300px;
   margin: 0 auto; }
 
+.footer {
+  width: 100%;
+  background: linear-gradient(to right, #fff 50%, #F17E01 50%); }
+
+.footer__container {
+  display: flex;
+  height: 100%; }
+
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  flex-basis: 25%;
+  background-color: #fff;
+  padding: 25px 25px 60px 0;
+  color: #000;
+  font-size: 14px;
+  line-height: 1.2em;
+  letter-spacing: 0.05em; }
+
+.footer__info__address {
+  margin: 1em 0 .5em; }
+
+.footer__info__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0.5em 0; }
+
+.footer__info__text--bold {
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: inherit;
+  font-weight: 700; }
+
+.footer__info__text--light {
+  color: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  letter-spacing: inherit; }
+
+.footer__nav {
+  display: flex;
+  padding: 25px 50px 60px;
+  background-color: #F17E01;
+  flex-grow: 1; }
+
 .header {
   width: 100%;
   height: 100px;
@@ -3309,55 +3358,6 @@ template {
     background-color: rgba(241, 126, 1, 0.9);
     transition: all .3s; }
 
-.footer {
-  width: 100%;
-  background: linear-gradient(to right, #fff 50%, #F17E01 50%); }
-
-.footer__container {
-  display: flex;
-  height: 100%; }
-
-.footer__info {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  height: 100%;
-  flex-basis: 25%;
-  background-color: #fff;
-  padding: 25px 25px 60px 0;
-  color: #000;
-  font-size: 14px;
-  line-height: 1.2em;
-  letter-spacing: 0.05em; }
-
-.footer__info__address {
-  margin: 1em 0 .5em; }
-
-.footer__info__item {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin: 0.5em 0; }
-
-.footer__info__text--bold {
-  color: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  letter-spacing: inherit;
-  font-weight: 700; }
-
-.footer__info__text--light {
-  color: inherit;
-  font-size: inherit;
-  line-height: inherit;
-  letter-spacing: inherit; }
-
-.footer__nav {
-  display: flex;
-  padding: 25px 50px 60px;
-  background-color: #F17E01;
-  flex-grow: 1; }
-
 .logo--wrap {
   width: 250px; }
 
@@ -3394,27 +3394,6 @@ template {
   line-height: 1.3em;
   letter-spacing: 0.03em;
   color: #FFFFFF; }
-
-.orange-rectangle {
-  position: relative; }
-  .orange-rectangle::before {
-    content: '';
-    position: absolute;
-    top: 130px;
-    right: 100%;
-    width: 90px;
-    height: 350px;
-    background: #FBA549;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); }
-
-.p-service-banner {
-  width: 100%;
-  height: 300px; }
-
-.p-service-banner__img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; }
 
 .ourService {
   width: 100%;
@@ -3510,6 +3489,27 @@ template {
 
 .ourService__widget__img {
   width: 800px; }
+
+.orange-rectangle {
+  position: relative; }
+  .orange-rectangle::before {
+    content: '';
+    position: absolute;
+    top: 130px;
+    right: 100%;
+    width: 90px;
+    height: 350px;
+    background: #FBA549;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); }
+
+.p-service-banner {
+  width: 100%;
+  height: 300px; }
+
+.p-service-banner__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
 
 .p-service-body {
   width: 100%;
@@ -3704,6 +3704,36 @@ template {
 
 .trimming-bgc {
   background: url(/img/p-service-body__inner__img/trimming-bgc.jpg) center/cover no-repeat; }
+
+.wiring-bgc {
+  background: url(/img/p-service-body__inner__img/wiring-bgc.jpg) center/cover no-repeat; }
+
+.heating-bgc {
+  background: url(/img/p-service-body__inner__img/heating-bgc.jpg) center/cover no-repeat; }
+
+.ventilation-bgc {
+  background: url(/img/p-service-body__inner__img/ventilation-bgc.jpg) center/cover no-repeat; }
+
+.design-bgc {
+  background: url(/img/p-service-body__inner__img/design-bgc.jpg) center/cover no-repeat; }
+
+.commissioning-bgc {
+  background: url(/img/p-service-body__inner__img/commissioning-bgc.jpg) center/cover no-repeat; }
+
+.instrumentation-bgc {
+  background: url(/img/p-service-body__inner__img/instrumentation-bgc.jpg) center/cover no-repeat; }
+
+.sewage-and-water-disposal-bgc {
+  background: url(/img/p-service-body__inner__img/sewage-and-water-disposal-bgc.jpg) center/cover no-repeat; }
+
+.steel-erection-bgc {
+  background: url(/img/p-service-body__inner__img/steel-erection-bgc.jpg) center/cover no-repeat; }
+
+.water-supply-bgc {
+  background: url(/img/p-service-body__inner__img/water-supply-bgc.jpg) center/cover no-repeat; }
+
+.conditioning-bgc {
+  background: url(/img/p-service-body__inner__img/conditioning-bgc.jpg) center/cover no-repeat; }
 
 .p-service-body__inner__list {
   display: flex;
