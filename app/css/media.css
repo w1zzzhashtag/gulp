@@ -1,0 +1,205 @@
+@media (max-width: 1700px) {
+  .container {
+    width: 1100px; }
+  .header {
+    height: 90px; }
+    .header__item {
+      padding-left: 32px; }
+      .header__item__link {
+        font-size: 17px; }
+      .header__item__subtitle {
+        font-size: 15px; }
+    .header__menu {
+      font-size: 17px; }
+      .header__menu--wrap {
+        max-width: 340px; }
+      .header__menu--active {
+        height: 390px !important; }
+    .header__btn {
+      font-size: 19px; }
+  .logo--wrap {
+    width: 225px; }
+  .tel::before {
+    width: 23px;
+    height: 23px; }
+  .mail::before {
+    width: 23px;
+    height: 23px; }
+  .burger__title {
+    font-size: 19px; }
+  .main {
+    margin-top: 90px; }
+    .main__title {
+      font-size: 32px; }
+    .main__subtitle {
+      font-size: 17px; }
+  .banner {
+    height: 680px; }
+    .banner__content {
+      width: 420px; }
+    .banner__title {
+      font-size: 44px; }
+    .banner__desc {
+      font-size: 19px; }
+    .banner__slider {
+      width: 750px; }
+  .slider__item__img {
+    height: 575px; }
+  .slider__pagintaions {
+    left: 85px;
+    bottom: 50px; }
+    .slider__pagintaions button {
+      width: 19px;
+      height: 19px; }
+  .slider__content {
+    bottom: 50px;
+    left: 48%;
+    width: 280px;
+    padding: 65px 0px; }
+    .slider__content__title {
+      font-size: 35px; }
+    .slider__content__subtitle {
+      font-size: 19px; }
+  .orange-rectangle::before {
+    top: 100px;
+    width: 75px;
+    height: 320px; }
+  .btn {
+    font-size: 15px; }
+  .ourService {
+    padding: 45px 0;
+    height: calc(470px + 90px); }
+    .ourService__widget__img {
+      width: 700px; }
+    .ourService__container {
+      width: calc(100% - 700px); }
+    .ourService__title, .ourService__subtitle {
+      padding-left: 50px; }
+    .ourService__info {
+      margin: 1.4em 0; }
+    .ourService__list--default {
+      width: 315px;
+      padding: 22px 18px 22px 50px; }
+    .ourService__list--white {
+      width: 380px;
+      padding: 33px 60px; }
+    .ourService__list__title {
+      font-size: 17px; }
+    .ourService__list__link {
+      font-size: 15px;
+      padding-left: 18px; }
+      .ourService__list__link::before {
+        width: 9px;
+        height: 9px; }
+  .about {
+    height: calc(500px + 185px);
+    padding: 45px 0 90px; }
+    .about__widget {
+      top: 80px; }
+      .about__widget__img {
+        width: 720px; }
+    .about__content {
+      width: 450px; }
+    .about__desc {
+      font-size: 17px; }
+  .become-our-client__container {
+    padding: 45px 0; }
+  .become-our-client__title {
+    font-size: 42px;
+    margin-bottom: 1.3em; }
+    .become-our-client__title::before {
+      height: .2em;
+      bottom: -.4em; }
+  .become-our-client__item {
+    padding-left: 50px; }
+    .become-our-client__item__img {
+      width: 45px; }
+    .become-our-client__item__title {
+      font-size: 19px; }
+    .become-our-client__item__desc {
+      font-size: 14px; } }
+
+@media (max-width: 1500px) {
+  .main__title {
+    font-size: 30px; }
+  .main__subtitle {
+    font-size: 17px; }
+  .banner {
+    height: 600px; }
+    .banner__content {
+      width: 380px; }
+    .banner__title {
+      font-size: 38px; }
+    .banner__desc {
+      font-size: 17px; }
+    .banner__slider {
+      width: 700px; }
+  .slider__item__img {
+    height: 500px; }
+  .slider__pagintaions {
+    left: 75px;
+    bottom: 42px; }
+    .slider__pagintaions button {
+      width: 18px;
+      height: 18px; }
+  .slider__content {
+    bottom: 42px;
+    left: 45%;
+    width: 250px;
+    padding: 55px 0px; }
+    .slider__content__title {
+      font-size: 32px; }
+    .slider__content__subtitle {
+      font-size: 18px; }
+  .orange-rectangle::before {
+    top: 80px;
+    width: 60px;
+    height: 290px; }
+  .btn {
+    font-size: 14px; }
+  .ourService {
+    padding: 40px 0;
+    height: calc(410px + 80px); }
+    .ourService__widget__img {
+      width: 650px; }
+    .ourService__container {
+      width: calc(100% - 650px); }
+    .ourService__title, .ourService__subtitle {
+      padding-left: 35px; }
+    .ourService__info {
+      margin: 1.3em 0; }
+    .ourService__list--default {
+      width: 275px;
+      padding: 19px 16px 19px 35px; }
+    .ourService__list--white {
+      width: 335px;
+      padding: 28px 50px; }
+    .ourService__list__title {
+      font-size: 16px; }
+    .ourService__list__link {
+      font-size: 14px;
+      padding-left: 16px; }
+      .ourService__list__link::before {
+        width: 8px;
+        height: 8px; }
+  .about {
+    height: calc(500px + 170px);
+    padding: 40px 0 80px; }
+    .about__widget__img {
+      width: 670px; }
+    .about__content {
+      width: 425px; }
+    .about__desc {
+      font-size: 16px; }
+  .become-our-client__container {
+    padding: 40px 0; }
+  .become-our-client__title {
+    font-size: 36px; }
+  .become-our-client__item {
+    padding-left: 45px; }
+    .become-our-client__item__img {
+      width: 40px; }
+    .become-our-client__item__title {
+      font-size: 17px; }
+    .become-our-client__item__desc {
+      font-size: 13px; } }

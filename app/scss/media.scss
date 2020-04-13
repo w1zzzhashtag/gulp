@@ -1,0 +1,398 @@
+@media(max-width:1700px) {
+    .container {
+        width: 1100px;
+    }
+    .header {
+        height: 90px;
+        &__item {
+            padding-left: 32px;
+            &__link {
+                font-size: 17px;
+            }
+            &__subtitle {
+                font-size: 15px;
+            }  
+        }
+        &__menu {
+            &--wrap {
+                max-width: 340px;
+            }
+            &--active {
+                height: 390px !important;
+            }
+            font-size: 17px;
+        }
+        &__btn {
+            font-size: 19px;
+        }
+    }
+    .logo--wrap {
+        width: 225px;
+    }
+    .tel {
+        &::before {
+            width: 23px;
+            height: 23px;
+        }
+    }
+    .mail {
+        &::before {
+            width: 23px;
+            height: 23px;
+        }
+    }
+    
+    .burger {
+        // font-size: 16px;
+        // width: 50px;
+        // height: 45px;
+        &__title {
+            font-size: 19px;
+        }
+        // &__item {
+        //     width: 30px;
+        //     height: .1em;
+        // }
+    }
+    .main {
+        margin-top: 90px;
+        &__title {
+            font-size: 32px;
+        }
+        &__subtitle {
+            font-size: 17px;
+        }
+    }
+    .banner {
+        height: 680px;
+        &__content {
+            width: 420px;
+        }
+        &__title {
+            font-size: 44px;
+        }
+        &__desc {
+            font-size: 19px;
+        }
+        &__slider {
+            width: 750px;
+        }
+    }
+    .slider {
+        &__item__img {
+            height: 575px;   
+        }
+        &__pagintaions {
+            left: 85px;
+            bottom: 50px;
+            button {
+                width: 19px;
+                height: 19px;
+                // margin-right: 5px;
+            }
+            // .slick-active {
+            //     button {
+            //         border: 3px solid #FBA549;
+            //     }
+            // }
+        }
+        &__content {
+            bottom: 50px;
+            left: 48%;
+            width: 280px;
+            padding: 65px 0px;
+            &__title {
+                font-size: 35px;
+            }
+            &__subtitle {
+                font-size: 19px;
+            }
+        }
+    }
+    .orange-rectangle {
+        &::before {
+            top: 100px;
+            width: 75px;
+            height: 320px;
+        }
+    }
+    .btn {
+        font-size: 15px;
+    }
+    .ourService {
+        padding: 45px 0;
+        height: calc(470px + 90px);
+        &__widget__img {
+            width: 700px;
+        }
+        &__container {
+            width: calc(100% - 700px);
+        }
+        &__title, &__subtitle {
+            padding-left: 50px;
+        }
+        &__info {
+            margin: 1.4em 0;
+        }
+        &__list {
+            &--default {
+                width: 315px;
+                padding: 22px 18px 22px 50px;
+            }
+            &--white {
+                width: 380px;
+                padding: 33px 60px;
+                // margin: -10px 0;
+            }
+            &__title {
+                font-size: 17px;
+            }
+            &__link {
+                font-size: 15px;
+                padding-left: 18px;
+                &::before {
+                    width: 9px;
+                    height: 9px;
+                }
+            }
+        }
+    }
+    .about {
+        height: calc(500px + 185px);
+        padding: 45px 0 90px;
+        &__widget {
+            top: 80px;
+            &__img {
+                width: 720px;
+            }
+        }
+        &__content {
+            width: 450px;
+        }
+        &__desc {
+            font-size: 17px;    
+        }
+    }
+    .become-our-client {
+        &__container {
+            padding: 45px 0;
+        }
+        &__title {
+            font-size: 42px;
+            margin-bottom: 1.3em;
+            &::before {
+                height: .2em;
+                bottom: -.4em;
+            }
+        }
+        &__item {
+            padding-left: 50px;
+            &__img {
+                width: 45px;
+            }
+            &__title {
+                font-size: 19px;
+            }
+            &__desc {
+                font-size: 14px;
+            }
+        }
+    }
+}
+@media(max-width:1500px) {
+    // .container {
+    //     width: 1100px;
+    // }
+    // .header {
+    //     height: 90px;
+    //     &__item {
+    //         padding-left: 32px;
+    //         &__link {
+    //             font-size: 17px;
+    //         }
+    //         &__subtitle {
+    //             font-size: 15px;
+    //         }  
+    //     }
+    //     &__menu {
+    //         &--wrap {
+    //             max-width: 340px;
+    //         }
+    //         &--active {
+    //             height: 390px !important;
+    //         }
+    //         font-size: 17px;
+    //     }
+    //     &__btn {
+    //         font-size: 19px;
+    //     }
+    // }
+    // .logo--wrap {
+    //     width: 225px;
+    // }
+    // .tel {
+    //     &::before {
+    //         width: 23px;
+    //         height: 23px;
+    //     }
+    // }
+    // .mail {
+    //     &::before {
+    //         width: 23px;
+    //         height: 23px;
+    //     }
+    // }
+    
+    .burger {
+        // font-size: 16px;
+        // width: 50px;
+        // height: 45px;
+        // &__title {
+        //     font-size: 19px;
+        // }
+        // &__item {
+        //     width: 30px;
+        //     height: .1em;
+        // }
+    }
+    .main {
+        // margin-top: 90px;
+        &__title {
+            font-size: 30px;
+        }
+        &__subtitle {
+            font-size: 17px;
+        }
+    }
+    .banner {
+        height: 600px;
+        &__content {
+            width: 380px;
+        }
+        &__title {
+            font-size: 38px;
+        }
+        &__desc {
+            font-size: 17px;
+        }
+        &__slider {
+            width: 700px;
+        }
+    }
+    .slider {
+        &__item__img {
+            height: 500px;   
+        }
+        &__pagintaions {
+            left: 75px;
+            bottom: 42px;
+            button {
+                width: 18px;
+                height: 18px;
+                // margin-right: 5px;
+            }
+            // .slick-active {
+            //     button {
+            //         border: 3px solid #FBA549;
+            //     }
+            // }
+        }
+        &__content {
+            bottom: 42px;
+            left: 45%;
+            width: 250px;
+            padding: 55px 0px;
+            &__title {
+                font-size: 32px;
+            }
+            &__subtitle {
+                font-size: 18px;
+            }
+        }
+    }
+    .orange-rectangle {
+        &::before {
+            top: 80px;
+            width: 60px;
+            height: 290px;
+        }
+    }
+    .btn {
+        font-size: 14px;
+    }
+    .ourService {
+        padding: 40px 0;
+        height: calc(410px + 80px);
+        &__widget__img {
+            width: 650px;
+        }
+        &__container {
+            width: calc(100% - 650px);
+        }
+        &__title, &__subtitle {
+            padding-left: 35px;
+        }
+        &__info {
+            margin: 1.3em 0;
+        }
+        &__list {
+            &--default {
+                width: 275px;
+                padding: 19px 16px 19px 35px;
+            }
+            &--white {
+                width: 335px;
+                padding: 28px 50px;
+                // margin: -10px 0;
+            }
+            &__title {
+                font-size: 16px;
+            }
+            &__link {
+                font-size: 14px;
+                padding-left: 16px;
+                &::before {
+                    width: 8px;
+                    height: 8px;
+                }
+            }
+        }
+    }
+    .about {
+        height: calc(500px + 170px);
+        padding: 40px 0 80px;
+        &__widget {
+            // top: 80px;
+            &__img {
+                width: 670px;
+            }
+        }
+        &__content {
+            width: 425px;
+        }
+        &__desc {
+            font-size: 16px;    
+        }
+    }
+    .become-our-client {
+        &__container {
+            padding: 40px 0;
+        }
+        &__title {
+            font-size: 36px;
+            // margin-bottom: 1.3em;
+        }
+        &__item {
+            padding-left: 45px;
+            &__img {
+                width: 40px;
+            }
+            &__title {
+                font-size: 17px;
+            }
+            &__desc {
+                font-size: 13px;
+            }
+        }
+    }
+}
