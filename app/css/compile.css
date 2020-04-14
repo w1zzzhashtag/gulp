@@ -3017,6 +3017,46 @@ template {
 .about__widget__img {
   width: 800px; }
 
+.banner {
+  width: 100%;
+  position: relative;
+  background-image: url(/img/banner/banner-bgc.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: auto;
+  height: 750px;
+  display: flex;
+  align-items: center; }
+
+.banner__container {
+  display: flex; }
+
+.banner__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 460px; }
+
+.banner__desc {
+  font-size: 20px;
+  line-height: 1.2em;
+  color: #FFFFFF;
+  margin-bottom: 3em; }
+
+.banner__slider {
+  position: absolute;
+  right: 0;
+  width: 900px; }
+
+.banner__title {
+  color: #FFFFFF;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 1.2em;
+  margin-bottom: 0.8em; }
+
 .become-our-client {
   width: 100%;
   background: rgba(242, 242, 242, 0.9); }
@@ -3078,46 +3118,6 @@ template {
     width: 20%;
     height: 10px;
     background-color: #FFAD58; }
-
-.banner {
-  width: 100%;
-  position: relative;
-  background-image: url(/img/banner/banner-bgc.png);
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  background-size: auto;
-  height: 750px;
-  display: flex;
-  align-items: center; }
-
-.banner__container {
-  display: flex; }
-
-.banner__content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  width: 460px; }
-
-.banner__desc {
-  font-size: 20px;
-  line-height: 1.2em;
-  color: #FFFFFF;
-  margin-bottom: 3em; }
-
-.banner__slider {
-  position: absolute;
-  right: 0;
-  width: 900px; }
-
-.banner__title {
-  color: #FFFFFF;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  font-weight: 900;
-  font-size: 48px;
-  line-height: 1.2em;
-  margin-bottom: 0.8em; }
 
 .btn {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.65) 0%, #FF8200 100%), #EE7E07;
@@ -3249,12 +3249,6 @@ template {
   background-color: #F17E01;
   flex-grow: 1; }
 
-.logo--wrap {
-  width: 250px; }
-
-.logo {
-  width: 100%; }
-
 .header {
   width: 100%;
   height: 100px;
@@ -3365,6 +3359,22 @@ template {
     background-color: rgba(241, 126, 1, 0.9);
     transition: all .3s; }
 
+.logo--wrap {
+  width: 250px; }
+
+.logo {
+  width: 100%; }
+
+.mail::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  background-image: url(/img/mail/mail.png);
+  background-size: cover; }
+
 .main {
   width: 100%;
   display: flex;
@@ -3386,16 +3396,6 @@ template {
   letter-spacing: 0.03em;
   color: #FFFFFF; }
 
-.mail::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 25px;
-  height: 25px;
-  background-image: url(/img/mail/mail.png);
-  background-size: cover; }
-
 .orange-rectangle {
   position: relative; }
   .orange-rectangle::before {
@@ -3407,6 +3407,15 @@ template {
     height: 350px;
     background: #FBA549;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); }
+
+.p-service-banner {
+  width: 100%;
+  height: 300px; }
+
+.p-service-banner__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
 
 .ourService {
   width: 100%;
@@ -3750,15 +3759,6 @@ template {
   line-height: inherit;
   font-weight: 700;
   letter-spacing: 0.001em; }
-
-.p-service-banner {
-  width: 100%;
-  height: 300px; }
-
-.p-service-banner__img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; }
 
 .p-service-gallery-img-1 {
   grid-area: img-1; }
