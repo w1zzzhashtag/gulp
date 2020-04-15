@@ -4939,18 +4939,6 @@ template {
     font-weight: 700;
     letter-spacing: 0.001em;
 }
-.p-service-gallery-img-1 {
-   grid-area: img-1; 
-}
-.p-service-gallery-img-2{
-    grid-area: img-2; 
- }
- .p-service-gallery-img-3 {
-    grid-area: img-3; 
- }
- .p-service-gallery-img-4 {
-    grid-area: img-4; 
- }
 .p-service-grid-item-1 {
     grid-area: item-1;
     background: url(/img/p-service-grid-item/p-service-grid-item-1.jpg) center / cover no-repeat;
@@ -5000,6 +4988,18 @@ template {
     grid-area: item-12;
     background: url(/img/p-service-grid-item/p-service-grid-item-12.jpg) center / cover no-repeat;
 }
+.p-service-gallery-img-1 {
+   grid-area: img-1; 
+}
+.p-service-gallery-img-2{
+    grid-area: img-2; 
+ }
+ .p-service-gallery-img-3 {
+    grid-area: img-3; 
+ }
+ .p-service-gallery-img-4 {
+    grid-area: img-4; 
+ }
 .p-title {
     color: #fff;
     font-size: 40px;
