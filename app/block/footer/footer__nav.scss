@@ -1,6 +1,9 @@
 .footer__nav {
     display: flex;
-    padding: 25px 50px 60px;
     background-color: #F17E01;
-    flex-grow: 1;
+    flex-basis: 35%;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 10px;
+    padding: 2.5em 5em 6em;
 }
