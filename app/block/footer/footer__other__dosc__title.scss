@@ -1,0 +1,14 @@
+.footer__other__dosc__title {
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        left: 105%;
+        bottom: 0;
+        width: 1.1em;
+        height: 1em;
+        background-image: url(/img/footer__other__dosc__title/footer__other__dosc__title.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
