@@ -1,0 +1,25 @@
+.company-feedback__label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.8em;
+    line-height: 1.2em;
+    margin-bottom: .8em;   
+}
+.company-feedback__label input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    background-color: #fff;
+    padding: .8em 1em;
+    border-radius: 10px;
+    border: none;
+    &::placeholder {
+        color: #525252;
+        font-style: italic;
+        font-size: 0.9em;
+    }
+}
+.company-feedback__label textarea {
+    height: 180px;
+    resize: none;
+}

@@ -1,0 +1,12 @@
+.p-title-orange-line {
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 35%;
+        height: .15em;
+        background-color: #F17D01;
+    }
+}
