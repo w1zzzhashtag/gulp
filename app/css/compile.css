@@ -3749,15 +3749,6 @@ template {
     background: #FBA549;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); }
 
-.p-service-banner {
-  width: 100%;
-  height: 300px; }
-
-.p-service-banner__img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; }
-
 .ourService {
   width: 100%;
   position: relative;
@@ -3852,6 +3843,15 @@ template {
 
 .ourService__widget__img {
   width: 800px; }
+
+.p-service-banner {
+  width: 100%;
+  height: 300px; }
+
+.p-service-banner__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
 
 .p-service-body {
   width: 100%;
@@ -4167,17 +4167,6 @@ template {
   grid-area: item-12;
   background: url(/img/p-service-grid-item/p-service-grid-item-12.jpg) center/cover no-repeat; }
 
-.p-title-orange-line {
-  position: relative; }
-  .p-title-orange-line::before {
-    content: '';
-    position: absolute;
-    top: 100%;
-    left: 0;
-    width: 35%;
-    height: .15em;
-    background-color: #F17D01; }
-
 .p-title {
   color: #fff;
   font-size: 40px;
@@ -4196,6 +4185,17 @@ template {
     height: .2em;
     width: 60%;
     background-color: #FFAD58; }
+
+.p-title-orange-line {
+  position: relative; }
+  .p-title-orange-line::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 35%;
+    height: .15em;
+    background-color: #F17D01; }
 
 .slider__content {
   position: absolute;
@@ -4274,82 +4274,6 @@ template {
   flex-direction: column;
   justify-content: flex-start;
   align-items: center; }
-
-.stocks-info {
-  width: 80%;
-  background-color: #FFFFFF;
-  border-radius: 10px;
-  padding: 5em 8em 3em;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start; }
-
-.stocks-info__desc {
-  font-size: 2.2em;
-  line-height: 1.3em;
-  letter-spacing: 0.02em;
-  color: #0E0E0E;
-  margin-bottom: 1.4em; }
-
-.stocks-info__discounts {
-  background: radial-gradient(142.21% 142.21% at 50.09% 0%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), #F1EEEE;
-  box-shadow: inset 0px 0px 10px rgba(97, 94, 94, 0.25);
-  border-radius: 10px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  width: 70%;
-  padding: 4.5em 5.5em; }
-
-.stocks-info__discounts__item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
-  width: 45%; }
-
-.stocks-info__discounts__text {
-  letter-spacing: 0.05em;
-  color: #0E0E0E;
-  font-size: 1.8em;
-  line-height: 1.2em;
-  margin-top: 0.3em; }
-
-.stocks-info__discounts__value {
-  letter-spacing: 0.05em;
-  color: #FFFFFF;
-  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
-  font-weight: 700;
-  font-size: 5.5em;
-  line-height: 1em;
-  padding: .6em .3em;
-  background: radial-gradient(133.46% 133.46% at 47.19% -5.91%, #FFE7CE 0%, #FF9526 44.79%, #FF8200 100%);
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
-  border-radius: 10px; }
-
-.stocks-info__text-footer {
-  font-size: 2.2em;
-  line-height: 1.3em;
-  letter-spacing: 0.03em;
-  color: #2F2F2F;
-  margin-top: 1.4em;
-  width: 70%; }
-
-.stocks-info__text-footer__link {
-  font-size: 1.2em;
-  letter-spacing: 0.03em;
-  color: #FF8B12;
-  font-weight: 900; }
-
-.stocks-info__title {
-  font-size: 3.2em;
-  line-height: 1.2em;
-  margin-bottom: 0.5em;
-  font-weight: 600;
-  letter-spacing: 0.03em;
-  color: #000000; }
 
 .stocks-form {
   background: radial-gradient(59.97% 59.97% at 50.14% -9.97%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%), radial-gradient(57.79% 57.79% at 50% 114.73%, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #F17E01;
@@ -4431,6 +4355,82 @@ template {
   display: flex;
   justify-content: space-between;
   margin-bottom: .8em; }
+
+.stocks-info {
+  width: 80%;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 5em 8em 3em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; }
+
+.stocks-info__desc {
+  font-size: 2.2em;
+  line-height: 1.3em;
+  letter-spacing: 0.02em;
+  color: #0E0E0E;
+  margin-bottom: 1.4em; }
+
+.stocks-info__discounts {
+  background: radial-gradient(142.21% 142.21% at 50.09% 0%, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), #F1EEEE;
+  box-shadow: inset 0px 0px 10px rgba(97, 94, 94, 0.25);
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 70%;
+  padding: 4.5em 5.5em; }
+
+.stocks-info__discounts__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 45%; }
+
+.stocks-info__discounts__text {
+  letter-spacing: 0.05em;
+  color: #0E0E0E;
+  font-size: 1.8em;
+  line-height: 1.2em;
+  margin-top: 0.3em; }
+
+.stocks-info__discounts__value {
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+  font-weight: 700;
+  font-size: 5.5em;
+  line-height: 1em;
+  padding: .6em .3em;
+  background: radial-gradient(133.46% 133.46% at 47.19% -5.91%, #FFE7CE 0%, #FF9526 44.79%, #FF8200 100%);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px; }
+
+.stocks-info__text-footer {
+  font-size: 2.2em;
+  line-height: 1.3em;
+  letter-spacing: 0.03em;
+  color: #2F2F2F;
+  margin-top: 1.4em;
+  width: 70%; }
+
+.stocks-info__text-footer__link {
+  font-size: 1.2em;
+  letter-spacing: 0.03em;
+  color: #FF8B12;
+  font-weight: 900; }
+
+.stocks-info__title {
+  font-size: 3.2em;
+  line-height: 1.2em;
+  margin-bottom: 0.5em;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: #000000; }
 
 .tel::before {
   content: '';

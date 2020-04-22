@@ -300,7 +300,6 @@
             top: -3%;
         }
         &__form {
-            // width: 50%;
             padding: 3.7em 2.8em;
             &__title {
                 font-size: 2.6em;
@@ -316,6 +315,36 @@
         &__btn {
             font-size: 1.7em;
             border-radius: 9px;
+        }
+    }
+    .stocks-body {
+        margin: 4.6em 0 9em;
+    }
+    .stocks-info {
+        padding: 4.5em 7em 2.8em;
+        &__title {
+            font-size: 3em;
+        }
+        &__desc {
+            font-size: 2.1em;
+        }
+        &__discounts{
+            padding: 4.3em 5.2em;
+            &__value {
+                font-size: 5.3em;
+            }
+            &__text {
+                font-size: 1.7em;
+            }
+        }
+        &__text-footer {
+            font-size: 2.1em;
+        }
+    }
+    .stocks-form {
+        font-size: 1.7em;
+        &__textarea-label textarea {
+            height: 170px;
         }
     }
 }
@@ -783,6 +812,53 @@
             border-radius: 8px;
         }
     }
+    .stocks-body {
+        margin: 4.2em 0 8em;
+    }
+    .stocks-info {
+        width: 85%;
+        border-radius: 8px;
+        padding: 4em 6em 2.6em;
+        &__title {
+            font-size: 2.8em;
+        }
+        &__desc {
+            font-size: 2em;
+        }
+        &__discounts{
+            border-radius: 8px;
+            width: 75%;
+            padding: 4.1em 4.9em;
+            &__value {
+                font-size: 5em;
+                border-radius: 8px;
+            }
+            &__text {
+                font-size: 1.6em;
+            }
+        }
+        &__text-footer {
+            font-size: 1.9em;
+            width: 75%;
+        }
+    }
+    .stocks-form {
+        border-radius: 8px;
+        width: 95%;
+        font-size: 1.6em;
+        &__label {
+                &__input {
+                    border-radius: 8px;
+                }
+        }
+        &__textarea-label textarea {
+            height: 160px;
+            border-radius: 8px;
+        }
+        &__btn {
+            border-radius: 8px;
+        }
+    }
 }
 @media(max-width:1100px) {
     .container {
@@ -1039,9 +1115,9 @@
         &__dosc {
             margin-bottom: 2em
         }
-       &__social__link--wrap {
-        margin-top: 0.7em;
-       }
+         &__social__link--wrap {
+            margin-top: 0.7em;
+        }
         &__copyright {
             flex-direction: column-reverse;
             align-items: flex-start;
@@ -1102,6 +1178,50 @@
         }
         &__btn {
             font-size: 1.5em;
+            border-radius: 7px;
+        }
+    }
+    .stocks-body {
+        margin: 3.8em 0 7em;
+    }
+    .stocks-info {
+        width: 85%;
+        padding: 4.5em 5.5em 2.4em;
+        &__title {
+            font-size: 2.6em;
+        }
+        &__desc {
+            font-size: 1.8em;
+        }
+        &__discounts{
+            border-radius: 7px;
+            padding: 3.9em 4.6em;
+            &__value {
+                font-size: 4.5em;
+                border-radius: 7px;
+            }
+            &__text {
+                font-size: 1.5em;
+            }
+        }
+        &__text-footer {
+            font-size: 1.8em;
+        }
+    }
+    .stocks-form {
+        border-radius: 7px;
+        font-size: 1.5em;
+        padding: 2em 6em;
+        &__label {
+                &__input {
+                    border-radius: 7px;
+                }
+        }
+        &__textarea-label textarea {
+            height: 150px;
+            border-radius: 7px;
+        }
+        &__btn {
             border-radius: 7px;
         }
     }
@@ -1480,6 +1600,54 @@
             border-radius: 7px;
         }
     }
+    .stocks-body {
+        margin: 3.5em 0 6em;
+    }
+    .stocks-info {
+        width: 90%;
+        padding: 4em 5em 2.2em;
+        &__title {
+            font-size: 2.3em;
+        }
+        &__desc {
+            font-size: 1.6em;
+        }
+        &__discounts{
+            border-radius: 6px;
+            width: 85%;
+            padding: 3.7em 4.3em;
+            &__value {
+                font-size: 4em;
+                border-radius: 6px;
+            }
+            &__text {
+                font-size: 1.4em;
+            }
+        }
+        &__text-footer {
+            font-size: 1.6em;
+            width: 85%;
+        }
+    }
+    .stocks-form {
+        border-radius: 6px;
+        width: 100%;
+        // margin-top: -.5em;
+        font-size: 1.4em;
+        padding: 2em 5em;
+        &__label {
+                &__input {
+                    border-radius: 6px;
+                }
+        }
+        &__textarea-label textarea {
+            height: 140px;
+            border-radius: 6px;
+        }
+        &__btn {
+            border-radius: 6px;
+        }
+    }
 }
 @media(max-width:700px) {
     .container {
@@ -1825,6 +1993,61 @@
             padding: 2.8em 2.2em;
         }
     }
+    .stocks-body {
+        margin: 3.1em 0 5.5em;
+    }
+    .stocks-info {
+        width: 95%;
+        padding: 3.5em 4em 2em;
+        &__title {
+            font-size: 2.1em;
+        }
+        &__desc {
+            font-size: 1.4em;
+        }
+        &__discounts{
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 3.5em 4em 1em;
+            &__item {
+                width: 60%;
+            }
+            &__value {
+                font-size: 3.5em;
+                border-radius: 5px;
+            }
+            &__text {
+                font-size: 1.3em;
+                margin-bottom: 2em;
+            }
+        }
+        &__text-footer {
+            font-size: 1.4em;
+        }
+    }
+    .stocks-form {
+        font-size: 1.3em;
+        padding: 2em 4em;
+        &__top {
+            margin-bottom: 0em;   
+            flex-direction: column;
+        }
+        &__label {
+            width: 100%;
+            margin-bottom: .8em;   
+                &__input {
+                    border-radius: 5px;
+                }
+        }
+        &__textarea-label textarea {
+            height: 130px;
+            border-radius: 5px;
+        }
+        &__btn {
+            border-radius: 5px;
+        }
+    }
 }
 @media(max-width:500px) {
     .container {
@@ -1967,7 +2190,6 @@
             flex-basis: 100%;
         }
     }
-
     .p-service-banner {
         height: 110px;
     }
@@ -2097,6 +2319,54 @@
         &__btn {
             font-size: 1.4em;
             border-radius: 6px;
+        }
+    }
+    .stocks-body {
+        margin: 2.7em 0 5em;
+    }
+    .stocks-info {
+        width: 100%;
+        padding: 2em 2.5em 1.6em;
+        &__title {
+            font-size: 1.7em;
+        }
+        &__desc {
+            font-size: 1.2em;
+        }
+        &__discounts{
+            width: 90%;
+            padding: 3em 3.5em 1em;
+            &__item {
+                width: 100%;
+            }
+            &__value {
+                font-size: 3em;
+                border-radius: 4px;
+            }
+            &__text {
+                font-size: 1.1em;
+                margin-bottom: 1.8em;
+            }
+        }
+        &__text-footer {
+            font-size: 1.2em;
+            width: 100%;
+        }
+    }
+    .stocks-form {
+        font-size: 1.2em;
+        padding: 1.5em 2.5em;
+        &__label {
+            &__input {
+                border-radius: 4px;
+            }
+        }
+        &__textarea-label textarea {
+            height: 100px;
+            border-radius: 4px;
+        }
+        &__btn {
+            border-radius: 4px;
         }
     }
 }
