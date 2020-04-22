@@ -1,0 +1,25 @@
+.p-info-body__service__btn {
+    background: #F17E01;
+    border-radius: 10px;
+    font-size: 0.95em;
+    line-height: 1.2em;
+    letter-spacing: 0.085em;
+    color: #FFFFFF;
+    padding: .8em 4em .8em 1em;
+    position: relative;
+    display: flex;
+    align-items: center;
+    transition: all .2s;
+    &:hover {
+        box-shadow: 0 0 .5em #F17E01;
+        text-shadow: 0 0 .5em #fff;
+    }
+    &::before {
+        content: '';
+        position: absolute;
+        right: 1em;
+        width: 1.5em;
+        height: 1.4em;
+        background: url(/img/p-info-body/p-info-body__service__btn.png) center / cover no-repeat;
+    }
+}

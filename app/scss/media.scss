@@ -183,15 +183,10 @@
             }
         }
     }
-    .p-service-banner {
+    .p-top-banner {
         height: 280px;
     }
     .p-service-body {
-        padding: 45px 0;
-        &::before {
-            width: calc((100% - 1100px) / 2 + 350px);
-            height: 460px;
-        }
         &__aside {
             width: 350px;
             padding: 23px 43px;
@@ -345,6 +340,39 @@
         font-size: 1.7em;
         &__textarea-label textarea {
             height: 170px;
+        }
+    }
+    .p-body {
+        padding: 45px 0;
+        &::before {
+            width: calc((100% - 1100px) / 2 + 350px);
+            height: 460px;
+        }
+        &__content {
+            margin-bottom: 7em;  
+        }
+        &__contacts {
+            width: 330px;
+            font-size: 1.8em;
+        }
+    }
+    .p-info-body {
+        &::after {
+            width: calc((100% - 1100px) / 2 + 700px);
+            top: 160px;
+        }
+        &__right {
+            width: 700px;
+        }
+        &__inner {
+            margin-top: 55px;
+            font-size: 1.7em;
+        }
+        &__form {
+            font-size: 1.7em;
+            &__textarea-label textarea {
+                height: 170px;
+            }
         }
     }
 }
@@ -675,16 +703,10 @@
             }
         }
     }
-    .p-service-banner {
+    .p-top-banner {
         height: 250px;
     }
     .p-service-body {
-        padding: 40px 0;
-        &::before {
-            width: calc((100% - 900px) / 2 + 290px);
-            height: 420px;
-            top: 180px;
-        }
         &__aside {
             width: 290px;
             padding: 20px 35px;
@@ -857,6 +879,41 @@
         }
         &__btn {
             border-radius: 8px;
+        }
+    }
+    .p-body {
+        padding: 40px 0;
+        &::before {
+            width: calc((100% - 900px) / 2 + 290px);
+            height: 420px;
+            top: 180px;
+        }
+        &__content {
+            margin-bottom: 6em;  
+        }
+        &__contacts {
+            width: 260px;
+            margin-top: 220px;
+            font-size: 1.4em;
+        }
+    }
+    .p-info-body {
+        &::after {
+            width: calc((100% - 900px) / 2 + 570px);
+            top: 140px;
+        }
+        &__right {
+            width: 570px;
+        }
+        &__inner {
+            margin-top: 45px;
+            font-size: 1.5em;
+        }
+        &__form {
+            font-size: 1.6em;
+            &__textarea-label textarea {
+                height: 160px;
+            }
         }
     }
 }
@@ -1047,16 +1104,10 @@
             margin-bottom: 1.2em;
         }
     }
-    .p-service-banner {
+    .p-top-banner {
         height: 220px;
     }
     .p-service-body {
-        padding: 35px 0;
-        &::before {
-            width: calc((100% - 800px) / 2 + 260px);
-            height: 370px;
-            top: 160px;
-        }
         &__aside {
             width: 260px;
             padding: 17px 30px;
@@ -1223,6 +1274,43 @@
         }
         &__btn {
             border-radius: 7px;
+        }
+    }
+    .p-body {
+        padding: 35px 0;
+        &::before {
+            width: calc((100% - 800px) / 2 + 260px);
+            height: 370px;
+            top: 160px;
+        }
+        &__content {
+            margin-bottom: 5em;  
+        }
+        &__contacts {
+            width: 240px;
+            margin-top: 200px;
+            font-size: 1.3em;
+        }
+    }
+    .p-info-body {
+        &::after {
+            width: calc((100% - 800px) / 2 + 510px);
+            height: 460px;
+            top: 120px;
+        }
+        &__right {
+            width: 510px;
+        }
+        &__inner {
+            margin-top: 38px;
+            font-size: 1.3em;
+        }
+        &__form {
+            font-size: 1.5em;
+            padding: 2.5em 4em;
+            &__textarea-label textarea {
+                height: 150px;
+            }
         }
     }
 }
@@ -1416,16 +1504,10 @@
             width: 75%;
         }  
     }
-    .p-service-banner {
+    .p-top-banner {
         height: 190px;
     }
     .p-service-body {
-        padding: 30px 0;
-        &::before {
-            width: calc((100% - 650px) / 2 + 230px);
-            height: 350px;
-            top: 150px;
-        }
         &__aside {
             width: 250px;
             padding: 15px 25px;
@@ -1632,7 +1714,6 @@
     .stocks-form {
         border-radius: 6px;
         width: 100%;
-        // margin-top: -.5em;
         font-size: 1.4em;
         padding: 2em 5em;
         &__label {
@@ -1646,6 +1727,60 @@
         }
         &__btn {
             border-radius: 6px;
+        }
+    }
+    .p-body {
+        padding: 30px 0;
+        &::before {
+            width: calc((100% - 650px) / 2 + 230px);
+            height: 350px;
+            top: 150px;
+        }
+        &__content {
+            margin-bottom: 4.5em;  
+        }
+        &__contacts {
+            width: 210px;
+            margin-top: 190px;
+            font-size: 1.15em;
+        }
+    }
+    .p-info-body {
+        &::after {
+            width: calc((100% - 650px) / 2 + 400px);
+            height: 390px;
+            top: 100px;
+        }
+        &__right {
+            width: 400px;
+        }
+        &__inner {
+            margin-top: 27px;
+            font-size: 1.15em;
+            padding: 1.6em 0 0 2em;
+        }
+        &__service {
+            margin-bottom: 1em;
+        }
+        &__widget {
+            margin-left: -1em;
+            margin-right: -1em;
+            padding: 1.5em 3em 1.5em 0;
+            &__img {
+                right: 68%;
+                top: -5%;
+                height: 115%;
+            }
+            &__text {
+                width: 70%;
+            }
+        }
+        &__form {
+            font-size: 1.3em;
+            padding: 2em 3em;
+            &__textarea-label textarea {
+                height: 140px;
+            }
         }
     }
 }
@@ -1847,17 +1982,13 @@
             }
         }
     }
-    .p-service-banner {
+    .p-top-banner {
         height: 160px;
     }
     .p-service-body {
-        padding: 25px 0;
         &__container {
             flex-direction: column-reverse;
             align-items: center;
-        }
-        &::before {
-            display: none;
         }
         &__aside {
             width: 75%;
@@ -2048,6 +2179,80 @@
             border-radius: 5px;
         }
     }
+    .p-body {
+        padding: 25px 0;
+        &::before {
+            display: none;
+        }
+        &__content {
+            margin-bottom: 4em;  
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: flex-start;
+        }
+        &__contacts {
+            width: 75%;
+            margin-top: 0px;
+            font-size: 1.2em;
+        }
+    }
+    .p-info-body {
+        &::after {
+           display: none;
+        }
+        &__right {
+            width: 100%;
+        }
+        &__inner {
+            margin-top: 20px;
+            font-size: 1.2em;
+            padding: 1.6em 2em;
+            background-color: #fff;
+            margin-bottom: 3em;
+        }
+        &__service {
+            margin-bottom: 1em;
+        }
+        &__widget {
+            margin-left: 0em;
+            margin-right: 0em;
+            padding: 1.5em 1.5em 1.5em 0;
+            &__img {
+                right: 68%;
+                top: 0%;
+                height: 110%;
+            }
+            &__text {
+                width: 70%;
+            }
+        }
+        &__form {
+            width: 95%;    
+            font-size: 1.2em;
+            padding: 1.8em 2.7em;
+            &__top {
+                margin-bottom: 0em;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+            }
+            &__label {
+                width: 100%;
+                margin-bottom: .8em;
+            }
+            &__textarea-label textarea {
+                height: 120px;
+            }
+            &__footer {
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+            }
+            &__btn {
+               margin-top: 1.6em;
+            }
+        }
+    }
 }
 @media(max-width:500px) {
     .container {
@@ -2190,11 +2395,10 @@
             flex-basis: 100%;
         }
     }
-    .p-service-banner {
+    .p-top-banner {
         height: 110px;
     }
     .p-service-body {
-        padding: 20px 0;
         &__aside {
             width: 80%;
             padding: 12px 20px;
@@ -2367,6 +2571,57 @@
         }
         &__btn {
             border-radius: 4px;
+        }
+    }
+    .p-body {
+        padding: 20px 0;
+        &__content {
+            margin-bottom: 3em;  
+        }
+        &__contacts {
+            width: 80%;
+            font-size: 1.15em;
+        }
+    }
+    .p-info-body {
+        &__inner {
+            margin-top: 15px;
+            font-size: 1.1em;
+        }
+        &__service {
+            flex-direction: column-reverse;
+            align-items: center;
+            justify-content: flex-start;
+            &__item {
+                width: 90%;
+                &-left {
+                    margin: 0;
+                }
+            }
+            &__title {
+                display: none;
+            }
+        }
+        &__widget {
+           justify-content: center;
+            padding: 1.5em;
+            &__img {
+               display: none;
+            }
+            &__text {
+                width: 100%;
+            }
+        }
+        &__form {
+            width: 100%;    
+            font-size: 1.1em;
+            padding: 1.5em 2em;
+            &__textarea-label textarea {
+                height: 100px;
+            }
+            &__btn {
+               margin-top: 1.4em;
+            }
         }
     }
 }

@@ -1,0 +1,12 @@
+.p-body__time {
+    margin-bottom: 1em;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        left: -2em;
+        background: url(/img/p-body/p-body__time.png) center / cover no-repeat;
+        width: 1.3em;
+        height: 1.3em;
+    }
+}

@@ -1,0 +1,13 @@
+.p-info-body {
+    font-size: 10px;
+    &::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        background-color: #fff;
+        width: calc((100% - 1300px) / 2 + 800px);
+        height: 560px;
+        top: 200px;
+        z-index: -1;
+    }
+}

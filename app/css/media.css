@@ -118,37 +118,32 @@
       font-size: 19px; }
     .become-our-client__item__desc {
       font-size: 14px; }
-  .p-service-banner {
+  .p-top-banner {
     height: 280px; }
-  .p-service-body {
-    padding: 45px 0; }
-    .p-service-body::before {
-      width: calc((100% - 1100px) / 2 + 350px);
-      height: 460px; }
-    .p-service-body__aside {
-      width: 350px;
-      padding: 23px 43px;
-      margin-top: 45px; }
-      .p-service-body__aside__title {
-        font-size: 17px; }
-      .p-service-body__aside__nav {
-        font-size: 15px; }
-      .p-service-body__aside__button {
-        font-size: 15px; }
-    .p-service-body__grid {
-      width: 700px;
-      height: 800px;
-      grid-gap: 18px;
-      padding: 45px 0; }
-      .p-service-body__grid__title {
-        font-size: 15px; }
-    .p-service-body__inner {
-      width: 700px;
+  .p-service-body__aside {
+    width: 350px;
+    padding: 23px 43px;
+    margin-top: 45px; }
+    .p-service-body__aside__title {
+      font-size: 17px; }
+    .p-service-body__aside__nav {
       font-size: 15px; }
-      .p-service-body__inner__img {
-        height: 180px; }
-      .p-service-body__inner__gallery {
-        grid-gap: 9px; }
+    .p-service-body__aside__button {
+      font-size: 15px; }
+  .p-service-body__grid {
+    width: 700px;
+    height: 800px;
+    grid-gap: 18px;
+    padding: 45px 0; }
+    .p-service-body__grid__title {
+      font-size: 15px; }
+  .p-service-body__inner {
+    width: 700px;
+    font-size: 15px; }
+    .p-service-body__inner__img {
+      height: 180px; }
+    .p-service-body__inner__gallery {
+      grid-gap: 9px; }
   .p-title {
     font-size: 36px;
     width: 700px; }
@@ -230,6 +225,28 @@
   .stocks-form {
     font-size: 1.7em; }
     .stocks-form__textarea-label textarea {
+      height: 170px; }
+  .p-body {
+    padding: 45px 0; }
+    .p-body::before {
+      width: calc((100% - 1100px) / 2 + 350px);
+      height: 460px; }
+    .p-body__content {
+      margin-bottom: 7em; }
+    .p-body__contacts {
+      width: 330px;
+      font-size: 1.8em; }
+  .p-info-body::after {
+    width: calc((100% - 1100px) / 2 + 700px);
+    top: 160px; }
+  .p-info-body__right {
+    width: 700px; }
+  .p-info-body__inner {
+    margin-top: 55px;
+    font-size: 1.7em; }
+  .p-info-body__form {
+    font-size: 1.7em; }
+    .p-info-body__form__textarea-label textarea {
       height: 170px; } }
 
 @media (max-width: 1500px) {
@@ -443,39 +460,33 @@
       font-size: 16px; }
     .become-our-client__item__desc {
       font-size: 12px; }
-  .p-service-banner {
+  .p-top-banner {
     height: 250px; }
-  .p-service-body {
-    padding: 40px 0; }
-    .p-service-body::before {
-      width: calc((100% - 900px) / 2 + 290px);
-      height: 420px;
-      top: 180px; }
-    .p-service-body__aside {
-      width: 290px;
-      padding: 20px 35px;
-      margin-top: 40px; }
-      .p-service-body__aside__title {
-        font-size: 16px;
-        letter-spacing: 0.01em; }
-      .p-service-body__aside__nav {
-        font-size: 14px; }
-      .p-service-body__aside__button {
-        font-size: 14px; }
-    .p-service-body__grid {
-      width: 570px;
-      height: 720px;
-      grid-gap: 16px;
-      padding: 40px 0; }
-      .p-service-body__grid__title {
-        font-size: 14px; }
-    .p-service-body__inner {
-      width: 570px;
+  .p-service-body__aside {
+    width: 290px;
+    padding: 20px 35px;
+    margin-top: 40px; }
+    .p-service-body__aside__title {
+      font-size: 16px;
+      letter-spacing: 0.01em; }
+    .p-service-body__aside__nav {
       font-size: 14px; }
-      .p-service-body__inner__img {
-        height: 155px; }
-      .p-service-body__inner__gallery {
-        grid-gap: 8px; }
+    .p-service-body__aside__button {
+      font-size: 14px; }
+  .p-service-body__grid {
+    width: 570px;
+    height: 720px;
+    grid-gap: 16px;
+    padding: 40px 0; }
+    .p-service-body__grid__title {
+      font-size: 14px; }
+  .p-service-body__inner {
+    width: 570px;
+    font-size: 14px; }
+    .p-service-body__inner__img {
+      height: 155px; }
+    .p-service-body__inner__gallery {
+      grid-gap: 8px; }
   .p-title {
     font-size: 32px;
     width: 570px; }
@@ -571,7 +582,31 @@
       height: 160px;
       border-radius: 8px; }
     .stocks-form__btn {
-      border-radius: 8px; } }
+      border-radius: 8px; }
+  .p-body {
+    padding: 40px 0; }
+    .p-body::before {
+      width: calc((100% - 900px) / 2 + 290px);
+      height: 420px;
+      top: 180px; }
+    .p-body__content {
+      margin-bottom: 6em; }
+    .p-body__contacts {
+      width: 260px;
+      margin-top: 220px;
+      font-size: 1.4em; }
+  .p-info-body::after {
+    width: calc((100% - 900px) / 2 + 570px);
+    top: 140px; }
+  .p-info-body__right {
+    width: 570px; }
+  .p-info-body__inner {
+    margin-top: 45px;
+    font-size: 1.5em; }
+  .p-info-body__form {
+    font-size: 1.6em; }
+    .p-info-body__form__textarea-label textarea {
+      height: 160px; } }
 
 @media (max-width: 1100px) {
   .container {
@@ -695,40 +730,34 @@
     flex-basis: 45%;
     padding-left: 40px;
     margin-bottom: 1.2em; }
-  .p-service-banner {
+  .p-top-banner {
     height: 220px; }
-  .p-service-body {
-    padding: 35px 0; }
-    .p-service-body::before {
-      width: calc((100% - 800px) / 2 + 260px);
-      height: 370px;
-      top: 160px; }
-    .p-service-body__aside {
-      width: 260px;
-      padding: 17px 30px;
-      margin-top: 35px; }
-      .p-service-body__aside__title {
-        font-size: 15px;
-        letter-spacing: 0.01em; }
-      .p-service-body__aside__nav {
-        font-size: 13px; }
-      .p-service-body__aside__button {
-        border-radius: 7px;
-        font-size: 13px; }
-    .p-service-body__grid {
-      width: 510px;
-      height: 670px;
-      grid-gap: 14px;
-      padding: 35px 0; }
-      .p-service-body__grid__title {
-        font-size: 13px; }
-    .p-service-body__inner {
-      width: 510px;
+  .p-service-body__aside {
+    width: 260px;
+    padding: 17px 30px;
+    margin-top: 35px; }
+    .p-service-body__aside__title {
+      font-size: 15px;
+      letter-spacing: 0.01em; }
+    .p-service-body__aside__nav {
       font-size: 13px; }
-      .p-service-body__inner__img {
-        height: 130px; }
-      .p-service-body__inner__gallery {
-        grid-gap: 7px; }
+    .p-service-body__aside__button {
+      border-radius: 7px;
+      font-size: 13px; }
+  .p-service-body__grid {
+    width: 510px;
+    height: 670px;
+    grid-gap: 14px;
+    padding: 35px 0; }
+    .p-service-body__grid__title {
+      font-size: 13px; }
+  .p-service-body__inner {
+    width: 510px;
+    font-size: 13px; }
+    .p-service-body__inner__img {
+      height: 130px; }
+    .p-service-body__inner__gallery {
+      grid-gap: 7px; }
   .p-title {
     font-size: 28px;
     width: 510px; }
@@ -821,7 +850,33 @@
       height: 150px;
       border-radius: 7px; }
     .stocks-form__btn {
-      border-radius: 7px; } }
+      border-radius: 7px; }
+  .p-body {
+    padding: 35px 0; }
+    .p-body::before {
+      width: calc((100% - 800px) / 2 + 260px);
+      height: 370px;
+      top: 160px; }
+    .p-body__content {
+      margin-bottom: 5em; }
+    .p-body__contacts {
+      width: 240px;
+      margin-top: 200px;
+      font-size: 1.3em; }
+  .p-info-body::after {
+    width: calc((100% - 800px) / 2 + 510px);
+    height: 460px;
+    top: 120px; }
+  .p-info-body__right {
+    width: 510px; }
+  .p-info-body__inner {
+    margin-top: 38px;
+    font-size: 1.3em; }
+  .p-info-body__form {
+    font-size: 1.5em;
+    padding: 2.5em 4em; }
+    .p-info-body__form__textarea-label textarea {
+      height: 150px; } }
 
 @media (max-width: 900px) {
   .container {
@@ -954,47 +1009,41 @@
       justify-content: center; }
     .about__content {
       width: 75%; }
-  .p-service-banner {
+  .p-top-banner {
     height: 190px; }
-  .p-service-body {
-    padding: 30px 0; }
-    .p-service-body::before {
-      width: calc((100% - 650px) / 2 + 230px);
-      height: 350px;
-      top: 150px; }
-    .p-service-body__aside {
-      width: 250px;
-      padding: 15px 25px;
-      margin-top: 30px; }
-      .p-service-body__aside__title {
-        font-size: 14px; }
-      .p-service-body__aside__nav {
-        font-size: 12px; }
-      .p-service-body__aside__button {
-        font-size: 12px; }
-    .p-service-body__grid {
-      width: 380px;
-      height: 900px;
-      grid-template-areas: "item-7 item-8" "item-1 item-2" "item-1 item-4" "item-9 item-10" "item-5 item-3" "item-6 item-3" "item-11 item-12";
-      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 12px;
-      padding: 30px 0; }
-    .p-service-body__inner {
-      width: 380px;
+  .p-service-body__aside {
+    width: 250px;
+    padding: 15px 25px;
+    margin-top: 30px; }
+    .p-service-body__aside__title {
+      font-size: 14px; }
+    .p-service-body__aside__nav {
       font-size: 12px; }
-      .p-service-body__inner__img {
-        height: 105px;
-        margin-bottom: 1.5em; }
-      .p-service-body__inner__gallery {
-        margin: 1em 0;
-        grid-gap: 6px;
-        width: 100%;
-        grid-template-areas: "img-1 img-2" "img-3 img-4" "video video";
-        grid-template-rows: 100px 100px 150px;
-        grid-template-columns: 1fr 1fr; }
-      .p-service-body__inner__list__item {
-        margin-bottom: 1.2em; }
+    .p-service-body__aside__button {
+      font-size: 12px; }
+  .p-service-body__grid {
+    width: 380px;
+    height: 900px;
+    grid-template-areas: "item-7 item-8" "item-1 item-2" "item-1 item-4" "item-9 item-10" "item-5 item-3" "item-6 item-3" "item-11 item-12";
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 12px;
+    padding: 30px 0; }
+  .p-service-body__inner {
+    width: 380px;
+    font-size: 12px; }
+    .p-service-body__inner__img {
+      height: 105px;
+      margin-bottom: 1.5em; }
+    .p-service-body__inner__gallery {
+      margin: 1em 0;
+      grid-gap: 6px;
+      width: 100%;
+      grid-template-areas: "img-1 img-2" "img-3 img-4" "video video";
+      grid-template-rows: 100px 100px 150px;
+      grid-template-columns: 1fr 1fr; }
+    .p-service-body__inner__list__item {
+      margin-bottom: 1.2em; }
   .p-title {
     font-size: 26px;
     width: 380px; }
@@ -1119,7 +1168,46 @@
       height: 140px;
       border-radius: 6px; }
     .stocks-form__btn {
-      border-radius: 6px; } }
+      border-radius: 6px; }
+  .p-body {
+    padding: 30px 0; }
+    .p-body::before {
+      width: calc((100% - 650px) / 2 + 230px);
+      height: 350px;
+      top: 150px; }
+    .p-body__content {
+      margin-bottom: 4.5em; }
+    .p-body__contacts {
+      width: 210px;
+      margin-top: 190px;
+      font-size: 1.15em; }
+  .p-info-body::after {
+    width: calc((100% - 650px) / 2 + 400px);
+    height: 390px;
+    top: 100px; }
+  .p-info-body__right {
+    width: 400px; }
+  .p-info-body__inner {
+    margin-top: 27px;
+    font-size: 1.15em;
+    padding: 1.6em 0 0 2em; }
+  .p-info-body__service {
+    margin-bottom: 1em; }
+  .p-info-body__widget {
+    margin-left: -1em;
+    margin-right: -1em;
+    padding: 1.5em 3em 1.5em 0; }
+    .p-info-body__widget__img {
+      right: 68%;
+      top: -5%;
+      height: 115%; }
+    .p-info-body__widget__text {
+      width: 70%; }
+  .p-info-body__form {
+    font-size: 1.3em;
+    padding: 2em 3em; }
+    .p-info-body__form__textarea-label textarea {
+      height: 140px; } }
 
 @media (max-width: 700px) {
   .container {
@@ -1253,27 +1341,23 @@
       font-size: 14px; }
     .become-our-client__item__desc {
       font-size: 11px; }
-  .p-service-banner {
+  .p-top-banner {
     height: 160px; }
-  .p-service-body {
+  .p-service-body__container {
+    flex-direction: column-reverse;
+    align-items: center; }
+  .p-service-body__aside {
+    width: 75%;
+    margin-top: 25px; }
+  .p-service-body__grid {
+    width: 100%;
+    height: 900px;
+    grid-gap: 12px;
     padding: 25px 0; }
-    .p-service-body__container {
-      flex-direction: column-reverse;
-      align-items: center; }
-    .p-service-body::before {
-      display: none; }
-    .p-service-body__aside {
-      width: 75%;
-      margin-top: 25px; }
-    .p-service-body__grid {
-      width: 100%;
-      height: 900px;
-      grid-gap: 12px;
-      padding: 25px 0; }
-    .p-service-body__inner {
-      width: 100%; }
-      .p-service-body__inner__gallery {
-        grid-template-rows: 130px 130px 180px; }
+  .p-service-body__inner {
+    width: 100%; }
+    .p-service-body__inner__gallery {
+      grid-template-rows: 130px 130px 180px; }
   .p-title {
     font-size: 24px;
     width: 100%; }
@@ -1398,7 +1482,62 @@
       height: 130px;
       border-radius: 5px; }
     .stocks-form__btn {
-      border-radius: 5px; } }
+      border-radius: 5px; }
+  .p-body {
+    padding: 25px 0; }
+    .p-body::before {
+      display: none; }
+    .p-body__content {
+      margin-bottom: 4em;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: flex-start; }
+    .p-body__contacts {
+      width: 75%;
+      margin-top: 0px;
+      font-size: 1.2em; }
+  .p-info-body::after {
+    display: none; }
+  .p-info-body__right {
+    width: 100%; }
+  .p-info-body__inner {
+    margin-top: 20px;
+    font-size: 1.2em;
+    padding: 1.6em 2em;
+    background-color: #fff;
+    margin-bottom: 3em; }
+  .p-info-body__service {
+    margin-bottom: 1em; }
+  .p-info-body__widget {
+    margin-left: 0em;
+    margin-right: 0em;
+    padding: 1.5em 1.5em 1.5em 0; }
+    .p-info-body__widget__img {
+      right: 68%;
+      top: 0%;
+      height: 110%; }
+    .p-info-body__widget__text {
+      width: 70%; }
+  .p-info-body__form {
+    width: 95%;
+    font-size: 1.2em;
+    padding: 1.8em 2.7em; }
+    .p-info-body__form__top {
+      margin-bottom: 0em;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center; }
+    .p-info-body__form__label {
+      width: 100%;
+      margin-bottom: .8em; }
+    .p-info-body__form__textarea-label textarea {
+      height: 120px; }
+    .p-info-body__form__footer {
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center; }
+    .p-info-body__form__btn {
+      margin-top: 1.6em; } }
 
 @media (max-width: 500px) {
   .container {
@@ -1495,35 +1634,33 @@
     flex-direction: column; }
   .become-our-client__item {
     flex-basis: 100%; }
-  .p-service-banner {
+  .p-top-banner {
     height: 110px; }
-  .p-service-body {
+  .p-service-body__aside {
+    width: 80%;
+    padding: 12px 20px;
+    margin-top: 20px; }
+    .p-service-body__aside__title {
+      font-size: 13px; }
+    .p-service-body__aside__nav {
+      font-size: 11px; }
+    .p-service-body__aside__button {
+      border-radius: 6px;
+      font-size: 11px; }
+  .p-service-body__grid {
+    height: 700px;
+    grid-gap: 10px;
     padding: 20px 0; }
-    .p-service-body__aside {
-      width: 80%;
-      padding: 12px 20px;
-      margin-top: 20px; }
-      .p-service-body__aside__title {
-        font-size: 13px; }
-      .p-service-body__aside__nav {
-        font-size: 11px; }
-      .p-service-body__aside__button {
-        border-radius: 6px;
-        font-size: 11px; }
-    .p-service-body__grid {
-      height: 700px;
-      grid-gap: 10px;
-      padding: 20px 0; }
-      .p-service-body__grid__title {
-        font-size: 11px; }
-    .p-service-body__inner {
-      font-size: 11px;
-      padding: 1.4em 1.6em; }
-      .p-service-body__inner__img {
-        height: 85px; }
-      .p-service-body__inner__gallery {
-        grid-gap: 5px;
-        grid-template-rows: 90px 90px 130px; }
+    .p-service-body__grid__title {
+      font-size: 11px; }
+  .p-service-body__inner {
+    font-size: 11px;
+    padding: 1.4em 1.6em; }
+    .p-service-body__inner__img {
+      height: 85px; }
+    .p-service-body__inner__gallery {
+      grid-gap: 5px;
+      grid-template-rows: 90px 90px 130px; }
   .p-title {
     font-size: 20px; }
   .footer__container {
@@ -1620,4 +1757,39 @@
       height: 100px;
       border-radius: 4px; }
     .stocks-form__btn {
-      border-radius: 4px; } }
+      border-radius: 4px; }
+  .p-body {
+    padding: 20px 0; }
+    .p-body__content {
+      margin-bottom: 3em; }
+    .p-body__contacts {
+      width: 80%;
+      font-size: 1.15em; }
+  .p-info-body__inner {
+    margin-top: 15px;
+    font-size: 1.1em; }
+  .p-info-body__service {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-start; }
+    .p-info-body__service__item {
+      width: 90%; }
+      .p-info-body__service__item-left {
+        margin: 0; }
+    .p-info-body__service__title {
+      display: none; }
+  .p-info-body__widget {
+    justify-content: center;
+    padding: 1.5em; }
+    .p-info-body__widget__img {
+      display: none; }
+    .p-info-body__widget__text {
+      width: 100%; }
+  .p-info-body__form {
+    width: 100%;
+    font-size: 1.1em;
+    padding: 1.5em 2em; }
+    .p-info-body__form__textarea-label textarea {
+      height: 100px; }
+    .p-info-body__form__btn {
+      margin-top: 1.4em; } }

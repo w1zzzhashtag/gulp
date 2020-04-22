@@ -1,0 +1,11 @@
+.p-body__address {
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        left: -2em;
+        background: url(/img/p-body/p-body__address.png) center / cover no-repeat;
+        width: 1.4em;
+        height: 1.4em;
+    }
+}

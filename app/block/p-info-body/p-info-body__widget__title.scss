@@ -1,0 +1,19 @@
+.p-info-body__widget__title {
+    letter-spacing: 0.03em;
+    color: #2F2F2F;
+    font-weight: 600;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    margin-bottom: 2em;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: -1em;
+        width: 40%;
+        background-color:  #F17E01;
+        height: 0.2em;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

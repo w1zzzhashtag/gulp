@@ -1,0 +1,12 @@
+.p-info-body__form__input {
+    width: 100%;
+    background-color: #fff;
+    padding: .8em 1em;
+    border-radius: 10px;
+    border: none;
+    &::placeholder {
+        color: #525252;
+        font-style: italic;
+        font-size: 0.9em;
+    }
+}
