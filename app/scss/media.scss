@@ -351,6 +351,13 @@
         &__content {
             margin-bottom: 7em;  
         }
+        &__right {
+            width: 700px;
+        }
+        &__inner {
+            margin-top: 55px;
+            font-size: 1.7em;
+        }
         &__contacts {
             width: 330px;
             font-size: 1.8em;
@@ -361,19 +368,15 @@
             width: calc((100% - 1100px) / 2 + 700px);
             top: 160px;
         }
-        &__right {
-            width: 700px;
-        }
-        &__inner {
-            margin-top: 55px;
-            font-size: 1.7em;
-        }
         &__form {
             font-size: 1.7em;
             &__textarea-label textarea {
                 height: 170px;
             }
         }
+    }
+    .p-contacts-body__map iframe {
+        height: 560px;
     }
 }
 @media(max-width:1500px) {
@@ -891,6 +894,13 @@
         &__content {
             margin-bottom: 6em;  
         }
+        &__right {
+            width: 570px;
+        }
+        &__inner {
+            margin-top: 45px;
+            font-size: 1.5em;
+        }
         &__contacts {
             width: 260px;
             margin-top: 220px;
@@ -901,13 +911,6 @@
         &::after {
             width: calc((100% - 900px) / 2 + 570px);
             top: 140px;
-        }
-        &__right {
-            width: 570px;
-        }
-        &__inner {
-            margin-top: 45px;
-            font-size: 1.5em;
         }
         &__form {
             font-size: 1.6em;
@@ -1286,6 +1289,13 @@
         &__content {
             margin-bottom: 5em;  
         }
+        &__right {
+            width: 510px;
+        }
+        &__inner {
+            margin-top: 38px;
+            font-size: 1.3em;
+        }
         &__contacts {
             width: 240px;
             margin-top: 200px;
@@ -1298,13 +1308,6 @@
             height: 460px;
             top: 120px;
         }
-        &__right {
-            width: 510px;
-        }
-        &__inner {
-            margin-top: 38px;
-            font-size: 1.3em;
-        }
         &__form {
             font-size: 1.5em;
             padding: 2.5em 4em;
@@ -1312,6 +1315,9 @@
                 height: 150px;
             }
         }
+    }
+    .p-contacts-body__map iframe {
+        height: 460px;
     }
 }
 @media(max-width:900px) {
@@ -1739,6 +1745,13 @@
         &__content {
             margin-bottom: 4.5em;  
         }
+        &__right {
+            width: 400px;
+        }
+        &__inner {
+            margin-top: 27px;
+            font-size: 1.15em;
+        }
         &__contacts {
             width: 210px;
             margin-top: 190px;
@@ -1751,12 +1764,7 @@
             height: 390px;
             top: 100px;
         }
-        &__right {
-            width: 400px;
-        }
         &__inner {
-            margin-top: 27px;
-            font-size: 1.15em;
             padding: 1.6em 0 0 2em;
         }
         &__service {
@@ -1782,6 +1790,9 @@
                 height: 140px;
             }
         }
+    }
+    .p-contacts-body__map iframe {
+        height: 390px;
     }
 }
 @media(max-width:700px) {
@@ -2190,6 +2201,14 @@
             align-items: center;
             justify-content: flex-start;
         }
+        &__right {
+            width: 100%;
+        }
+        &__inner {
+            margin-top: 20px;
+            font-size: 1.2em;
+            margin-bottom: 3em;
+        }
         &__contacts {
             width: 75%;
             margin-top: 0px;
@@ -2200,15 +2219,9 @@
         &::after {
            display: none;
         }
-        &__right {
-            width: 100%;
-        }
         &__inner {
-            margin-top: 20px;
-            font-size: 1.2em;
             padding: 1.6em 2em;
             background-color: #fff;
-            margin-bottom: 3em;
         }
         &__service {
             margin-bottom: 1em;
@@ -2575,6 +2588,10 @@
     }
     .p-body {
         padding: 20px 0;
+        &__inner {
+            margin-top: 15px;
+            font-size: 1.1em;
+        }
         &__content {
             margin-bottom: 3em;  
         }
@@ -2584,10 +2601,6 @@
         }
     }
     .p-info-body {
-        &__inner {
-            margin-top: 15px;
-            font-size: 1.1em;
-        }
         &__service {
             flex-direction: column-reverse;
             align-items: center;

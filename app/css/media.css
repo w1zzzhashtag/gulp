@@ -233,21 +233,23 @@
       height: 460px; }
     .p-body__content {
       margin-bottom: 7em; }
+    .p-body__right {
+      width: 700px; }
+    .p-body__inner {
+      margin-top: 55px;
+      font-size: 1.7em; }
     .p-body__contacts {
       width: 330px;
       font-size: 1.8em; }
   .p-info-body::after {
     width: calc((100% - 1100px) / 2 + 700px);
     top: 160px; }
-  .p-info-body__right {
-    width: 700px; }
-  .p-info-body__inner {
-    margin-top: 55px;
-    font-size: 1.7em; }
   .p-info-body__form {
     font-size: 1.7em; }
     .p-info-body__form__textarea-label textarea {
-      height: 170px; } }
+      height: 170px; }
+  .p-contacts-body__map iframe {
+    height: 560px; } }
 
 @media (max-width: 1500px) {
   .main__title {
@@ -591,6 +593,11 @@
       top: 180px; }
     .p-body__content {
       margin-bottom: 6em; }
+    .p-body__right {
+      width: 570px; }
+    .p-body__inner {
+      margin-top: 45px;
+      font-size: 1.5em; }
     .p-body__contacts {
       width: 260px;
       margin-top: 220px;
@@ -598,11 +605,6 @@
   .p-info-body::after {
     width: calc((100% - 900px) / 2 + 570px);
     top: 140px; }
-  .p-info-body__right {
-    width: 570px; }
-  .p-info-body__inner {
-    margin-top: 45px;
-    font-size: 1.5em; }
   .p-info-body__form {
     font-size: 1.6em; }
     .p-info-body__form__textarea-label textarea {
@@ -859,6 +861,11 @@
       top: 160px; }
     .p-body__content {
       margin-bottom: 5em; }
+    .p-body__right {
+      width: 510px; }
+    .p-body__inner {
+      margin-top: 38px;
+      font-size: 1.3em; }
     .p-body__contacts {
       width: 240px;
       margin-top: 200px;
@@ -867,16 +874,13 @@
     width: calc((100% - 800px) / 2 + 510px);
     height: 460px;
     top: 120px; }
-  .p-info-body__right {
-    width: 510px; }
-  .p-info-body__inner {
-    margin-top: 38px;
-    font-size: 1.3em; }
   .p-info-body__form {
     font-size: 1.5em;
     padding: 2.5em 4em; }
     .p-info-body__form__textarea-label textarea {
-      height: 150px; } }
+      height: 150px; }
+  .p-contacts-body__map iframe {
+    height: 460px; } }
 
 @media (max-width: 900px) {
   .container {
@@ -1177,6 +1181,11 @@
       top: 150px; }
     .p-body__content {
       margin-bottom: 4.5em; }
+    .p-body__right {
+      width: 400px; }
+    .p-body__inner {
+      margin-top: 27px;
+      font-size: 1.15em; }
     .p-body__contacts {
       width: 210px;
       margin-top: 190px;
@@ -1185,11 +1194,7 @@
     width: calc((100% - 650px) / 2 + 400px);
     height: 390px;
     top: 100px; }
-  .p-info-body__right {
-    width: 400px; }
   .p-info-body__inner {
-    margin-top: 27px;
-    font-size: 1.15em;
     padding: 1.6em 0 0 2em; }
   .p-info-body__service {
     margin-bottom: 1em; }
@@ -1207,7 +1212,9 @@
     font-size: 1.3em;
     padding: 2em 3em; }
     .p-info-body__form__textarea-label textarea {
-      height: 140px; } }
+      height: 140px; }
+  .p-contacts-body__map iframe {
+    height: 390px; } }
 
 @media (max-width: 700px) {
   .container {
@@ -1492,20 +1499,21 @@
       flex-direction: column-reverse;
       align-items: center;
       justify-content: flex-start; }
+    .p-body__right {
+      width: 100%; }
+    .p-body__inner {
+      margin-top: 20px;
+      font-size: 1.2em;
+      margin-bottom: 3em; }
     .p-body__contacts {
       width: 75%;
       margin-top: 0px;
       font-size: 1.2em; }
   .p-info-body::after {
     display: none; }
-  .p-info-body__right {
-    width: 100%; }
   .p-info-body__inner {
-    margin-top: 20px;
-    font-size: 1.2em;
     padding: 1.6em 2em;
-    background-color: #fff;
-    margin-bottom: 3em; }
+    background-color: #fff; }
   .p-info-body__service {
     margin-bottom: 1em; }
   .p-info-body__widget {
@@ -1760,14 +1768,14 @@
       border-radius: 4px; }
   .p-body {
     padding: 20px 0; }
+    .p-body__inner {
+      margin-top: 15px;
+      font-size: 1.1em; }
     .p-body__content {
       margin-bottom: 3em; }
     .p-body__contacts {
       width: 80%;
       font-size: 1.15em; }
-  .p-info-body__inner {
-    margin-top: 15px;
-    font-size: 1.1em; }
   .p-info-body__service {
     flex-direction: column-reverse;
     align-items: center;
