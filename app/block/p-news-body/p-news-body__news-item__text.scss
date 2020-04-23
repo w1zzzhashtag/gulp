@@ -1,0 +1,11 @@
+.p-news-body__news-item__text {
+    width: calc(100% - 275px);
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 1.5em;
+    position: relative;
+}

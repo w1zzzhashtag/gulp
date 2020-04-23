@@ -1,0 +1,14 @@
+.p-body__pagintation__item {
+    background-color: transparent;
+    border: none;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0.2em .5em;
+    margin: 0 0.15em;
+    &--active {
+        background-color: #FFAD58;
+    }
+}

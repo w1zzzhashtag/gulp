@@ -1,0 +1,19 @@
+.p-news-body__news-item__data {
+    color: #706E6E;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    font-size: 0.75em;
+    line-height: 1.2em;
+    position: relative;
+    margin-top: 2em;
+    margin-bottom: .7em;
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: -1.3em;
+        width: 150%;
+        height: 0.3em;
+        background-color: #FFAD58;
+    }
+}
