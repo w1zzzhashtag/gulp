@@ -1,0 +1,16 @@
+.p-gallery-body {
+    font-size: 10px;
+    &::before {
+        display: none !important;
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        background-color: #FFAD58;
+        width: calc((100% - 1300px) / 2 + 200px);
+        height: 500px;
+        top: 200px;
+        z-index: -1;
+    }
+}
