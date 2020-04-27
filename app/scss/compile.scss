@@ -4322,6 +4322,79 @@ template {
     position: relative;
     transition: all .2s;
 }
+.company-desc {
+    width: 100%;
+    font-size: 10px;
+    margin: 5em 0;
+}
+.company-desc__container {
+    position: relative;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+    transform: rotate(2.85deg);
+    background-color: #fff;
+    font-size: 1.6em;
+    line-height: 1.2em;
+    letter-spacing: 0.02em;
+    padding: 7em;
+    transform-style: preserve-3d;
+    &::before {
+        content: '';
+        position: absolute;
+        width: 110%;
+        height: 110%;
+        left: -5%;
+        top: -5%;
+        background-color: #FFAD58;
+        transform: rotate(-5.94deg) translateZ(-1px);
+        clip-path: polygon(0 0, 50% 10%, 100% 0, 100% 100%, 50% 80%, 0 100%);
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        width: 110%;
+        height: 110%;
+        left: -5%;
+        top: -5%;
+        background: rgba(47, 47, 47, 0.9);
+        transform: rotate(8.11deg) translateZ(-2px);
+        clip-path: polygon(0 0, 50% 10%, 100% 0, 100% 100%, 50% 80%, 0 100%);
+    }
+}
+.company-desc__paragraph--bold {
+    font-weight: 600;
+}
+.company-desc__paragraph--wrap {
+    transform: rotate(-2.85deg);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: calc(100% + 2em);
+        left: 50%;
+        transform: translateX(-50%);
+        width: 20%;
+        height: 0.25em;
+        background-color: #FF8200;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        top: calc(100% + 2em);
+        left: 50%;
+        transform: translateX(-50%);
+        width: 20%;
+        height: 0.25em;
+        background-color: #FF8200;
+    }
+}
+.company-desc__paragraph {
+    margin-bottom: 1.2em;
+    text-indent: 2em;
+}
 .company-feedback {
     width: 100%;
     font-size: 10px;
@@ -4409,79 +4482,6 @@ template {
     font-weight: 700;
     margin-bottom: 0.5em;
     font-feature-settings: 'liga' off;
-}
-.company-desc {
-    width: 100%;
-    font-size: 10px;
-    margin: 5em 0;
-}
-.company-desc__container {
-    position: relative;
-    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
-    transform: rotate(2.85deg);
-    background-color: #fff;
-    font-size: 1.6em;
-    line-height: 1.2em;
-    letter-spacing: 0.02em;
-    padding: 7em;
-    transform-style: preserve-3d;
-    &::before {
-        content: '';
-        position: absolute;
-        width: 110%;
-        height: 110%;
-        left: -5%;
-        top: -5%;
-        background-color: #FFAD58;
-        transform: rotate(-5.94deg) translateZ(-1px);
-        clip-path: polygon(0 0, 50% 10%, 100% 0, 100% 100%, 50% 80%, 0 100%);
-    }
-    &::after {
-        content: '';
-        position: absolute;
-        width: 110%;
-        height: 110%;
-        left: -5%;
-        top: -5%;
-        background: rgba(47, 47, 47, 0.9);
-        transform: rotate(8.11deg) translateZ(-2px);
-        clip-path: polygon(0 0, 50% 10%, 100% 0, 100% 100%, 50% 80%, 0 100%);
-    }
-}
-.company-desc__paragraph--bold {
-    font-weight: 600;
-}
-.company-desc__paragraph--wrap {
-    transform: rotate(-2.85deg);
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    position: relative;
-    &::before {
-        content: '';
-        position: absolute;
-        bottom: calc(100% + 2em);
-        left: 50%;
-        transform: translateX(-50%);
-        width: 20%;
-        height: 0.25em;
-        background-color: #FF8200;
-    }
-    &::after {
-        content: '';
-        position: absolute;
-        top: calc(100% + 2em);
-        left: 50%;
-        transform: translateX(-50%);
-        width: 20%;
-        height: 0.25em;
-        background-color: #FF8200;
-    }
-}
-.company-desc__paragraph {
-    margin-bottom: 1.2em;
-    text-indent: 2em;
 }
 .company-reasons {
     width: 100%;
@@ -4850,18 +4850,6 @@ template {
 .logo {
     width: 100%;
 }
-.mail {
-    &::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 25px;
-        height: 25px;
-        background-image: url(/img/mail/mail.png);
-        background-size: cover;
-    }
-}
 .main {
     width: 100%;
     display: flex;
@@ -4882,6 +4870,18 @@ template {
     line-height: 1.3em;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+}
+.mail {
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 25px;
+        height: 25px;
+        background-image: url(/img/mail/mail.png);
+        background-size: cover;
+    }
 }
 .main-company-bg {
     background: url(/img/main-company-bg/main-company-bg.jpg) center top / cover no-repeat;
