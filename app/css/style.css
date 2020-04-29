@@ -11,6 +11,8 @@ h1,
 h2,
 h3,
 h4,
+h5,
+h6,
 p,
 ul[class],
 ol[class],
@@ -26,8 +28,26 @@ a {
   text-decoration: none; }
 
 body {
+  width: 100vw;
   min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  background-color: #fff; }
+  color: #000;
+  overflow-x: hidden; }
+
+section {
+  max-width: 1920px; }
+
+::selection {
+  color: #fff;
+  background-color: #444; }
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background: #2F2F2F; }
+
+*::-webkit-scrollbar-thumb {
+  background: #FBA549;
+  border-radius: 2px; }
