@@ -55,7 +55,7 @@ gulp.task('libsJs', function(){
 
 
 gulp.task('useref', function() {
-    return gulp.src("app/**/*.html")
+    return gulp.src('app/**/*.html')
     .pipe(useref())
     .pipe(gulpIf('*.js', uglify()))
     .pipe(gulpIf('*.css', cssnano()))
@@ -89,12 +89,16 @@ gulp.task('docs', function() {
     .pipe(gulp.dest('dist/docs'))
 });
 
+gulp.task('favicon', function() {
+    return gulp.src('app/favicon/*')
+    .pipe(gulp.dest('dist/favicon'))
+});
 
 
 gulp.task('clean:dist', async function() {
     return del.sync('dist/');
 })
 
-gulp.task('build', gulp.series('clean:dist', gulp.parallel('libsJs', 'sassCompile', 'sass',  'useref', 'images', 'fonts', 'libs', 'docs')))
+gulp.task('build', gulp.series('clean:dist', gulp.parallel('libsJs', 'sassCompile', 'sass',  'useref', 'images', 'fonts', 'libs', 'docs', 'favicon')))
 gulp.task('default', gulp.series(gulp.parallel('libsJs', 'sassCompile', 'sass'), 'serve') )
   

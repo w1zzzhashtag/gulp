@@ -3734,9 +3734,6 @@ template {
 .main-company-bg {
   background: url(/img/main-company-bg/main-company-bg.jpg) center top/cover no-repeat; }
 
-.main-stocks-bg {
-  background: url(/img/main-stocks-bg/main-stocks-bg.jpg) center top/cover no-repeat; }
-
 .orange-rectangle {
   position: relative; }
   .orange-rectangle::before {
@@ -3748,6 +3745,9 @@ template {
     height: 350px;
     background: #FBA549;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25); }
+
+.main-stocks-bg {
+  background: url(/img/main-stocks-bg/main-stocks-bg.jpg) center top/cover no-repeat; }
 
 .ourService {
   width: 100%;
@@ -4149,6 +4149,54 @@ template {
   grid-template-columns: 1fr;
   grid-gap: inherit; }
 
+.p-gallery-item-img-16 {
+  background: url(/img/p-gallery-body/item-16.jpg) center/cover no-repeat; }
+
+.p-gallery-item-img-15 {
+  background: url(/img/p-gallery-body/item-15.jpg) center/cover no-repeat; }
+
+.p-gallery-item-img-14 {
+  background: url(/img/p-gallery-body/item-14.jpg) center/cover no-repeat; }
+
+.p-gallery-item-img-13 {
+  background: url(/img/p-gallery-body/item-13.jpg) center/cover no-repeat; }
+
+.p-gallery-item-img-12 {
+  background: url(/img/p-gallery-body/item-12.jpg) center/cover no-repeat; }
+
+.p-gallery-item-img-11 {
+  background: url(/img/p-gallery-body/item-11.jpg) center/cover no-repeat; }
+
+.p-gallery-item-img-10 {
+  background: url(/img/p-gallery-body/item-10.jpg) center/cover no-repeat; }
+
+.p-gallery-item-img-9 {
+  background: url(/img/p-gallery-body/item-9.jpg) center/cover no-repeat; }
+
+.p-gallery-item-img-8 {
+  background: url(/img/p-gallery-body/item-8.jpg) center/cover no-repeat; }
+
+.p-gallery-item-img-7 {
+  background: url(/img/p-gallery-body/item-7.jpg) center/cover no-repeat; }
+
+.p-gallery-item-img-6 {
+  background: url(/img/p-gallery-body/item-6.jpg) center/cover no-repeat; }
+
+.p-gallery-item-img-5 {
+  background: url(/img/p-gallery-body/item-5.jpg) center/cover no-repeat; }
+
+.p-gallery-item-img-4 {
+  background: url(/img/p-gallery-body/item-4.jpg) center/cover no-repeat; }
+
+.p-gallery-item-img-3 {
+  background: url(/img/p-gallery-body/item-3.jpg) center/cover no-repeat; }
+
+.p-gallery-item-img-2 {
+  background: url(/img/p-gallery-body/item-2.jpg) center/cover no-repeat; }
+
+.p-gallery-item-img-1 {
+  background: url(/img/p-gallery-body/item-1.jpg) center/cover no-repeat; }
+
 .p-info-body {
   font-size: 10px; }
   .p-info-body::after {
@@ -4382,54 +4430,6 @@ template {
     height: 0.2em;
     left: 50%;
     transform: translateX(-50%); }
-
-.p-gallery-item-img-16 {
-  background: url(/img/p-gallery-body/item-16.jpg) center/cover no-repeat; }
-
-.p-gallery-item-img-15 {
-  background: url(/img/p-gallery-body/item-15.jpg) center/cover no-repeat; }
-
-.p-gallery-item-img-14 {
-  background: url(/img/p-gallery-body/item-14.jpg) center/cover no-repeat; }
-
-.p-gallery-item-img-13 {
-  background: url(/img/p-gallery-body/item-13.jpg) center/cover no-repeat; }
-
-.p-gallery-item-img-12 {
-  background: url(/img/p-gallery-body/item-12.jpg) center/cover no-repeat; }
-
-.p-gallery-item-img-11 {
-  background: url(/img/p-gallery-body/item-11.jpg) center/cover no-repeat; }
-
-.p-gallery-item-img-10 {
-  background: url(/img/p-gallery-body/item-10.jpg) center/cover no-repeat; }
-
-.p-gallery-item-img-9 {
-  background: url(/img/p-gallery-body/item-9.jpg) center/cover no-repeat; }
-
-.p-gallery-item-img-8 {
-  background: url(/img/p-gallery-body/item-8.jpg) center/cover no-repeat; }
-
-.p-gallery-item-img-7 {
-  background: url(/img/p-gallery-body/item-7.jpg) center/cover no-repeat; }
-
-.p-gallery-item-img-6 {
-  background: url(/img/p-gallery-body/item-6.jpg) center/cover no-repeat; }
-
-.p-gallery-item-img-5 {
-  background: url(/img/p-gallery-body/item-5.jpg) center/cover no-repeat; }
-
-.p-gallery-item-img-4 {
-  background: url(/img/p-gallery-body/item-4.jpg) center/cover no-repeat; }
-
-.p-gallery-item-img-3 {
-  background: url(/img/p-gallery-body/item-3.jpg) center/cover no-repeat; }
-
-.p-gallery-item-img-2 {
-  background: url(/img/p-gallery-body/item-2.jpg) center/cover no-repeat; }
-
-.p-gallery-item-img-1 {
-  background: url(/img/p-gallery-body/item-1.jpg) center/cover no-repeat; }
 
 .p-inner-gallery-body__gallery {
   width: 100%;
@@ -4810,6 +4810,25 @@ template {
 .p-service-gallery-img-4 {
   grid-area: img-4; }
 
+.p-title {
+  color: #fff;
+  font-size: 40px;
+  line-height: 1.2em;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  padding-bottom: 0.5em;
+  position: relative;
+  width: 100%;
+  width: 800px; }
+  .p-title::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: .2em;
+    width: 40%;
+    background-color: #FFAD58; }
+
 .p-service-grid-item-1 {
   grid-area: item-1;
   background: url(/img/p-service-grid-item/p-service-grid-item-1.jpg) center/cover no-repeat; }
@@ -4858,34 +4877,6 @@ template {
   grid-area: item-12;
   background: url(/img/p-service-grid-item/p-service-grid-item-12.jpg) center/cover no-repeat; }
 
-.p-title {
-  color: #fff;
-  font-size: 40px;
-  line-height: 1.2em;
-  letter-spacing: 0.03em;
-  font-weight: 700;
-  padding-bottom: 0.5em;
-  position: relative;
-  width: 100%;
-  width: 800px; }
-  .p-title::before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: .2em;
-    width: 40%;
-    background-color: #FFAD58; }
-
-.p-top-banner {
-  width: 100%;
-  height: 300px; }
-
-.p-top-banner__img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; }
-
 .p-title-orange-line {
   position: relative; }
   .p-title-orange-line::before {
@@ -4896,6 +4887,26 @@ template {
     width: 35%;
     height: .15em;
     background-color: #F17D01; }
+
+.p-top-banner {
+  width: 100%;
+  height: 300px; }
+
+.p-top-banner__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.stocks-body {
+  width: 100%;
+  font-size: 10px;
+  margin: 5em 0 10em; }
+
+.stocks-body__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; }
 
 .slider__content {
   position: absolute;
@@ -4963,17 +4974,6 @@ template {
   .slider__pagintaions .slick-active button {
     background-color: #3D3939;
     border: 3px solid #FBA549; }
-
-.stocks-body {
-  width: 100%;
-  font-size: 10px;
-  margin: 5em 0 10em; }
-
-.stocks-body__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center; }
 
 .stocks-form {
   background: radial-gradient(59.97% 59.97% at 50.14% -9.97%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%), radial-gradient(57.79% 57.79% at 50% 114.73%, rgba(255, 255, 255, 0.6) 0%, rgba(255, 255, 255, 0) 100%), #F17E01;
