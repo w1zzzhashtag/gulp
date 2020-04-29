@@ -18,6 +18,7 @@ gulp.task('serve', function() {
     gulp.watch("app/block/**/*.scss", gulp.series('sassCompile'));
     gulp.watch("app/scss/**/*.scss", gulp.series('sass'));
     gulp.watch("app/**/*.html").on('change', browserSync.reload);
+    gulp.watch("app/pages/**/*.html").on('change', browserSync.reload);
     gulp.watch("app/js/**/*.js").on('change', browserSync.reload);
     gulp.watch("app/block/**/*.js").on('change', browserSync.reload);
 });
@@ -44,7 +45,7 @@ gulp.task('sass', function() {
 
 gulp.task('libsJs', function(){
     return gulp.src([
-      'node_modules/slick-carousel/slick/slick.js'
+      'node_modules/slick-carousel/slick/slick.js',
     ])
       .pipe(concat('libs.js'))
       .pipe(gulp.dest('app/js'))
@@ -54,7 +55,7 @@ gulp.task('libsJs', function(){
 
 
 gulp.task('useref', function() {
-    return gulp.src("app/*.html")
+    return gulp.src('app/**/*.html')
     .pipe(useref())
     .pipe(gulpIf('*.js', uglify()))
     .pipe(gulpIf('*.css', cssnano()))
@@ -78,11 +79,26 @@ gulp.task('fonts', function() {
     .pipe(gulp.dest('dist/fonts'))
 });
 
+gulp.task('libs', function() {
+    return gulp.src('app/libs/**/*')
+    .pipe(gulp.dest('dist/libs'))
+});
+
+gulp.task('docs', function() {
+    return gulp.src('app/docs/*/*')
+    .pipe(gulp.dest('dist/docs'))
+});
+
+gulp.task('favicon', function() {
+    return gulp.src('app/favicon/*')
+    .pipe(gulp.dest('dist/favicon'))
+});
+
 
 gulp.task('clean:dist', async function() {
     return del.sync('dist/');
 })
 
-gulp.task('build', gulp.series('clean:dist', gulp.parallel('libsJs', 'sassCompile', 'sass',  'useref', 'images', 'fonts')))
+gulp.task('build', gulp.series('clean:dist', gulp.parallel('libsJs', 'sassCompile', 'sass',  'useref', 'images', 'fonts', 'libs', 'docs', 'favicon')))
 gulp.task('default', gulp.series(gulp.parallel('libsJs', 'sassCompile', 'sass'), 'serve') )
   
