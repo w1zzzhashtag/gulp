@@ -4093,3 +4093,106 @@ template {
     animation-iteration-count: 1 !important;
   }
 }
+
+.client-banner {
+    width: 100%;
+    min-height: calc(100vh - 8.5em);
+    background: url(/img/client-banner/client-banner.png) center / cover no-repeat #fff;
+}
+.client-banner__container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.client-banner__item {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 45%;
+}
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+.header {
+    width: 100%;
+    height: 8.5em;
+    background-color: #fff;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.header__link {
+    font-family: "Museo Sans 500";
+    font-size: 1.4em;
+    padding-top: 25px;
+    letter-spacing: .02em;
+    padding-right: 2.5em;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        right: 0;
+    }
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.header__logo-wrap {
+    height: 100%;
+    padding-top: 25px;
+}
+.header__logo {
+    height: 100%;
+}
+.header__nav {
+    background-color: #fdd832;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 1.8em;
+    padding: 0 2em;
+}
+.link-login {
+    color: #7e01fc;
+    &::before {
+        height: 1.8em;
+        width: 2em;
+        bottom: -0.1em;
+        background: url(/img/link-login/link-login.png) center / contain no-repeat;
+    }
+}
+.link-registration {
+    color: #2b2a29;
+    &::before {
+        height: 1.8em;
+        width: 2em;
+        bottom: -0.1em;
+        background: url(/img/link-registration/link-registration.png) center / contain no-repeat;
+    }
+}
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.nav__link {
+    color: #2b2a29;
+    text-transform: uppercase;
+    padding: 1em 1.2em;
+    letter-spacing: .02em;
+    transition: all .5s;
+    &:hover {
+        color: #fff;
+        background-color: #7e01fc;
+    }
+}

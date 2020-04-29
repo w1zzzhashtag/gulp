@@ -32,9 +32,11 @@ body {
   min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
+  font-size: 10px;
+  line-height: 1.2;
   color: #000;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  font-family: "Museo Sans 700"; }
 
 section {
   max-width: 1920px; }
@@ -46,8 +48,8 @@ section {
 *::-webkit-scrollbar {
   width: 10px;
   height: 10px;
-  background: #2F2F2F; }
+  background: #000; }
 
 *::-webkit-scrollbar-thumb {
-  background: #FBA549;
+  background: #fdd832;
   border-radius: 2px; }

@@ -1,0 +1,16 @@
+.header__link {
+    font-family: "Museo Sans 500";
+    font-size: 1.4em;
+    padding-top: 25px;
+    letter-spacing: .02em;
+    padding-right: 2.5em;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        right: 0;
+    }
+    &:hover {
+        text-decoration: underline;
+    }
+}

@@ -1,0 +1,11 @@
+.nav__link {
+    color: #2b2a29;
+    text-transform: uppercase;
+    padding: 1em 1.2em;
+    letter-spacing: .02em;
+    transition: all .5s;
+    &:hover {
+        color: #fff;
+        background-color: #7e01fc;
+    }
+}

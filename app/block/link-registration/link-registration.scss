@@ -1,0 +1,9 @@
+.link-registration {
+    color: #2b2a29;
+    &::before {
+        height: 1.8em;
+        width: 2em;
+        bottom: -0.1em;
+        background: url(/img/link-registration/link-registration.png) center / contain no-repeat;
+    }
+}

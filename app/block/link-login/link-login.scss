@@ -1,0 +1,9 @@
+.link-login {
+    color: #7e01fc;
+    &::before {
+        height: 1.8em;
+        width: 2em;
+        bottom: -0.1em;
+        background: url(/img/link-login/link-login.png) center / contain no-repeat;
+    }
+}
