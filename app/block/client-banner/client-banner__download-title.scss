@@ -1,0 +1,22 @@
+.client-banner__download-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: "RussoOne";
+    font-style: italic;
+    font-size:3.8em;
+    color: #000000;
+    text-transform: uppercase;
+    padding: 0 3em 1em 0;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        right: 0;
+        bottom: .55em;
+        width: 2.4em;
+        height: 100%;
+        background: url(/img/client-banner/client-banner__download-title_wrap.png) center / contain no-repeat;
+    }
+}

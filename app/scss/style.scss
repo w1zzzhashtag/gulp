@@ -27,12 +27,14 @@ margin: 0;
 a {
   text-decoration: none;
 }
+html {
+  font-size: 10px;
+}
 body {
   width: 100vw;
   min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
-  font-size: 10px;
   line-height: 1.2;
   color: #000;
   overflow-x: hidden;

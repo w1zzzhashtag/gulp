@@ -1,0 +1,35 @@
+.eTimer {
+   width: 540px;
+   text-align: left;
+   font-family: 'Museo Sans 500' !important;
+}
+
+.eTimer .etTitle {
+   display: none;
+}
+
+.eTimer .etUnit .etNumber {
+    width: 43px !important;
+    font-family: 'Museo Sans 700' !important;
+    color: #000;
+    background: linear-gradient(to top, #fff 50%, #DEDEDE 50%, #F0F0F0 80%) !important;
+    font-size: 4.5em !important;
+    line-height: 1.2em !important;
+    padding: .2em .2em !important;
+    margin: .1em !important;
+    border-radius: .1em !important;
+    box-shadow: 0 .05em .1em rgba(0, 0, 0, .4);
+}
+
+.eTimer .etSep {
+    font-size: 3em;
+    padding: .5em .2em !important; 
+}
+
+.eTimer .etUnit .etSign {
+    color: #000;
+    text-align: center;
+    font-size: 1.6em !important;
+    margin: .6em 0 1.5em!important;
+    text-transform: capitalize;
+} 

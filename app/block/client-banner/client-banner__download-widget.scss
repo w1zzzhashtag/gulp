@@ -1,0 +1,16 @@
+.client-banner__download-widget {
+    font-size: 1.3em;
+    padding: 2.5em 2.5em 1.5em;
+    background: linear-gradient(135deg, #4e07b1, #6b06f7 25%, #8e2fed);
+    box-shadow: 0 0 .5em rgba(#26053a, .5);
+    border-radius: 20px;
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}

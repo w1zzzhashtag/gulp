@@ -4094,28 +4094,164 @@ template {
   }
 }
 
+.app-store {
+    background: url(/img/app-store/app-store.png) center / contain no-repeat;
+}
+.eTimer {
+   width: 540px;
+   text-align: left;
+   font-family: 'Museo Sans 500' !important;
+}
+
+.eTimer .etTitle {
+   display: none;
+}
+
+.eTimer .etUnit .etNumber {
+    width: 43px !important;
+    font-family: 'Museo Sans 700' !important;
+    color: #000;
+    background: linear-gradient(to top, #fff 50%, #DEDEDE 50%, #F0F0F0 80%) !important;
+    font-size: 4.5em !important;
+    line-height: 1.2em !important;
+    padding: .2em .2em !important;
+    margin: .1em !important;
+    border-radius: .1em !important;
+    box-shadow: 0 .05em .1em rgba(0, 0, 0, .4);
+}
+
+.eTimer .etSep {
+    font-size: 3em;
+    padding: .5em .2em !important; 
+}
+
+.eTimer .etUnit .etSign {
+    color: #000;
+    text-align: center;
+    font-size: 1.6em !important;
+    margin: .6em 0 1.5em!important;
+    text-transform: capitalize;
+} 
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
 .client-banner {
     width: 100%;
-    min-height: calc(100vh - 8.5em);
-    background: url(/img/client-banner/client-banner.png) center / cover no-repeat #fff;
+    background: url(/img/client-banner/client-banner.png) center bottom -.5em / cover no-repeat #fff;
 }
 .client-banner__container {
     height: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 100px;
+}
+.client-banner__download-img {
+    transform: rotate(4deg) translateY(-.8em);
+    height: 670px;
+}
+.client-banner__download-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: "RussoOne";
+    font-style: italic;
+    font-size:3.8em;
+    color: #000000;
+    text-transform: uppercase;
+    padding: 0 3em 1em 0;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        right: 0;
+        bottom: .55em;
+        width: 2.4em;
+        height: 100%;
+        background: url(/img/client-banner/client-banner__download-title_wrap.png) center / contain no-repeat;
+    }
+}
+.client-banner__download-widget {
+    font-size: 1.3em;
+    padding: 2.5em 2.5em 1.5em;
+    background: linear-gradient(135deg, #4e07b1, #6b06f7 25%, #8e2fed);
+    box-shadow: 0 0 .5em rgba(#26053a, .5);
+    border-radius: 20px;
+    color: #fff;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.client-banner__download-widget__item {
+    width: 100%;
+    height: 43px;
+    margin-bottom: 1em;
+}
+.client-banner__download-widget__title {
+    letter-spacing: 0.01em;
+    line-height: 1.35em;
+    margin-bottom: 1em;
+}
+.client-banner__download-widget__title_light {
+    font-family: "Museo Sans 300";
+}
+.client-banner__download {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
     align-items: flex-end;
+    position: relative;
 }
 .client-banner__item {
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    width: 45%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 48%;
 }
-.container {
-    width: 1600px;
-    margin: 0 auto;
+.eTimer-title {
+    text-transform: uppercase;
+}
+.eTimer-title_wrap {
+    width: 540px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #2b2a29;
+    font-size: 1.8em;
+    letter-spacing: 0.02em;
+    margin-bottom: 1.3em;
+}   
+.btn {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: "RussoOne";
+    letter-spacing: 0.03em;
+    padding: .8em 1.7em;
+    border-radius: 2em;
+}
+.btn_bg-color_orange {
+    background-color: #e0662f;
+}
+.btn_text-color_white {
+    color: #fff;
+}
+.btn__bg-color__white {
+    background-color: #fff;
+}
+.btn__text-color__purple {
+    color: #4f009f;
+}
+.google-play {
+    background: url(/img/google-play/google-play.png) center / contain no-repeat;
 }
 .header {
     width: 100%;
@@ -4195,4 +4331,137 @@ template {
         color: #fff;
         background-color: #7e01fc;
     }
+}
+.prizes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.prizes__content {
+    width: 100%;
+    height: 850px;
+    background: url(/img/prizes/prizes__content.png) center bottom / cover no-repeat;
+}
+.rules {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(to top, #5300a7, #7e01fc, #4c0098);
+}
+.rules__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 11em 0;
+}
+.rules__content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 2.5em;
+    margin-bottom: 10rem;
+}
+.rules__item-1 {
+    background: url(/img/rules/rules__item-1-bg.png) top right / 180px auto no-repeat;
+}
+.rules__item-2 {
+    background: url(/img/rules/rules__item-2-bg.png) top right / 160px auto no-repeat;
+}
+.rules__item-3 {
+    background: url(/img/rules/rules__item-3-bg.png) top right 145px / 55px auto no-repeat;
+}
+.rules__item-img {
+    height: 210px;
+}
+.rules__item-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: "Museo Sans 900";
+    margin-left: .7em;
+}
+.rules__item-text__desc {
+    color: #fff;
+    text-transform: uppercase;
+}
+.rules__item-text__number {
+    
+    font-size: 3.5em;
+    line-height: 1em;
+    color: #ffea00;
+}
+.rules__item {
+    display: flex;
+    align-items: flex-end;
+}
+.rules__title {
+    font-family: "RussoOne";
+    color: #fff;
+    text-align: center;
+    font-size: 3.8em;
+    font-weight: lighter;
+    margin-bottom: 2.5em;
+}
+.text-offers {
+    font-size: 2.7em;
+    margin-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.text-offers__item {
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    padding-left: 1.5em;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 1em;
+        height: 1.5em;
+        background: url(/img/text-offers/text-offers__item.png) center / contain no-repeat;
+    }
+}
+.text-offers__subtitle {
+    text-transform: uppercase;
+    color: #212021;
+    font-family: "Museo Sans 900";
+    font-size: 1.4em;
+    margin-bottom: 1em;
+}
+.text-offers__title {
+    text-transform: uppercase;
+    color: #6c06f7;
+    font-family: "RussoOne";
+    font-size: 3em;
+    line-height: 1.05em;
+    letter-spacing: 0.03em;
+    margin: .3em 0 .5em;
+}
+.title {
+    width: 100%;
+    background-color: #fcdb01;
+    display: flex;
+    justify-content: center;
+}
+.title_text {
+    font-family: "RussoOne";
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 4em;
+    padding: 0.25em;
+    background-color: #7e01fc;
+    letter-spacing: 0.1em;
+    clip-path: polygon(5% 0, 100% 0, 95% 100%, 0 100%);
 }
