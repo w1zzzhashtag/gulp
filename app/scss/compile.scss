@@ -4211,45 +4211,6 @@ template {
     justify-content: flex-start;
     width: 48%;
 }
-.container {
-    width: 1600px;
-    margin: 0 auto;
-}
-.eTimer {
-   width: 540px;
-   text-align: left;
-   font-family: 'Museo Sans 500' !important;
-}
-
-.eTimer .etTitle {
-   display: none;
-}
-
-.eTimer .etUnit .etNumber {
-    width: 43px !important;
-    font-family: 'Museo Sans 700' !important;
-    color: #000;
-    background: linear-gradient(to top, #fff 50%, #DEDEDE 50%, #F0F0F0 80%) !important;
-    font-size: 4.5em !important;
-    line-height: 1.2em !important;
-    padding: .2em .2em !important;
-    margin: .1em !important;
-    border-radius: .1em !important;
-    box-shadow: 0 .05em .1em rgba(0, 0, 0, .4);
-}
-
-.eTimer .etSep {
-    font-size: 3em;
-    padding: .5em .2em !important; 
-}
-
-.eTimer .etUnit .etSign {
-    color: #000;
-    text-align: center;
-    font-size: 1.6em !important;
-    margin: .6em 0 1.5em!important;
-    text-transform: capitalize;
-} 
 .client-download-app {
     width: 100%;
     display: flex;
@@ -4370,6 +4331,45 @@ template {
 .client-download-app__title_text-color_black {
     color: #000;
 }
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+.eTimer {
+   width: 540px;
+   text-align: left;
+   font-family: 'Museo Sans 500' !important;
+}
+
+.eTimer .etTitle {
+   display: none;
+}
+
+.eTimer .etUnit .etNumber {
+    width: 43px !important;
+    font-family: 'Museo Sans 700' !important;
+    color: #000;
+    background: linear-gradient(to top, #fff 50%, #DEDEDE 50%, #F0F0F0 80%) !important;
+    font-size: 4.5em !important;
+    line-height: 1.2em !important;
+    padding: .2em .2em !important;
+    margin: .1em !important;
+    border-radius: .1em !important;
+    box-shadow: 0 .05em .1em rgba(0, 0, 0, .4);
+}
+
+.eTimer .etSep {
+    font-size: 3em;
+    padding: .5em .2em !important; 
+}
+
+.eTimer .etUnit .etSign {
+    color: #000;
+    text-align: center;
+    font-size: 1.6em !important;
+    margin: .6em 0 1.5em!important;
+    text-transform: capitalize;
+} 
 .eTimer-title {
     text-transform: uppercase;
 }
@@ -4602,13 +4602,6 @@ template {
         background: url(/img/link-login/link-login.png) center / contain no-repeat;
     }
 }
-.main {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
 .link-registration {
     color: #2b2a29;
     &::before {
@@ -4617,6 +4610,13 @@ template {
         bottom: -0.1em;
         background: url(/img/link-registration/link-registration.png) center / contain no-repeat;
     }
+}
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 .nav__link {
     color: #2b2a29;
@@ -4648,6 +4648,22 @@ template {
     width: 100%;
     height: 850px;
     background: url(/img/prizes/prizes__content.png) center bottom / cover no-repeat;
+}
+.table-winners {
+    width: 100%;
+    text-align: center;
+    border-spacing: 0;
+    td, th {
+        padding: .8em 0;
+        color: #2b2a29;
+        font-family: "Museo Sans 500";
+    }
+    td {
+        border-bottom: 2px solid #b0b0b0;
+    }
+}
+.table-winners__title {
+    background-color: #fdd832;
 }
 .rules {
     width: 100%;
@@ -4713,22 +4729,6 @@ template {
     font-size: 3.8em;
     font-weight: lighter;
     margin-bottom: 2.5em;
-}
-.table-winners {
-    width: 100%;
-    text-align: center;
-    border-spacing: 0;
-    td, th {
-        padding: .8em 0;
-        color: #2b2a29;
-        font-family: "Museo Sans 500";
-    }
-    td {
-        border-bottom: 2px solid #b0b0b0;
-    }
-}
-.table-winners__title {
-    background-color: #fdd832;
 }
 .text-offers {
     font-size: 2.7em;
