@@ -4097,41 +4097,6 @@ template {
 .app-store {
     background: url(/img/app-store/app-store.png) center / contain no-repeat;
 }
-.eTimer {
-   width: 540px;
-   text-align: left;
-   font-family: 'Museo Sans 500' !important;
-}
-
-.eTimer .etTitle {
-   display: none;
-}
-
-.eTimer .etUnit .etNumber {
-    width: 43px !important;
-    font-family: 'Museo Sans 700' !important;
-    color: #000;
-    background: linear-gradient(to top, #fff 50%, #DEDEDE 50%, #F0F0F0 80%) !important;
-    font-size: 4.5em !important;
-    line-height: 1.2em !important;
-    padding: .2em .2em !important;
-    margin: .1em !important;
-    border-radius: .1em !important;
-    box-shadow: 0 .05em .1em rgba(0, 0, 0, .4);
-}
-
-.eTimer .etSep {
-    font-size: 3em;
-    padding: .5em .2em !important; 
-}
-
-.eTimer .etUnit .etSign {
-    color: #000;
-    text-align: center;
-    font-size: 1.6em !important;
-    margin: .6em 0 1.5em!important;
-    text-transform: capitalize;
-} 
 .btn {
     text-transform: uppercase;
     font-size: 2rem;
@@ -4139,18 +4104,31 @@ template {
     letter-spacing: 0.03em;
     padding: .8em 1.7em;
     border-radius: 2em;
+    transition: all .2s;
 }
 .btn_bg-color_orange {
     background-color: #e0662f;
+    &:hover {
+        box-shadow: 0 0 .5em rgba(#e0662f, .5);
+    }
 }
 .btn_text-color_white {
     color: #fff;
+    &:hover {
+        text-shadow: 0 0 .5em rgba(#fff, 1);
+    }
 }
 .btn__bg-color__white {
     background-color: #fff;
+    &:hover {
+        box-shadow: 0 0 .5em rgba(#fff, 1);
+    }
 }
 .btn__text-color__purple {
     color: #4f009f;
+    &:hover {
+        text-shadow: 0 0 .5em rgba(#4f009f, .25);
+    }
 }
 .client-banner {
     width: 100%;
@@ -4199,7 +4177,7 @@ template {
     position: absolute;
     z-index: 1;
     left: 0;
-    top: 55%;
+    top: 54%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -4207,8 +4185,8 @@ template {
 }
 .client-banner__download-widget__item {
     width: 100%;
-    height: 43px;
-    margin-bottom: 1em;
+    height: 60px;
+    margin-bottom: .7em;
 }
 .client-banner__download-widget__title {
     letter-spacing: 0.01em;
@@ -4233,6 +4211,165 @@ template {
     justify-content: flex-start;
     width: 48%;
 }
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+.eTimer {
+   width: 540px;
+   text-align: left;
+   font-family: 'Museo Sans 500' !important;
+}
+
+.eTimer .etTitle {
+   display: none;
+}
+
+.eTimer .etUnit .etNumber {
+    width: 43px !important;
+    font-family: 'Museo Sans 700' !important;
+    color: #000;
+    background: linear-gradient(to top, #fff 50%, #DEDEDE 50%, #F0F0F0 80%) !important;
+    font-size: 4.5em !important;
+    line-height: 1.2em !important;
+    padding: .2em .2em !important;
+    margin: .1em !important;
+    border-radius: .1em !important;
+    box-shadow: 0 .05em .1em rgba(0, 0, 0, .4);
+}
+
+.eTimer .etSep {
+    font-size: 3em;
+    padding: .5em .2em !important; 
+}
+
+.eTimer .etUnit .etSign {
+    color: #000;
+    text-align: center;
+    font-size: 1.6em !important;
+    margin: .6em 0 1.5em!important;
+    text-transform: capitalize;
+} 
+.client-download-app {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: url(/img/client-download-app/client-download-app.png) center bottom / cover no-repeat;
+}
+.client-download-app__container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 100%;
+    padding-top: 10em;
+}
+.client-download-app__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 60%;
+}
+.client-download-app__content__inner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    font-size: 9em;
+    margin-bottom: 0.5em;
+}
+.client-download-app__jackpot {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.client-download-app__jackpot__img {
+    width: 400px;
+}
+.client-download-app__jackpot__text {
+    color: #ff0000;
+    font-family: "RussoOne";
+}
+.client-download-app__jackpot__text_size_s {
+    font-size: .5em;
+}
+
+.client-download-app__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: .5em;
+}
+.client-download-app__links__item {
+    width: 300px;
+    height: 100px;
+    margin-bottom: 0.2em;
+}
+.client-download-app__phone {
+    width: 30%;
+}
+.client-download-app__timer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 5rem;
+    .eTimer {
+        width: 540px;
+        text-align: left;
+        font-family: 'Museo Sans 500' !important;
+     }
+     
+     .eTimer .etTitle {
+        display: none;
+     }
+     
+     .eTimer .etUnit .etNumber {
+         width: 43px !important;
+         font-family: 'Museo Sans 700' !important;
+         color: #000;
+         background: linear-gradient(to top, #fff 50%, #DEDEDE 50%, #F0F0F0 80%) !important;
+         font-size: 4.5em !important;
+         line-height: 1.2em !important;
+         padding: .2em .2em !important;
+         margin: .1em !important;
+         border-radius: .1em !important;
+         box-shadow: 0 .05em .1em rgba(0, 0, 0, .4);
+     }
+     
+     .eTimer .etSep {
+         font-size: 3em;
+         padding: .5em .2em !important; 
+     }
+     
+     .eTimer .etUnit .etSign {
+         color: #000;
+         text-align: center;
+         font-size: 1.6em !important;
+         margin: .6em 0 1.5em!important;
+         text-transform: capitalize;
+     } 
+}
+.client-download-app__timer__text {
+    font-size: 2.7em;
+    margin: 1em 1em 0 0;
+}
+.client-download-app__title {
+    color: #7e01fc;
+    font-size: 7.7em;
+    font-family: "Museo Sans 900";
+    text-transform: uppercase;
+    margin-bottom: .7em;
+}
+.client-download-app__title_size_s {
+    font-size: .65em;
+}
+.client-download-app__title_text-color_black {
+    color: #000;
+}
 .eTimer-title {
     text-transform: uppercase;
 }
@@ -4246,9 +4383,19 @@ template {
     letter-spacing: 0.02em;
     margin-bottom: 1.3em;
 }   
-.container {
-    width: 1600px;
-    margin: 0 auto;
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(to bottom, #5500aa, #7e01fc);
+}
+.footer__container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 4em 0;
 }
 .form-winners {
     width: 50%;
@@ -4329,6 +4476,23 @@ template {
 .frequent-requests__answer_active {
     padding: 1em 4.5em 1em 4.5em;
     height: initial;
+}
+.frequent-requests__btn {
+    border: none;
+    border-radius: 10px;
+    background-color: #7e01fc;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    padding: 0.6em 1.2em;
+    margin-top: 3em;
+    cursor: pointer;   
+    font-family: "Museo Sans 500";
+    transition: all .2s;
+    &:hover {
+        box-shadow: 0 0 .5em rgba(#7e01fc, .5);
+        text-shadow: 0 0 .5em rgba(#fff, 1);
+    }
 }
 .frequent-requests__container {
     display: flex;
@@ -4438,6 +4602,13 @@ template {
         background: url(/img/link-login/link-login.png) center / contain no-repeat;
     }
 }
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
 .link-registration {
     color: #2b2a29;
     &::before {
@@ -4446,13 +4617,6 @@ template {
         bottom: -0.1em;
         background: url(/img/link-registration/link-registration.png) center / contain no-repeat;
     }
-}
-.main {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
 }
 .nav__link {
     color: #2b2a29;
@@ -4464,6 +4628,14 @@ template {
         color: #fff;
         background-color: #7e01fc;
     }
+}
+.our-partners {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 700px;
 }
 .prizes {
     width: 100%;

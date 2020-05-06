@@ -1,0 +1,17 @@
+.frequent-requests__btn {
+    border: none;
+    border-radius: 10px;
+    background-color: #7e01fc;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    padding: 0.6em 1.2em;
+    margin-top: 3em;
+    cursor: pointer;   
+    font-family: "Museo Sans 500";
+    transition: all .2s;
+    &:hover {
+        box-shadow: 0 0 .5em rgba(#7e01fc, .5);
+        text-shadow: 0 0 .5em rgba(#fff, 1);
+    }
+}

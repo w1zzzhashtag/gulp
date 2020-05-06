@@ -1,3 +1,6 @@
 .btn__text-color__purple {
     color: #4f009f;
+    &:hover {
+        text-shadow: 0 0 .5em rgba(#4f009f, .25);
+    }
 }

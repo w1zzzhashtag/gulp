@@ -1,3 +1,6 @@
 .btn_bg-color_orange {
     background-color: #e0662f;
+    &:hover {
+        box-shadow: 0 0 .5em rgba(#e0662f, .5);
+    }
 }
