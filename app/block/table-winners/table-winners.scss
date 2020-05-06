@@ -1,0 +1,13 @@
+.table-winners {
+    width: 100%;
+    text-align: center;
+    border-spacing: 0;
+    td, th {
+        padding: .8em 0;
+        color: #2b2a29;
+        font-family: "Museo Sans 500";
+    }
+    td {
+        border-bottom: 2px solid #b0b0b0;
+    }
+}

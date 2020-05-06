@@ -3013,9 +3013,25 @@ template {
   margin: 0.6em 0 1.5em !important;
   text-transform: capitalize; }
 
-.container {
-  width: 1600px;
-  margin: 0 auto; }
+.btn {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: "RussoOne";
+  letter-spacing: 0.03em;
+  padding: .8em 1.7em;
+  border-radius: 2em; }
+
+.btn_bg-color_orange {
+  background-color: #e0662f; }
+
+.btn_text-color_white {
+  color: #fff; }
+
+.btn__bg-color__white {
+  background-color: #fff; }
+
+.btn__text-color__purple {
+  color: #4f009f; }
 
 .client-banner {
   width: 100%;
@@ -3110,25 +3126,129 @@ template {
   letter-spacing: 0.02em;
   margin-bottom: 1.3em; }
 
-.btn {
-  text-transform: uppercase;
-  font-size: 2rem;
+.container {
+  width: 1600px;
+  margin: 0 auto; }
+
+.form-winners {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .form-winners input[type="date"] {
+    border: none;
+    outline-color: #7e01fc;
+    padding: .4em .4em .4em 3em;
+    position: relative; }
+  .form-winners input[type="date"]::-webkit-datetime-edit-text {
+    padding: 0 0.1em; }
+  .form-winners input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url(/img/form-winners/form-winners__date.png) center/contain no-repeat;
+    width: 1.3em;
+    height: 1em;
+    cursor: pointer;
+    position: absolute;
+    left: .4em; }
+  .form-winners input[type="date"]::-webkit-inner-spin-button {
+    display: none; }
+  .form-winners input[type="date"]::-webkit-clear-button {
+    display: none; }
+
+.form-winners__search {
+  font-size: .8em;
+  position: relative; }
+  .form-winners__search input[type="tel"] {
+    border: none;
+    border-radius: 5px;
+    border: 3px solid #7e01fc;
+    width: 350px;
+    padding: .8em .8em .8em 3em;
+    font-style: italic;
+    color: #000000;
+    font-family: "Museo Sans 300";
+    outline: none; }
+  .form-winners__search input[type="submit"] {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    left: 0.5em;
+    top: 0;
+    width: 2em;
+    height: 100%;
+    background: url(/img/form-winners/form-winners__search.png) center/contain no-repeat; }
+
+.frequent-requests {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: url(/img/frequent-requests/frequent-requests.png) center bottom 3em/95% auto no-repeat, linear-gradient(to bottom, #ffc600, #ffe400); }
+
+.frequent-requests__answer {
+  width: 100%;
+  background-color: #fff;
+  padding: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all .2s; }
+
+.frequent-requests__answer_active {
+  padding: 1em 4.5em 1em 4.5em;
+  height: initial; }
+
+.frequent-requests__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 2em;
+  padding: 2em 0 4em; }
+
+.frequent-requests__item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start; }
+
+.frequent-requests__question {
+  width: 100%;
+  font-size: 1.5em;
+  letter-spacing: .04em;
+  color: #000000;
   font-family: "RussoOne";
-  letter-spacing: 0.03em;
-  padding: .8em 1.7em;
-  border-radius: 2em; }
+  padding: .7em .7em .7em 3em;
+  border-bottom: 3px solid #7e01fc;
+  cursor: pointer;
+  position: relative; }
+  .frequent-requests__question::before {
+    content: '';
+    position: absolute;
+    left: 0.5em;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1em;
+    height: 0.1em;
+    background-color: #7e01fc; }
+  .frequent-requests__question::after {
+    content: '';
+    position: absolute;
+    left: 1em;
+    top: 50%;
+    transform: translateY(-50%);
+    width: .1em;
+    height: 1em;
+    background-color: #7e01fc;
+    transition: all .2s; }
 
-.btn_bg-color_orange {
-  background-color: #e0662f; }
-
-.btn_text-color_white {
-  color: #fff; }
-
-.btn__bg-color__white {
-  background-color: #fff; }
-
-.btn__text-color__purple {
-  color: #4f009f; }
+.frequent-requests__question_active::after {
+  transform: translateY(-50%) rotate(90deg);
+  opacity: 0; }
 
 .google-play {
   background: url(/img/google-play/google-play.png) center/contain no-repeat; }
@@ -3283,6 +3403,20 @@ template {
   font-weight: lighter;
   margin-bottom: 2.5em; }
 
+.table-winners {
+  width: 100%;
+  text-align: center;
+  border-spacing: 0; }
+  .table-winners td, .table-winners th {
+    padding: .8em 0;
+    color: #2b2a29;
+    font-family: "Museo Sans 500"; }
+  .table-winners td {
+    border-bottom: 2px solid #b0b0b0; }
+
+.table-winners__title {
+  background-color: #fdd832; }
+
 .text-offers {
   font-size: 2.7em;
   margin-bottom: 3em;
@@ -3337,3 +3471,81 @@ template {
   background-color: #7e01fc;
   letter-spacing: 0.1em;
   clip-path: polygon(5% 0, 100% 0, 95% 100%, 0 100%); }
+
+.winners {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; }
+
+.winners__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 6em 0 8em; }
+
+.winners__content {
+  width: 90%;
+  font-size: 1.8em;
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.2);
+  padding: 2em 3em;
+  border-radius: 10px;
+  margin-bottom: 3em; }
+
+.winners__header {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.8em;
+  padding: 1.3em 6em;
+  border-radius: 10px;
+  box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.2);
+  margin-bottom: 1em; }
+
+.winners__header__btn {
+  cursor: pointer;
+  font-family: "Museo Sans 700";
+  border: none;
+  color: #2b2a29;
+  background-color: transparent;
+  text-transform: lowercase;
+  letter-spacing: .01em;
+  transition: color .2s; }
+  .winners__header__btn:hover {
+    color: #7e01fc; }
+
+.winners__header__btn_wrap {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.winners__paginations {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.winners__paginations__item {
+  border: 3px solid #7e01fc;
+  color: #7e01fc;
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 2.4em;
+  width: 1.7em;
+  height: 1.7em;
+  margin: 0 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  transition: all .2s; }
+  .winners__paginations__item:hover {
+    background-color: #7e01fc;
+    color: #fff; }
+
+.winners__paginations__item_active {
+  background-color: #7e01fc !important;
+  color: #fff !important; }

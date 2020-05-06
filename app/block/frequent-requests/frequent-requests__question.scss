@@ -1,0 +1,32 @@
+.frequent-requests__question {
+    width: 100%;
+    font-size: 1.5em;
+    letter-spacing: .04em;
+    color: #000000;
+    font-family: "RussoOne";
+    padding: .7em .7em .7em 3em;
+    border-bottom: 3px solid #7e01fc;
+    cursor: pointer;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0.5em;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 1em;
+        height: 0.1em;
+        background-color: #7e01fc;
+    }
+    &::after {
+        content: '';
+        position: absolute;
+        left: 1em;
+        top: 50%;
+        transform: translateY(-50%);
+        width: .1em;
+        height: 1em;
+        background-color: #7e01fc;
+        transition: all .2s;
+    }
+}

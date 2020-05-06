@@ -1,0 +1,6 @@
+.frequent-requests__question_active {
+    &::after {
+        transform: translateY(-50%) rotate(90deg);
+        opacity: 0;
+    }
+}

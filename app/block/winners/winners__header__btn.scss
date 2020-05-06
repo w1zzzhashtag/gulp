@@ -1,0 +1,13 @@
+.winners__header__btn {
+    cursor: pointer;
+    font-family: "Museo Sans 700";
+    border: none;
+    color: #2b2a29;
+    background-color: transparent;
+    text-transform: lowercase;
+    letter-spacing: .01em;
+    transition: color .2s;
+    &:hover {
+        color: #7e01fc;
+    }
+}
