@@ -85,7 +85,7 @@ gulp.task('libs', function() {
 });
 
 gulp.task('docs', function() {
-    return gulp.src('app/docs/*/*')
+    return gulp.src('app/docs/**/*')
     .pipe(gulp.dest('dist/docs'))
 });
 

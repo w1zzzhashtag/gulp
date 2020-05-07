@@ -1,5 +1,6 @@
 *, *::before, *::after {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
 
 ul[class],
 ol[class] {
@@ -33,7 +34,6 @@ html {
 body {
   width: 100vw;
   min-height: 100vh;
-  scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.2;
   color: #000;
@@ -41,7 +41,8 @@ body {
   font-family: "Museo Sans 700"; }
 
 section {
-  max-width: 1920px; }
+  max-width: 1920px;
+  overflow: hidden; }
 
 ::selection {
   color: #7e01fc;

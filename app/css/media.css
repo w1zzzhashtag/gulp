@@ -1,0 +1,501 @@
+@media (max-width: 1750px) {
+  .container {
+    width: 1300px; }
+  .title_text {
+    font-size: 3.5em; }
+  .header {
+    height: 8em; }
+    .header__nav {
+      padding: 0 1.5em;
+      font-size: 1.5em; }
+    .header__link {
+      font-size: 1.2em;
+      padding-right: 2.4em; }
+  .frequent-requests {
+    background: url(/img/frequent-requests/frequent-requests.png) center bottom 2.5em/95% auto no-repeat, linear-gradient(to bottom, #ffc600, #ffe400); }
+    .frequent-requests__container {
+      font-size: 1.8em; }
+    .frequent-requests__btn {
+      font-size: 1.15em; }
+  .our-partners {
+    height: 650px; }
+  .footer__container {
+    padding: 5.5em 0 3.5em; }
+  .footer__item {
+    height: 165px; }
+    .footer__item-left {
+      width: 24%; }
+    .footer__item-center {
+      width: 21.5%; }
+  .footer__tel {
+    font-size: 2.6em; }
+  .footer__mail {
+    font-size: 1.9em; }
+  .footer__docs {
+    font-size: 1.2em; }
+    .footer__docs__item {
+      width: 50%; }
+  .footer__download__title {
+    font-size: 1.3em; }
+  .footer__download__item {
+    width: 47%;
+    height: 40px; }
+  .footer__socials__item {
+    font-size: 1.6em;
+    width: 145px; }
+  .footer__agatech__text {
+    font-size: 1.2em;
+    margin-right: 1.2em; }
+  .footer__agatech__img {
+    width: 78px; } }
+
+@media (max-width: 1500px) {
+  .container {
+    width: 1150px; }
+  .title_text {
+    font-size: 3.15em; }
+  .header {
+    height: 7em; }
+    .header__nav {
+      padding: 0 1.4em;
+      font-size: 1.35em; }
+    .header__link {
+      font-size: 1.15em;
+      padding-right: 2.4em; }
+  .frequent-requests {
+    background: url(/img/frequent-requests/frequent-requests.png) center bottom 2.2em/95% auto no-repeat, linear-gradient(to bottom, #ffc600, #ffe400); }
+    .frequent-requests__container {
+      font-size: 1.65em; }
+    .frequent-requests__btn {
+      font-size: 1.1em; }
+  .our-partners {
+    height: 600px; }
+  .footer__container {
+    padding: 5em 0 3.1em; }
+  .footer__item {
+    height: 150px; }
+    .footer__item-left {
+      width: 22%; }
+    .footer__item-center {
+      width: 22.5%; }
+  .footer__tel {
+    font-size: 2.4em; }
+  .footer__mail {
+    font-size: 1.7em; }
+  .footer__docs {
+    font-size: 1.1em; }
+  .footer__download__title {
+    font-size: 1.2em; }
+  .footer__download__item {
+    width: 48%; }
+  .footer__socials__item {
+    font-size: 1.45em;
+    width: 130px; }
+  .footer__agatech__text {
+    font-size: 1.1em;
+    margin-right: 1em; }
+  .footer__agatech__img {
+    width: 70px; } }
+
+@media (max-width: 1300px) {
+  .container {
+    width: 1000px; }
+  .title_text {
+    font-size: 2.8em;
+    clip-path: polygon(4% 0, 100% 0, 96% 100%, 0 100%); }
+  .header {
+    height: 6em; }
+    .header__logo-wrap {
+      padding-top: 20px; }
+    .header__nav {
+      padding: 0 1.2em;
+      font-size: 1.2em; }
+    .header__link {
+      font-size: 1.05em;
+      padding-right: 2.3em;
+      padding-top: 20px; }
+  .frequent-requests {
+    background: url(/img/frequent-requests/frequent-requests.png) center bottom 2em/95% auto no-repeat, linear-gradient(to bottom, #ffc600, #ffe400); }
+    .frequent-requests__container {
+      font-size: 1.5em; }
+  .our-partners {
+    height: 500px; }
+  .footer__container {
+    padding: 4.5em 0 2.7em; }
+  .footer__item-center {
+    width: 24%; }
+  .footer__tel {
+    font-size: 2.2em; }
+  .footer__mail {
+    font-size: 1.5em; }
+  .footer__docs {
+    flex-direction: column;
+    font-size: 1.1em; }
+    .footer__docs__item {
+      width: 100%;
+      margin-bottom: .35em; }
+    .footer__docs__text {
+      margin-top: 1em; }
+  .footer__logo-wrap {
+    width: 90%;
+    transform: translateY(-2.5em); }
+  .footer__download__title {
+    font-size: 1.1em; }
+  .footer__download__item {
+    height: 35px; }
+  .footer__socials__item {
+    font-size: 1.35em;
+    width: 123px; }
+  .footer__agatech {
+    flex-direction: column-reverse;
+    align-items: flex-end; }
+    .footer__agatech__text {
+      font-size: 1.05em;
+      margin-right: 0em;
+      margin-top: .3em; }
+    .footer__agatech__img {
+      width: 65px; } }
+
+@media (max-width: 1100px) {
+  .container {
+    width: 800px; }
+  .title_text {
+    font-size: 2.5em;
+    clip-path: polygon(3% 0, 100% 0, 97% 100%, 0 100%); }
+  .header {
+    height: 5.5em;
+    position: relative; }
+    .header__logo-wrap {
+      padding-top: 0px;
+      height: 70%;
+      margin-right: 300px; }
+    .header__nav {
+      position: absolute;
+      top: 100%;
+      right: 0%;
+      transform: translateX(100%) scale(0);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      height: initial;
+      background-color: rgba(126, 1, 252, 0.9);
+      padding: 0;
+      width: 80%;
+      z-index: 99;
+      border-radius: 2em 1em;
+      font-size: 1.35em;
+      transition: all .4s; }
+      .header__nav_active {
+        transform: translateX(0%) scale(1); }
+    .header__link {
+      padding-top: 10px; }
+  .nav__link {
+    width: 100%;
+    padding: 1.5em 2.7em;
+    letter-spacing: .07em;
+    color: #fff;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+    .nav__link:first-child {
+      border-radius: 2em 1em 0 0; }
+    .nav__link:last-child {
+      border-radius: 0 0 2em 1em; }
+    .nav__link:hover {
+      background-color: #fff;
+      color: #000; }
+  .burger {
+    margin-top: 5px;
+    width: 35px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer; }
+    .burger__item {
+      width: 100%;
+      height: 4px;
+      background-color: #6c06f7;
+      transition: all .2s; }
+    .burger_active .burger__item-1 {
+      transform: rotate(135deg) translateY(-9px) translateX(4px); }
+    .burger_active .burger__item-2 {
+      transform: rotate(180deg);
+      opacity: 0; }
+    .burger_active .burger__item-3 {
+      transform: rotate(-135deg) translateY(10px) translateX(5px); }
+  .frequent-requests {
+    background: url(/img/frequent-requests/frequent-requests.png) center bottom 1.8em/95% auto no-repeat, linear-gradient(to bottom, #ffc600, #ffe400); }
+    .frequent-requests__container {
+      font-size: 1.4em; }
+  .our-partners {
+    height: 450px; }
+  .footer__container {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2.5em 0; }
+  .footer__item {
+    height: initial; }
+    .footer__item-left {
+      width: 40%;
+      order: 2;
+      height: 100px; }
+    .footer__item-center {
+      width: 100%;
+      order: 1;
+      margin-bottom: 3.5em;
+      flex-direction: row; }
+    .footer__item-right {
+      width: 40%;
+      order: 3;
+      height: 100px;
+      justify-content: flex-end; }
+  .footer__docs {
+    flex-direction: row;
+    font-size: 1.1em; }
+    .footer__docs__item {
+      width: 40%;
+      margin-bottom: 0em; }
+    .footer__docs__text {
+      margin-top: 1em; }
+  .footer__logo-wrap {
+    width: 27%;
+    align-self: center;
+    transform: translateY(0em); }
+  .footer__download {
+    width: 65%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; }
+    .footer__download__title {
+      font-size: 1.3em;
+      margin-bottom: 0rem;
+      text-align: right; }
+    .footer__download__items-wrap {
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+      width: 43%; }
+    .footer__download__item {
+      width: 100%;
+      height: 75px; }
+      .footer__download__item:first-child {
+        margin-bottom: .5em; }
+  .footer__socials {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center; }
+    .footer__socials__item {
+      width: 123px;
+      margin-bottom: 1em; }
+      .footer__socials__item:first-child {
+        margin-right: 2em; }
+  .footer__agatech {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%; }
+    .footer__agatech__text {
+      margin-right: 1em;
+      margin-top: 0em; }
+    .footer__agatech__img {
+      width: 65px; } }
+
+@media (max-width: 900px) {
+  .container {
+    width: 600px; }
+  .title_text {
+    font-size: 2.1em; }
+  .header {
+    height: 5em; }
+    .header__logo-wrap {
+      height: 75%;
+      margin-right: 100px; }
+  .frequent-requests {
+    background: url(/img/frequent-requests/frequent-requests.png) center bottom 1.6em/95% auto no-repeat, linear-gradient(to bottom, #ffc600, #ffe400); }
+    .frequent-requests__container {
+      font-size: 1.3em; }
+    .frequent-requests__question {
+      border-bottom: 2px solid #7e01fc; }
+    .frequent-requests__btn {
+      border-radius: 7px; }
+  .our-partners {
+    height: 400px; }
+  .footer__container {
+    padding: 2.3em 0; }
+  .footer__item {
+    height: initial; }
+    .footer__item-left {
+      width: 45%;
+      height: 115px; }
+    .footer__item-center {
+      margin-bottom: 3em; }
+    .footer__item-right {
+      width: 50%;
+      height: 115px; }
+  .footer__tel {
+    font-size: 2em; }
+  .footer__mail {
+    font-size: 1.3em; }
+  .footer__docs {
+    flex-direction: column; }
+    .footer__docs__item {
+      width: 100%; }
+    .footer__docs__text {
+      margin-top: 1em; }
+  .footer__logo-wrap {
+    width: 25%; }
+  .footer__download {
+    width: 65%; }
+    .footer__download__title {
+      font-size: 1.2em; }
+    .footer__download__items-wrap {
+      width: 30%; }
+    .footer__download__item {
+      height: 40px; }
+      .footer__download__item:first-child {
+        margin-bottom: .5em; }
+  .footer__socials__item {
+    font-size: 1.25em;
+    width: 114px; }
+  .footer__agatech__text {
+    margin-right: .7em; }
+  .footer__agatech__img {
+    width: 60px; } }
+
+@media (max-width: 700px) {
+  .container {
+    width: 425px; }
+  .title_text {
+    font-size: 1.8em;
+    clip-path: polygon(2% 0, 100% 0, 98% 100%, 0 100%); }
+  .header {
+    height: 9em; }
+    .header__container {
+      align-items: flex-start; }
+    .header__logo-wrap {
+      height: 3.7em;
+      margin-right: 0px;
+      margin-top: 1em; }
+    .header__nav {
+      width: 90%;
+      font-size: 1.3em; }
+    .header__link {
+      padding-top: 0px; }
+      .header__link_wrap {
+        position: absolute;
+        bottom: 1em;
+        left: 0;
+        width: 100%;
+        justify-content: center; }
+  .burger {
+    margin-top: 2em; }
+  .frequent-requests {
+    background: url(/img/frequent-requests/frequent-requests.png) center bottom 1.3em/95% auto no-repeat, linear-gradient(to bottom, #ffc600, #ffe400); }
+    .frequent-requests__container {
+      font-size: 1.2em; }
+    .frequent-requests__btn {
+      border-radius: 6px; }
+  .our-partners {
+    height: 350px; }
+  .footer__container {
+    padding: 2em 0;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center; }
+  .footer__item {
+    height: initial;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center; }
+    .footer__item-left {
+      width: initial;
+      height: initial;
+      margin-bottom: 3.5em; }
+    .footer__item-center {
+      margin-bottom: 3em;
+      flex-direction: column; }
+    .footer__item-right {
+      width: initial;
+      height: initial;
+      justify-content: center; }
+  .footer__contacts {
+    align-items: center; }
+  .footer__tel {
+    margin-bottom: .2em; }
+  .footer__mail {
+    margin-bottom: .6em; }
+  .footer__docs {
+    justify-content: flex-start;
+    align-items: center; }
+    .footer__docs__item {
+      margin-bottom: 0.3em; }
+    .footer__docs__text {
+      margin-top: .5em; }
+  .footer__logo-wrap {
+    width: 40%; }
+  .footer__download {
+    width: initial;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center; }
+    .footer__download__title {
+      margin: 1em 0;
+      text-align: center; }
+    .footer__download__items-wrap {
+      width: 50%; }
+    .footer__download__item {
+      height: 38px; }
+      .footer__download__item:first-child {
+        margin-bottom: .6em; } }
+
+@media (max-width: 500px) {
+  .container {
+    width: 305px; }
+  .title_text {
+    font-size: 1.5em;
+    padding: .4em .5em; }
+  .header__nav {
+    width: 95%;
+    border-radius: 1em .5em;
+    font-size: 1.2em; }
+  .frequent-requests {
+    background: url(/img/frequent-requests/frequent-requests.png) center bottom 1em/95% auto no-repeat, linear-gradient(to bottom, #ffc600, #ffe400); }
+    .frequent-requests__container {
+      font-size: 1.1em; }
+    .frequent-requests__question {
+      border-bottom: 1px solid #7e01fc; }
+    .frequent-requests__btn {
+      border-radius: 5px;
+      margin-top: 2em; }
+  .our-partners {
+    height: 300px; }
+  .footer__container {
+    padding: 1.5em 0; }
+  .footer__item-left {
+    margin-bottom: 3em; }
+  .footer__item-center {
+    margin-bottom: 2.5em; }
+  .footer__tel {
+    font-size: 1.8em; }
+  .footer__mail {
+    font-size: 1.2em; }
+  .footer__docs {
+    font-size: 1.05em; }
+  .footer__logo-wrap {
+    width: 45%; }
+  .footer__download__title {
+    font-size: 1.1em; }
+  .footer__download__items-wrap {
+    width: 50%; }
+  .footer__socials {
+    justify-content: center;
+    align-items: center; }
+    .footer__socials__item {
+      font-size: 1.15em;
+      width: 110px; }
+  .footer__agatech__text {
+    font-size: 1em; }
+  .footer__agatech__img {
+    width: 50px; } }

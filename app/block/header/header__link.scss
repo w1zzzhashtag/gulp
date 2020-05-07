@@ -13,4 +13,7 @@
     &:hover {
         text-decoration: underline;
     }
+    &:first-child {
+        margin-right: 1em;
+    }
 }
