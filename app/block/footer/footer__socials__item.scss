@@ -1,0 +1,18 @@
+.footer__socials__item {
+    font-family: "Museo Sans 300";
+    font-size: 1.8em;
+    width: 165px;
+    color: #fff;
+    letter-spacing: 0.025em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        right: 105%;
+        width: 1.6em;
+        height: 1.6em;
+    }
+}
