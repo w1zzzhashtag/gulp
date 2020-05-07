@@ -47,7 +47,72 @@
     font-size: 1.2em;
     margin-right: 1.2em; }
   .footer__agatech__img {
-    width: 78px; } }
+    width: 78px; }
+  .btn {
+    font-size: 1.9rem; }
+  .client-banner__container {
+    padding-top: 90px; }
+  .client-banner__download-img {
+    height: 640px; }
+  .client-banner__download-widget {
+    font-size: 1.25em; }
+    .client-banner__download-widget__item {
+      height: 55px; }
+  .client-banner__download-title {
+    font-size: 3.5em; }
+  .text-offers {
+    font-size: 2.5em; }
+  .eTimer-title_wrap {
+    width: 500px;
+    font-size: 1.7em; }
+  .eTimer {
+    width: 500px; }
+  .eTimer .etUnit .etNumber {
+    width: 40px !important;
+    font-size: 4.2em !important; }
+  .eTimer .etSep {
+    font-size: 2.8em; }
+  .eTimer .etUnit .etSign {
+    font-size: 1.5em !important; }
+  .rules__container {
+    padding: 10em 0; }
+  .rules__title {
+    font-size: 3.6em; }
+  .rules__content {
+    font-size: 2.2em;
+    margin-bottom: 9rem; }
+  .rules__item-img {
+    height: 190px; }
+  .rules__item-text__number {
+    font-size: 3.5em; }
+  .prizes__content {
+    height: 700px; }
+  .client-download-app__container {
+    padding-top: 9em; }
+  .client-download-app__content__inner {
+    font-size: 8em; }
+  .client-download-app__title {
+    font-size: 6.9em; }
+  .client-download-app__jackpot__img {
+    width: 350px; }
+  .client-download-app__links__item {
+    width: 270px;
+    height: 90px; }
+  .client-download-app__timer {
+    flex-direction: column;
+    margin-bottom: 4.5rem; }
+    .client-download-app__timer .eTimer {
+      width: 500px; }
+    .client-download-app__timer .eTimer .etUnit .etNumber {
+      width: 40px !important;
+      font-size: 4.2em !important; }
+    .client-download-app__timer .eTimer .etSep {
+      font-size: 2.8em; }
+    .client-download-app__timer .eTimer .etUnit .etSign {
+      font-size: 1.5em !important; }
+    .client-download-app__timer__text {
+      font-size: 2.5em;
+      margin: 0 0 .6em 0; } }
 
 @media (max-width: 1500px) {
   .container {

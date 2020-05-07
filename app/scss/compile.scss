@@ -4097,6 +4097,12 @@ template {
 .app-store {
     background: url(/img/app-store/app-store.png) center / contain no-repeat;
 }
+.burger {
+    display: none;
+}
+.burger__item {
+
+}
 .btn {
     text-transform: uppercase;
     font-size: 2rem;
@@ -4129,12 +4135,6 @@ template {
     &:hover {
         text-shadow: 0 0 .5em rgba(#4f009f, .25);
     }
-}
-.burger {
-    display: none;
-}
-.burger__item {
-
 }
 .client-banner {
     width: 100%;
@@ -4263,7 +4263,6 @@ template {
 .client-download-app__jackpot__text_size_s {
     font-size: .5em;
 }
-
 .client-download-app__links {
     display: flex;
     flex-direction: column;
@@ -4389,6 +4388,66 @@ template {
     letter-spacing: 0.02em;
     margin-bottom: 1.3em;
 }   
+.form-winners {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    input[type="date"] {
+        border: none;
+        outline-color: #7e01fc;
+        padding: .4em .4em .4em 3em;
+        position: relative;
+    }
+    input[type="date"]::-webkit-datetime-edit-text { 
+        padding: 0 0.1em; 
+    }
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        color: rgba(0, 0, 0, 0);
+        opacity: 1;
+        display: block;
+        background: url(/img/form-winners/form-winners__date.png) center / contain no-repeat;
+        width: 1.3em;
+        height: 1em;
+        cursor: pointer;
+        position: absolute;
+        left: .4em;
+    }
+    input[type="date"]::-webkit-inner-spin-button { 
+        display: none;
+    }
+    input[type="date"]::-webkit-clear-button {
+        display: none;
+    }
+}
+
+.form-winners__search {
+    font-size: .8em;
+    position: relative;
+    input[type="tel"] {
+        border: none;
+        border-radius: 5px;
+        border: 3px solid #7e01fc;
+        width: 350px;
+        padding: .8em .8em .8em 3em;
+        font-style: italic;
+        color: #000000;
+        font-family: "Museo Sans 300";
+        outline: none;
+        
+    }
+    input[type="submit"] {
+        border: none;
+        background-color:transparent;
+        cursor: pointer;
+        position: absolute;
+        left: 0.5em;
+        top: 0;
+        width: 2em;
+        height: 100%;
+        background: url(/img/form-winners/form-winners__search.png) center / contain no-repeat;
+    }
+}
 .footer {
     width: 100%;
     display: flex;
@@ -4523,66 +4582,6 @@ template {
     letter-spacing: .025em;
     margin-bottom: .1em;
 }
-.form-winners {
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    input[type="date"] {
-        border: none;
-        outline-color: #7e01fc;
-        padding: .4em .4em .4em 3em;
-        position: relative;
-    }
-    input[type="date"]::-webkit-datetime-edit-text { 
-        padding: 0 0.1em; 
-    }
-    input[type="date"]::-webkit-calendar-picker-indicator {
-        color: rgba(0, 0, 0, 0);
-        opacity: 1;
-        display: block;
-        background: url(/img/form-winners/form-winners__date.png) center / contain no-repeat;
-        width: 1.3em;
-        height: 1em;
-        cursor: pointer;
-        position: absolute;
-        left: .4em;
-    }
-    input[type="date"]::-webkit-inner-spin-button { 
-        display: none;
-    }
-    input[type="date"]::-webkit-clear-button {
-        display: none;
-    }
-}
-
-.form-winners__search {
-    font-size: .8em;
-    position: relative;
-    input[type="tel"] {
-        border: none;
-        border-radius: 5px;
-        border: 3px solid #7e01fc;
-        width: 350px;
-        padding: .8em .8em .8em 3em;
-        font-style: italic;
-        color: #000000;
-        font-family: "Museo Sans 300";
-        outline: none;
-        
-    }
-    input[type="submit"] {
-        border: none;
-        background-color:transparent;
-        cursor: pointer;
-        position: absolute;
-        left: 0.5em;
-        top: 0;
-        width: 2em;
-        height: 100%;
-        background: url(/img/form-winners/form-winners__search.png) center / contain no-repeat;
-    }
-}
 .frequent-requests {
     width: 100%;
     display: flex;
@@ -4673,9 +4672,6 @@ template {
         opacity: 0;
     }
 }
-.google-play {
-    background: url(/img/google-play/google-play.png) center / contain no-repeat;
-}
 .header {
     width: 100%;
     height: 8.5em;
@@ -4727,9 +4723,21 @@ template {
     font-size: 1.8em;
     padding: 0 2em;
 }
+.google-play {
+    background: url(/img/google-play/google-play.png) center / contain no-repeat;
+}
 .instagram {
     &::before {
         background: url(/img/instagram/instagram.png) center / contain no-repeat;
+    }
+}
+.link-login {
+    color: #7e01fc;
+    &::before {
+        height: 1.8em;
+        width: 2em;
+        bottom: -0.1em;
+        background: url(/img/link-login/link-login.png) center / contain no-repeat;
     }
 }
 .link-registration {
@@ -4741,14 +4749,13 @@ template {
         background: url(/img/link-registration/link-registration.png) center / contain no-repeat;
     }
 }
-.link-login {
-    color: #7e01fc;
-    &::before {
-        height: 1.8em;
-        width: 2em;
-        bottom: -0.1em;
-        background: url(/img/link-login/link-login.png) center / contain no-repeat;
-    }
+.our-partners {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 700px;
 }
 .main {
     width: 100%;
@@ -4767,14 +4774,6 @@ template {
         color: #fff;
         background-color: #7e01fc;
     }
-}
-.our-partners {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    height: 700px;
 }
 .prizes {
     width: 100%;
@@ -4836,7 +4835,6 @@ template {
     text-transform: uppercase;
 }
 .rules__item-text__number {
-    
     font-size: 3.5em;
     line-height: 1em;
     color: #ffea00;
