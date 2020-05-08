@@ -87,6 +87,16 @@
     font-size: 3.5em; }
   .prizes__content {
     height: 700px; }
+  .winners__container {
+    padding: 5.5em 0 7em; }
+  .winners__header {
+    font-size: 1.7em; }
+  .winners__content {
+    font-size: 1.7em; }
+  .winners__paginations__item {
+    font-size: 2.3em; }
+  .form-winners__search input[type="tel"] {
+    width: 320px; }
   .client-download-app__container {
     padding-top: 9em; }
   .client-download-app__content__inner {
@@ -160,7 +170,77 @@
     font-size: 1.1em;
     margin-right: 1em; }
   .footer__agatech__img {
-    width: 70px; } }
+    width: 70px; }
+  .btn {
+    font-size: 1.8rem; }
+  .client-banner__container {
+    padding-top: 80px; }
+  .client-banner__download-img {
+    transform: rotate(4deg) translateY(-0.6em);
+    height: 580px; }
+  .client-banner__download-widget {
+    font-size: 1.2em; }
+    .client-banner__download-widget__item {
+      height: 52px; }
+  .client-banner__download-title {
+    font-size: 3em; }
+  .text-offers {
+    font-size: 2.35em; }
+  .eTimer-title_wrap {
+    width: 460px;
+    font-size: 1.6em; }
+  .eTimer {
+    width: 460px; }
+  .eTimer .etUnit .etNumber {
+    width: 35px !important;
+    font-size: 3.8em !important; }
+  .eTimer .etSep {
+    font-size: 2.4em;
+    padding: .4em .2em !important; }
+  .eTimer .etUnit .etSign {
+    font-size: 1.4em !important; }
+  .rules__container {
+    padding: 9em 0; }
+  .rules__title {
+    font-size: 3.4em; }
+  .rules__content {
+    font-size: 2em;
+    margin-bottom: 8rem; }
+  .rules__item-img {
+    height: 170px; }
+  .rules__item-1 {
+    background: url(/img/rules/rules__item-1-bg.png) top right/150px auto no-repeat; }
+  .rules__item-2 {
+    background: url(/img/rules/rules__item-2-bg.png) top right/130px auto no-repeat; }
+  .rules__item-3 {
+    background: url(/img/rules/rules__item-3-bg.png) top right 125px/45px auto no-repeat; }
+  .prizes__content {
+    height: 630px; }
+  .winners__container {
+    padding: 5em 0 6.2em; }
+  .winners__header {
+    font-size: 1.6em; }
+  .winners__content {
+    font-size: 1.6em; }
+  .winners__paginations__item {
+    font-size: 2.2em; }
+  .form-winners__search input[type="tel"] {
+    width: 300px; }
+  .client-download-app__container {
+    padding-top: 8em; }
+  .client-download-app__content {
+    width: 65%; }
+    .client-download-app__content__inner {
+      font-size: 7em; }
+  .client-download-app__title {
+    font-size: 6.5em; }
+  .client-download-app__jackpot__img {
+    width: 300px; }
+  .client-download-app__links__item {
+    width: 250px;
+    height: 85px; }
+  .client-download-app__timer {
+    margin-bottom: 4rem; } }
 
 @media (max-width: 1300px) {
   .container {
@@ -219,7 +299,86 @@
       margin-right: 0em;
       margin-top: .3em; }
     .footer__agatech__img {
-      width: 65px; } }
+      width: 65px; }
+  .btn {
+    font-size: 1.7rem; }
+  .client-banner__container {
+    padding-top: 70px; }
+  .client-banner__download-img {
+    height: 510px; }
+  .client-banner__download-widget {
+    font-size: 1.15em; }
+    .client-banner__download-widget__item {
+      height: 50px; }
+  .client-banner__download-title {
+    font-size: 2.6em; }
+  .text-offers {
+    font-size: 2em; }
+  .eTimer-title_wrap {
+    width: 420px;
+    font-size: 1.5em; }
+  .eTimer {
+    width: 420px; }
+  .eTimer .etUnit .etNumber {
+    width: 32px !important;
+    font-size: 3.5em !important; }
+  .eTimer .etSep {
+    font-size: 2.2em;
+    padding: .35em .2em !important; }
+  .eTimer .etUnit .etSign {
+    font-size: 1.35em !important; }
+  .rules__container {
+    padding: 8em 0; }
+  .rules__title {
+    font-size: 3.2em; }
+  .rules__content {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 7rem; }
+  .rules__item:last-child {
+    margin-top: 3em; }
+  .prizes__content {
+    height: 550px; }
+  .winners__container {
+    padding: 4.4em 0 5.6em; }
+  .winners__header {
+    font-size: 1.5em;
+    padding: 1.3em 3.5em; }
+  .winners__content {
+    font-size: 1.5em; }
+  .winners__paginations__item {
+    font-size: 2em; }
+  .form-winners {
+    width: 55%; }
+    .form-winners__search input[type="tel"] {
+      width: 280px; }
+  .client-download-app__container {
+    padding-top: 7em; }
+  .client-download-app__content {
+    width: 70%; }
+    .client-download-app__content__inner {
+      font-size: 6.5em; }
+  .client-download-app__title {
+    font-size: 6em; }
+  .client-download-app__jackpot__img {
+    width: 280px; }
+  .client-download-app__links__item {
+    width: 230px;
+    height: 80px; }
+  .client-download-app__timer {
+    margin-bottom: 3.5rem; }
+    .client-download-app__timer .eTimer {
+      width: 450px; }
+    .client-download-app__timer .eTimer .etUnit .etNumber {
+      width: 35px !important;
+      font-size: 3.8em !important; }
+    .client-download-app__timer .eTimer .etSep {
+      font-size: 2.6em;
+      padding: .65em .2em !important; }
+    .client-download-app__timer .eTimer .etUnit .etSign {
+      font-size: 1.4em !important; }
+    .client-download-app__timer__text {
+      font-size: 2.3em; } }
 
 @media (max-width: 1100px) {
   .container {
@@ -364,7 +523,113 @@
       margin-right: 1em;
       margin-top: 0em; }
     .footer__agatech__img {
-      width: 65px; } }
+      width: 65px; }
+  .btn {
+    font-size: 1.6rem; }
+  .client-banner {
+    background: url(/img/client-banner/client-banner.png) left 44% bottom -0.5em/cover no-repeat #fff; }
+    .client-banner__container {
+      padding-top: 60px; }
+    .client-banner__item {
+      width: 49%; }
+    .client-banner__download-img {
+      height: 450px; }
+    .client-banner__download-widget {
+      font-size: 1.1em;
+      top: 50%; }
+      .client-banner__download-widget__item {
+        height: 47px; }
+    .client-banner__download-title {
+      font-size: 2.25em; }
+  .text-offers {
+    font-size: 1.75em; }
+  .eTimer-title_wrap {
+    width: 350px;
+    font-size: 1.4em; }
+  .eTimer {
+    width: 350px; }
+  .eTimer .etUnit .etNumber {
+    width: 26px !important;
+    font-size: 2.8em !important;
+    padding: .2em .1em !important; }
+  .eTimer .etSep {
+    font-size: 1.6em;
+    padding: .15em .15em !important; }
+  .eTimer .etUnit .etSign {
+    font-size: 1.3em !important; }
+  .rules__container {
+    padding: 7em 0; }
+  .rules__title {
+    font-size: 3em; }
+  .rules__content {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 3rem; }
+  .rules__item {
+    margin-bottom: 3em; }
+    .rules__item:last-child {
+      margin-top: 0em; }
+  .prizes__content {
+    height: 450px; }
+  .winners__container {
+    padding: 4em 0 5em; }
+  .winners__header {
+    width: 100%;
+    font-size: 1.4em;
+    padding: 1.3em 3em; }
+    .winners__header__btn_wrap {
+      width: 38%; }
+  .winners__content {
+    width: 100%;
+    font-size: 1.4em; }
+  .winners__paginations__item {
+    font-size: 1.8em; }
+  .form-winners {
+    width: 60%; }
+    .form-winners__search input[type="tel"] {
+      width: 265px; }
+  .client-download-app {
+    background: url(/img/client-download-app/client-download-app.png) center bottom 3em/100% auto no-repeat; }
+    .client-download-app__container {
+      justify-content: center;
+      align-items: center;
+      padding-top: 6em; }
+    .client-download-app__content {
+      justify-content: center;
+      align-items: center;
+      width: 100%; }
+      .client-download-app__content__inner {
+        justify-content: center;
+        align-items: center;
+        font-size: 6.3em; }
+    .client-download-app__title {
+      font-size: 5.8em;
+      text-align: center;
+      margin-bottom: .6em; }
+    .client-download-app__jackpot__img {
+      width: 260px; }
+    .client-download-app__links__item {
+      width: 210px;
+      height: 70px; }
+    .client-download-app__timer {
+      margin-bottom: 3rem; }
+      .client-download-app__timer .eTimer {
+        width: 400px; }
+      .client-download-app__timer .eTimer .etUnit .etNumber {
+        width: 32px !important;
+        font-size: 3.6em !important;
+        padding: .2em .1em !important; }
+      .client-download-app__timer .eTimer .etSep {
+        font-size: 2.4em;
+        padding: .6em .15em !important; }
+      .client-download-app__timer .eTimer .etUnit .etSign {
+        font-size: 1.35em !important; }
+      .client-download-app__timer__text {
+        font-size: 2.2em; }
+    .client-download-app__phone {
+      display: none; } }
 
 @media (max-width: 900px) {
   .container {
@@ -426,7 +691,104 @@
   .footer__agatech__text {
     margin-right: .7em; }
   .footer__agatech__img {
-    width: 60px; } }
+    width: 60px; }
+  .btn {
+    font-size: 1.5rem; }
+  .client-banner {
+    background: url(/img/client-banner/client-banner.png) left 10% bottom -6em/100% auto no-repeat #fff; }
+    .client-banner__container {
+      padding-top: 50px;
+      flex-direction: column-reverse;
+      justify-content: flex-start;
+      align-items: center; }
+    .client-banner__item {
+      width: 100%;
+      align-items: center; }
+    .client-banner__download {
+      justify-content: center;
+      align-items: center; }
+      .client-banner__download-img {
+        display: none; }
+      .client-banner__download-widget {
+        position: static;
+        border-radius: 15px; }
+      .client-banner__download-title {
+        padding: 1em 3em 1em 0; }
+        .client-banner__download-title::before {
+          bottom: .2em; }
+  .text-offers {
+    align-items: center;
+    font-size: 1.6em;
+    text-align: center;
+    margin-bottom: 2em; }
+    .text-offers__item {
+      display: none; }
+    .text-offers__subtitle {
+      display: none; }
+    .text-offers__title {
+      width: 65%; }
+  .rules__container {
+    padding: 6em 0; }
+  .rules__title {
+    font-size: 2.8em; }
+  .rules__content {
+    font-size: 1.8em; }
+  .rules__item-img {
+    height: 150px; }
+  .rules__item-1 {
+    background: url(/img/rules/rules__item-1-bg.png) top right/130px auto no-repeat; }
+  .rules__item-2 {
+    background: url(/img/rules/rules__item-2-bg.png) top right/110px auto no-repeat; }
+  .rules__item-3 {
+    background: url(/img/rules/rules__item-3-bg.png) top right 105px/40px auto no-repeat; }
+  .prizes__content {
+    height: 350px; }
+  .winners__container {
+    padding: 3.5em 0 4.5em; }
+  .winners__header {
+    flex-direction: column-reverse;
+    justify-content: flex-start; }
+    .winners__header__btn_wrap {
+      width: 100%;
+      justify-content: space-evenly; }
+  .winners__content {
+    width: 100%;
+    font-size: 1.3em; }
+  .winners__paginations__item {
+    border: 2px solid #7e01fc;
+    font-size: 1.6em; }
+  .form-winners {
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 1em; }
+  .client-download-app {
+    background: url(/img/client-download-app/client-download-app.png) center bottom 2.5em/100% auto no-repeat; }
+    .client-download-app__container {
+      padding-top: 5em; }
+    .client-download-app__content__inner {
+      font-size: 5.7em; }
+    .client-download-app__title {
+      font-size: 5.2em; }
+    .client-download-app__jackpot__img {
+      width: 240px; }
+    .client-download-app__links__item {
+      width: 190px;
+      height: 65px;
+      margin-bottom: 0.15em; }
+    .client-download-app__timer {
+      margin-bottom: 2.5rem; }
+      .client-download-app__timer .eTimer {
+        width: 370px; }
+      .client-download-app__timer .eTimer .etUnit .etNumber {
+        width: 29px !important;
+        font-size: 3.3em !important;
+        padding: .15em .1em !important; }
+      .client-download-app__timer .eTimer .etSep {
+        font-size: 2.2em; }
+      .client-download-app__timer .eTimer .etUnit .etSign {
+        font-size: 1.25em !important; }
+      .client-download-app__timer__text {
+        font-size: 2em; } }
 
 @media (max-width: 700px) {
   .container {
@@ -513,7 +875,88 @@
     .footer__download__item {
       height: 38px; }
       .footer__download__item:first-child {
-        margin-bottom: .6em; } }
+        margin-bottom: .6em; }
+  .btn {
+    font-size: 1.4rem; }
+  .client-banner__container {
+    padding-top: 30px; }
+  .client-banner__download-widget {
+    font-size: 1.05em; }
+    .client-banner__download-widget__item {
+      height: 43px; }
+  .client-banner__download-title {
+    font-size: 2em; }
+  .text-offers {
+    font-size: 1.3em; }
+  .eTimer-title_wrap {
+    width: 320px;
+    font-size: 1.3em;
+    margin-bottom: .7em; }
+  .eTimer {
+    width: 320px; }
+  .eTimer .etUnit .etNumber {
+    width: 24px !important;
+    font-size: 2.6em !important; }
+  .eTimer .etSep {
+    font-size: 2.5em !important;
+    padding: .3em .15em !important; }
+  .eTimer .etUnit .etSign {
+    font-size: 1.2em !important;
+    margin: 0.35em 0 1.5em !important; }
+  .rules__container {
+    padding: 5em 0; }
+  .rules__title {
+    font-size: 2.5em; }
+  .rules__content {
+    font-size: 1.6em; }
+  .rules__item-img {
+    height: 125px; }
+  .rules__item-1 {
+    background: url(/img/rules/rules__item-1-bg.png) top right/110px auto no-repeat; }
+  .rules__item-2 {
+    background: url(/img/rules/rules__item-2-bg.png) top right/90px auto no-repeat; }
+  .rules__item-3 {
+    background: url(/img/rules/rules__item-3-bg.png) top right 90px/40px auto no-repeat; }
+  .prizes__content {
+    height: 260px; }
+  .winners__container {
+    padding: 3em 0 4em; }
+  .winners__header {
+    font-size: 1.25em; }
+  .winners__content {
+    padding: 1.5em 2.3em;
+    font-size: 1.2em; }
+  .winners__paginations__item {
+    font-size: 1.4em; }
+  .form-winners__search input[type="tel"] {
+    width: 240px; }
+  .client-download-app {
+    background: url(/img/client-download-app/client-download-app.png) center bottom 2em/100% auto no-repeat; }
+    .client-download-app__container {
+      padding-top: 3em; }
+    .client-download-app__content__inner {
+      font-size: 4.5em; }
+    .client-download-app__title {
+      font-size: 3.7em; }
+    .client-download-app__jackpot__img {
+      width: 190px; }
+    .client-download-app__links__item {
+      width: 150px;
+      height: 50px; }
+    .client-download-app__timer {
+      margin-bottom: 2rem; }
+      .client-download-app__timer .eTimer {
+        width: 320px; }
+      .client-download-app__timer .eTimer .etUnit .etNumber {
+        width: 24px !important;
+        font-size: 2.8em !important; }
+      .client-download-app__timer .eTimer .etSep {
+        font-size: 2em !important; }
+      .client-download-app__timer .eTimer .etUnit .etSign {
+        font-size: 1.15em !important;
+        margin: 0.4em 0 1.5em !important; }
+      .client-download-app__timer__text {
+        font-size: 1.8em; } }
 
 @media (max-width: 500px) {
   .container {
@@ -563,4 +1006,73 @@
   .footer__agatech__text {
     font-size: 1em; }
   .footer__agatech__img {
-    width: 50px; } }
+    width: 50px; }
+  .btn {
+    font-size: 1.2rem; }
+  .client-banner__container {
+    padding-top: 15px; }
+  .client-banner__download-widget {
+    font-size: 1em; }
+    .client-banner__download-widget__item {
+      height: 42px; }
+  .client-banner__download-title {
+    font-size: 1.6em; }
+  .text-offers {
+    font-size: 1em; }
+    .text-offers__title {
+      width: 100%; }
+  .eTimer-title_wrap {
+    width: 305px;
+    font-size: 1.15em; }
+  .eTimer {
+    width: 305px; }
+  .rules__container {
+    padding: 3em 0; }
+  .rules__title {
+    font-size: 1.9em; }
+  .rules__content {
+    font-size: 1.3em; }
+  .rules__item-img {
+    height: 100px; }
+  .rules__item-1 {
+    background: url(/img/rules/rules__item-1-bg.png) top right/90px auto no-repeat; }
+  .rules__item-2 {
+    background: url(/img/rules/rules__item-2-bg.png) top right/70px auto no-repeat; }
+  .rules__item-3 {
+    background: url(/img/rules/rules__item-3-bg.png) top right 70px/35px auto no-repeat; }
+  .prizes__content {
+    height: 170px; }
+  .winners__container {
+    padding: 2em 0 3em; }
+  .winners__header {
+    font-size: 1.1em;
+    padding: 1.3em 2em; }
+  .winners__content {
+    padding: 1.2em;
+    font-size: .9em; }
+  .winners__paginations__item {
+    font-size: 1.2em; }
+  .form-winners__search input[type="tel"] {
+    width: 163px; }
+  .client-download-app {
+    background: url(/img/client-download-app/client-download-app.png) center bottom 15em/105% auto no-repeat; }
+    .client-download-app__container {
+      padding-top: 2em; }
+    .client-download-app__content__inner {
+      flex-direction: column-reverse;
+      justify-content: flex-start;
+      align-items: center;
+      font-size: 4em; }
+    .client-download-app__title {
+      font-size: 2.6em; }
+    .client-download-app__jackpot__img {
+      width: 170px; }
+    .client-download-app__links__item {
+      width: 130px;
+      height: 45px; }
+    .client-download-app__timer {
+      margin-bottom: 1.5rem; }
+      .client-download-app__timer .eTimer {
+        width: 305px; }
+      .client-download-app__timer__text {
+        font-size: 1.6em; } }
