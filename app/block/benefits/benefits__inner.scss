@@ -1,0 +1,13 @@
+.benefits__inner {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    border-radius: 1.2em;
+    box-shadow: 0 0 1em rgba(#000, .5);
+    background-color: #fff;
+    font-size: 2.4em;
+    padding: 1.8em 2.2em;
+    transform-style: preserve-3d;
+}

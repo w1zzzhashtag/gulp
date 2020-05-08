@@ -4094,9 +4094,6 @@ template {
   }
 }
 
-.app-store {
-    background: url(/img/app-store/app-store.png) center / contain no-repeat;
-}
 .btn {
     text-transform: uppercase;
     font-size: 2rem;
@@ -4110,6 +4107,30 @@ template {
     background-color: #e0662f;
     &:hover {
         box-shadow: 0 0 .5em rgba(#e0662f, .5);
+    }
+}
+.btn_bg-color_purple {
+    background-color: #7e01fc;
+    &:hover {
+        box-shadow: 0 0 .5em rgba(#7e01fc, .5);
+    }
+}
+.btn_border-color_orange {
+    border: 3px solid #fdd832;
+    &:hover {
+        box-shadow: 0 0 .5em rgba(#fdd832, .5) !important;
+    }
+}
+.btn_border-color_purple {
+    border: 3px solid #7e01fc;
+}
+.btn_margin_right {
+    margin-right: 2em;
+}
+.btn_text-color_black {
+    color: #000;
+    &:hover {
+        text-shadow: 0 0 .5em rgba(#000, .25);
     }
 }
 .btn_text-color_white {
@@ -4135,6 +4156,79 @@ template {
 }
 .burger__item {
 
+}
+.benefits {
+    position: absolute;
+    bottom: 4em;
+    right: 0;
+    width: 51%;
+}
+.benefits__association {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.benefits__association__img {
+    height: 60px;
+    transform: translateX(-1.3em) translateY(-.4em);
+}
+.benefits__association__number {
+    color: rgba(#7e01fc, .1);
+    font-size: 5em;
+    line-height: .7em;
+    font-family: "Museo Sans 900";
+    // transform: translateX(-.05em);
+}
+.benefits__desc {
+    color: #484747;
+    font-family: "Museo Sans 500";
+    font-size: 0.625em;
+}
+.benefits__inner {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    border-radius: 1.2em;
+    box-shadow: 0 0 1em rgba(#000, .5);
+    background-color: #fff;
+    font-size: 2.4em;
+    padding: 1.8em 2.2em;
+    transform-style: preserve-3d;
+}
+.benefits__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.benefits__man {
+    width: 700px;
+    position: absolute;
+    bottom: 85%;
+    right: 0;
+}
+.benefits__rays {
+    width: 100%;
+}
+.benefits__rays_wrap {
+    position: absolute;
+    bottom: .5em;
+    right: 0;
+    width: 1250px;
+    transform: translateZ(-1px);
+}
+.benefits__title {
+    font-family: "RussoOne";
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: #6e03da;
+    margin: 0.8em 0 .3em;
+}
+.app-store {
+    background: url(/img/app-store/app-store.png) center / contain no-repeat;
 }
 .client-banner {
     width: 100%;
@@ -4388,66 +4482,6 @@ template {
     letter-spacing: 0.02em;
     margin-bottom: 1.3em;
 }   
-.form-winners {
-    width: 50%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    input[type="date"] {
-        border: none;
-        outline-color: #7e01fc;
-        padding: .4em .4em .4em 3em;
-        position: relative;
-    }
-    input[type="date"]::-webkit-datetime-edit-text { 
-        padding: 0 0.1em; 
-    }
-    input[type="date"]::-webkit-calendar-picker-indicator {
-        color: rgba(0, 0, 0, 0);
-        opacity: 1;
-        display: block;
-        background: url(/img/form-winners/form-winners__date.png) center / contain no-repeat;
-        width: 1.3em;
-        height: 1em;
-        cursor: pointer;
-        position: absolute;
-        left: .4em;
-    }
-    input[type="date"]::-webkit-inner-spin-button { 
-        display: none;
-    }
-    input[type="date"]::-webkit-clear-button {
-        display: none;
-    }
-}
-
-.form-winners__search {
-    font-size: .8em;
-    position: relative;
-    input[type="tel"] {
-        border: none;
-        border-radius: 5px;
-        border: 3px solid #7e01fc;
-        width: 350px;
-        padding: .8em .8em .8em 3em;
-        font-style: italic;
-        color: #000000;
-        font-family: "Museo Sans 300";
-        outline: none;
-        
-    }
-    input[type="submit"] {
-        border: none;
-        background-color:transparent;
-        cursor: pointer;
-        position: absolute;
-        left: 0.5em;
-        top: 0;
-        width: 2em;
-        height: 100%;
-        background: url(/img/form-winners/form-winners__search.png) center / contain no-repeat;
-    }
-}
 .footer {
     width: 100%;
     display: flex;
@@ -4582,6 +4616,69 @@ template {
     letter-spacing: .025em;
     margin-bottom: .1em;
 }
+.form-winners {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    input[type="date"] {
+        border: none;
+        outline-color: #7e01fc;
+        padding: .4em .4em .4em 3em;
+        position: relative;
+    }
+    input[type="date"]::-webkit-datetime-edit-text { 
+        padding: 0 0.1em; 
+    }
+    input[type="date"]::-webkit-calendar-picker-indicator {
+        color: rgba(0, 0, 0, 0);
+        opacity: 1;
+        display: block;
+        background: url(/img/form-winners/form-winners__date.png) center / contain no-repeat;
+        width: 1.3em;
+        height: 1em;
+        cursor: pointer;
+        position: absolute;
+        left: .4em;
+    }
+    input[type="date"]::-webkit-inner-spin-button { 
+        display: none;
+    }
+    input[type="date"]::-webkit-clear-button {
+        display: none;
+    }
+}
+
+.form-winners__search {
+    font-size: .8em;
+    position: relative;
+    input[type="tel"] {
+        border: none;
+        border-radius: 5px;
+        border: 3px solid #7e01fc;
+        width: 350px;
+        padding: .8em .8em .8em 3em;
+        font-style: italic;
+        color: #000000;
+        font-family: "Museo Sans 300";
+        outline: none;
+        
+    }
+    input[type="submit"] {
+        border: none;
+        background-color:transparent;
+        cursor: pointer;
+        position: absolute;
+        left: 0.5em;
+        top: 0;
+        width: 2em;
+        height: 100%;
+        background: url(/img/form-winners/form-winners__search.png) center / contain no-repeat;
+    }
+}
+.google-play {
+    background: url(/img/google-play/google-play.png) center / contain no-repeat;
+}
 .frequent-requests {
     width: 100%;
     display: flex;
@@ -4671,9 +4768,6 @@ template {
         transform: translateY(-50%) rotate(90deg);
         opacity: 0;
     }
-}
-.google-play {
-    background: url(/img/google-play/google-play.png) center / contain no-repeat;
 }
 .header {
     width: 100%;
@@ -4774,6 +4868,205 @@ template {
     justify-content: flex-start;
     align-items: flex-start;
     height: 700px;
+}
+.one-of-us {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(to bottom, #51079B, #8917FB, #51079B);
+    position: relative;
+}
+.one-of-us__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 100px 0 250px 40px;
+}
+.one-of-us__content {
+    width: 48%;
+    background-color: #fff;
+    box-shadow:  0 0 3em rgba(#340662, .5);
+    font-size: 2.4em;
+    padding: 3.5em;
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.one-of-us__list-item-1 {
+    &::before {
+        background: url(/img/one-of-us/one-of-us__list-item-1.png) center / contain no-repeat;
+    }
+}
+.one-of-us__list-item-2 {
+    &::before {
+        background: url(/img/one-of-us/one-of-us__list-item-2.png) center / contain no-repeat;
+    }
+}
+.one-of-us__list-item-3 {
+    &::before {
+        background: url(/img/one-of-us/one-of-us__list-item-3.png) center / contain no-repeat;
+    }
+}
+.one-of-us__list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 4em;
+    position: relative;
+    margin-bottom: 1em;
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 3em;
+        height: 100%;
+    } 
+}
+.one-of-us__list-item__desc {
+    font-family: "Museo Sans 500";
+    color: #434242;
+    font-size: 0.625em;
+    line-height: 1.5em;
+}
+.one-of-us__list-item__title {
+    color: #181818;
+    text-transform: uppercase;
+    margin-bottom: 0.2em;
+    font-family: "Museo Sans 900";
+}
+.one-of-us__title {
+    font-size: 2em;
+    color: #7e01fc;
+    text-transform: uppercase;
+    margin-bottom: 0.8em;
+    font-family: "RussoOne";
+    letter-spacing: 0.05em;
+}
+.one-of-us__title_capitalize {
+    text-transform: capitalize;
+}
+.one-of-us__title_text-color_grey {
+    color: #434241;
+}
+.partner-banner {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: url(/img/partner-banner/partner-banner.png) center / 100% auto no-repeat;
+}
+.partner-banner__arrow-1 {
+    justify-content: flex-start;
+    align-items: center;
+    right: 90%;
+    white-space: nowrap;
+    transform: rotate(4deg);
+}
+.partner-banner__arrow-2 {
+    right: 50%;
+    white-space: nowrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    transform: rotate(-3deg);
+}
+.partner-banner__arrow {
+    position: absolute;
+    top: 115%;
+    display: flex;
+    flex-direction: column;
+    transition: all .2s;
+}
+.partner-banner__arrow__img-1 {
+    width: 35px;
+}
+.partner-banner__arrow__img-2 {
+    width: 60px;
+}
+.partner-banner__arrow__text {
+    font-family: "Museo Sans 700";
+    color: #000000;
+    font-size: 2.2em;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 0.3em;
+}
+.partner-banner__btn-wrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    &:hover {
+        .partner-banner__arrow-1 {
+            transform: rotate(4deg) translateY(-.3em);
+        }
+        .partner-banner__arrow-2 {
+            transform: rotate(-3deg) translateY(-.3em);
+        }
+    }
+}
+.partner-banner__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 130px 0 170px 80px;
+    position: relative;
+}
+.partner-banner__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.partner-banner__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 3.3em;
+    margin-bottom: 1em;
+}
+.partner-banner__list__item {
+    font-family: "Museo Sans 700";
+    color: #000;
+    margin-bottom: .8em;
+    padding-left: 1.7em;
+    letter-spacing: 0.03em;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 1em;
+        height: 1em;
+        background: url(/img/partner-banner/partner-banner__list__item.png) center / contain no-repeat;
+    }
+}
+.partner-banner__phone {
+    position: absolute;
+    bottom: 0;
+    right: -10%;
+}
+.partner-banner__title {
+    font-family: "RussoOne";
+    color: #7e01fc;
+    font-size: 8.6em;
+    line-height: 1.15em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.35em;
+}
+.partner-banner__title_color_black {
+    color: #434241;
+}
+.partner-banner__title_lowercase {
+    text-transform: capitalize;
 }
 .prizes {
     width: 100%;
@@ -4911,6 +5204,8 @@ template {
     background-color: #fcdb01;
     display: flex;
     justify-content: center;
+    position: relative;
+    z-index: 99;
 }
 .title_text {
     font-family: "RussoOne";

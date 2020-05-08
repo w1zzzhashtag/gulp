@@ -1,0 +1,16 @@
+.one-of-us__list-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 4em;
+    position: relative;
+    margin-bottom: 1em;
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 3em;
+        height: 100%;
+    } 
+}

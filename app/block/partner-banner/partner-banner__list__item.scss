@@ -1,0 +1,16 @@
+.partner-banner__list__item {
+    font-family: "Museo Sans 700";
+    color: #000;
+    margin-bottom: .8em;
+    padding-left: 1.7em;
+    letter-spacing: 0.03em;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 1em;
+        height: 1em;
+        background: url(/img/partner-banner/partner-banner__list__item.png) center / contain no-repeat;
+    }
+}

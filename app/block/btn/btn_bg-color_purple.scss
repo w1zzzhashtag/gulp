@@ -1,0 +1,6 @@
+.btn_bg-color_purple {
+    background-color: #7e01fc;
+    &:hover {
+        box-shadow: 0 0 .5em rgba(#7e01fc, .5);
+    }
+}

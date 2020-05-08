@@ -1,0 +1,6 @@
+.btn_border-color_orange {
+    border: 3px solid #fdd832;
+    &:hover {
+        box-shadow: 0 0 .5em rgba(#fdd832, .5) !important;
+    }
+}

@@ -1,0 +1,14 @@
+.partner-banner__btn-wrap {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    &:hover {
+        .partner-banner__arrow-1 {
+            transform: rotate(4deg) translateY(-.3em);
+        }
+        .partner-banner__arrow-2 {
+            transform: rotate(-3deg) translateY(-.3em);
+        }
+    }
+}
