@@ -1,0 +1,15 @@
+.become-partner__info__list-item {
+    position: relative;
+    font-size: 3em;
+    color: #000;
+    margin-bottom: .8em;
+    padding-left: 1.5em;
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        width: 1em;
+        height: 1.1em;
+        background: url(/img/become-partner/become-partner__info__list-item.png) center / contain no-repeat;
+    }
+}

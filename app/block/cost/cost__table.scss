@@ -1,0 +1,21 @@
+.cost__table {
+    width: 100%;
+    text-align: left;
+    border-spacing: 0;
+    &__wide-td {
+        text-align: center;
+        font-family: "Museo Sans 900";
+        font-size: 2em;
+        padding: .75em .5em !important;
+        line-height: 1;
+    }
+    th {
+        font-family: "Museo Sans 900";
+    }
+    th,td {
+        padding: 1.5em 1em;
+    }
+    tr {
+        border-bottom: 1px solid #818181;
+    }
+}

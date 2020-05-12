@@ -1,0 +1,11 @@
+.partnership-step__item-3 {
+    &::before {
+        content: '';
+        position: absolute;
+        width: 35px;
+        height: 40px;
+        left: 50%;
+        top: 105%;
+        background: url(/img/partnership-step/partnership-step__item-3.png) center / contain no-repeat;
+    }
+}
