@@ -14,13 +14,8 @@
     <link rel="manifest" href="/favicon/site.webmanifest">
     <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
 
-    <title>Призовая молния - Регстрация партнера</title>
-    <!-- build:css /css/style.min.css-->
-    <link rel="stylesheet" href="../../../css/compile.css">
-    <link rel="stylesheet" href="../../../css/style.css">
-    <link rel="stylesheet" href="../../../css/fonts.css">
-    <link rel="stylesheet" href="../../../css/media.css">
-    <!-- endbuild -->
+    <title>Призовая молния - Регстрация клиента</title>
+    <link rel="stylesheet" href="/css/style.min.css">
 </head>
 
 <body>
@@ -30,7 +25,7 @@
                 <a href="/" class="main-user-header__logo-wrap">
                     <img src="/img/logo/logo.png" alt="" class="main-user-header__logo logo">
                 </a>
-                <h2 class="main-user-header__title">Регистрация партнера</h2>
+                <h2 class="main-user-header__title">Регистрация клиента</h2>
             </div>
         </header>
 
@@ -39,6 +34,18 @@
                 <h6 class="main-user-content__title main-user-content__title-registration">Личные данные</h6>
 
                 <form action="" class="main-user-content__form">
+                    <label for="" class="main-user-content__label-registration"> 
+                        <span class="main-user-content__label-title">Фамилия</span>
+                        <input type="text" class="main-user-content__label-input">
+                    </label>
+                    <label for="" class="main-user-content__label-registration"> 
+                        <span class="main-user-content__label-title">Имя</span>
+                        <input type="text" class="main-user-content__label-input">
+                    </label>
+                    <label for="" class="main-user-content__label-registration"> 
+                        <span class="main-user-content__label-title">Отчество</span>
+                        <input type="text" class="main-user-content__label-input">
+                    </label>
                     <label for="" class="main-user-content__label-registration"> 
                         <span class="main-user-content__label-title">Телефон</span>
                         <input type="tel" class="main-user-content__label-input">
@@ -54,6 +61,19 @@
                     <label for="" class="main-user-content__label-registration">
                         <span class="main-user-content__label-title">Подтвердите пароль</span>
                         <input type="password" class="main-user-content__label-input">
+                    </label>
+
+                    <label for="" class="main-user-content__label-registration">
+                        <span class="main-user-content__label-title">Дата рождения</span>
+                        <select name="" id="" class="main-user-content__label-input">
+                            <option value="male">Мужской</option>
+                            <option value="female">Женский</option>
+                        </select>
+                    </label>
+
+                    <label for="" class="main-user-content__label-registration">
+                        <span class="main-user-content__label-title">Дата рождения</span>
+                        <input type="date" class="main-user-content__label-input">
                     </label>
                     
                     <input disabled="disabled" type="submit" value="Регистрация" class="main-user-content__btn main-user-content__btn_bg-color_burple main-user-content__btn_text-color_white">
@@ -71,12 +91,7 @@
             });
         });
     </script>
-    <!-- build:js /js/main.min.js -->
-    <script src="../../../js/libs.js"></script>
-    <script src="../../../js/main.js"></script>
-    <script src="../../../block/burger/burger.js"></script>
-    <script src="../../../block/frequent-requests/frequent-requests.js"></script>
-    <!-- endbuild -->
+    <script src="/js/main.min.js"></script>
 </body>
 
 </html>
