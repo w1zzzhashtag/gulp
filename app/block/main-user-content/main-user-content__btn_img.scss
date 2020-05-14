@@ -1,0 +1,14 @@
+.main-user-content__btn_img {
+    text-align: left;
+    position: relative;
+    margin: 0;
+    &::before {
+        content: '';
+        position: absolute;
+        right: .5em;
+        top: .25em;
+        width: 1.8em;
+        height: 1.7em;
+        background: url(/img/main-user-content/main-user-content__btn_img.png) center / contain no-repeat;
+    }
+}

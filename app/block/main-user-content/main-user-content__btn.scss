@@ -1,0 +1,16 @@
+.main-user-content__btn {
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Museo Sans 700';
+    border: .15em solid transparent;
+    transition: all .2s;
+    border-radius: .5em;
+    min-width: 330px;
+    padding: .5em 1em;
+    margin-top: 1.5em;
+    text-align: center;
+    &:disabled {
+        opacity: .4;
+        cursor: default;
+    }
+}

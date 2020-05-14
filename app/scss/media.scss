@@ -371,6 +371,74 @@
             width: 300px;
         }
     }
+    // MAIN
+    .main-page-header {
+        height: 4.8em;
+    }
+    .main-page-content {
+        height: calc(100vh - 4.8em);
+        &__inner {
+            padding-left: 250px;
+        }
+        &__logo {
+            width: 400px;
+        }
+        &__title {
+            font-size: 3.3em;
+        }
+        &__links {
+            font-size: 1.8em;
+            &-item {
+                min-width: 225px;
+            }
+        }
+        &__download {
+            font-size: 1.8em;
+            &-item {
+                width: 225px;
+                height: 75px;
+            }
+        }
+        &__drum {
+            &-content {
+                width: 850px;
+                height: 850px;
+                &::before {
+                    top: 45%;
+                    transform: rotate(-2deg);
+                    width: 80px;
+                    height: 80px;
+                }
+            }
+        }
+    }
+    // USER
+    .main-user-header {
+        height: 9.2em;
+        &__logo-wrap {
+            width: 170px;
+        }
+        &__title {
+            font-size: 3.3em;
+        }
+    }
+    .main-user-content {
+        min-height: calc(100vh - 9.2em);
+        &__container {
+            font-size: 2.4em;
+        }
+        &__label {
+            &-registration {
+                width: 700px;
+            }
+            &-input {
+                width: 350px;
+            }
+        }
+        &__btn {
+            min-width: 310px;
+        }
+    }
 }
 @media(max-width:1500px) {
     .container {
@@ -727,6 +795,75 @@
         }
         &__phone {
             width: 280px;
+        }
+    }
+    // MAIN
+    .main-page-header {
+        height: 4.6em;
+    }
+    .main-page-content {
+        height: calc(100vh - 4.6em);
+        &__inner {
+            padding-left: 230px;
+        }
+        &__logo {
+            width: 360px;
+        }
+        &__title {
+            font-size: 3.1em;
+        }
+        &__links {
+            font-size: 1.7em;
+            &-item {
+                min-width: 220px;
+            }
+        }
+        &__download {
+            font-size: 1.7em;
+            &-item {
+                width: 220px;
+                height: 73px;
+            }
+        }
+        &__drum {
+            bottom: -250px;
+            right: -250px;
+            &-content {
+                width: 700px;
+                height: 700px;
+                &::before {
+                    width: 70px;
+                    height: 70px;
+                }
+            }
+        }
+    }
+    // USER
+    .main-user-header {
+        height: 8.4em;
+        &__logo-wrap {
+            width: 160px;
+        }
+        &__title {
+            width: 55%;
+            font-size: 3.1em;
+        }
+    }
+    .main-user-content {
+        min-height: calc(100vh - 8.4em);
+        &__container {
+            font-size: 2.3em;
+        }
+        &__label {
+            &-registration {
+                width: 630px;
+            }
+            &-input {
+                width: 320px;
+            }
+        }
+        &__btn {
+            min-width: 280px;
         }
     }
 }
@@ -1104,6 +1241,77 @@
         }
         &__phone {
             width: 260px;
+        }
+    }
+    // MAIN
+    .main-page {
+        background: url(/img/main-page/main-page.png) left -20px top / auto 100% no-repeat;
+    }
+    .main-page-header {
+        height: 4.4em;
+    }
+    .main-page-content {
+        height: calc(100vh - 4.4em);
+        &__inner {
+            padding-left: 180px;
+        }
+        &__logo {
+            width: 320px;
+        }
+        &__title {
+            font-size: 2.8em;
+        }
+        &__links {
+            font-size: 1.6em;
+            &-item {
+                min-width: 210px;
+            }
+        }
+        &__download {
+            font-size: 1.6em;
+            &-item {
+                width: 210px;
+                height: 70px;
+            }
+        }
+        &__drum {
+            bottom: -225px;
+            right: -225px;
+            &-content {
+                width: 580px;
+                height: 580px;
+                &::before {
+                    width: 55px;
+                    height: 55px;
+                }
+            }
+        }
+    }
+    // USER
+    .main-user-header {
+        height: 7.8em;
+        &__logo-wrap {
+            width: 150px;
+        }
+        &__title {
+            font-size: 2.9em;
+        }
+    }
+    .main-user-content {
+        min-height: calc(100vh - 7.8em);
+        &__container {
+            font-size: 2.2em;
+        }
+        &__label {
+            &-registration {
+                width: 590px;
+            }
+            &-input {
+                width: 300px;
+            }
+        }
+        &__btn {
+            min-width: 260px;
         }
     }
 }
@@ -1601,6 +1809,78 @@
             width: 240px;
         }
     }
+    // MAIN
+    .main-page {
+        background: url(/img/main-page/main-page-table.png) left  top / auto 100% no-repeat;
+    }
+    .main-page-header {
+        height: 4.2em;
+    }
+    .main-page-content {
+        height: calc(100vh - 4.2em);
+        &__inner {
+            padding-left: 50px;
+        }
+        &__logo {
+            width: 280px;
+        }
+        &__title {
+            font-size: 2.5em;
+        }
+        &__links {
+            font-size: 1.5em;
+            &-item {
+                min-width: 200px;
+            }
+        }
+        &__download {
+            font-size: 1.5em;
+            &-item {
+                width: 200px;
+                height: 67px;
+            }
+        }
+        &__drum {
+            bottom: -175px;
+            right: -175px;
+            &-content {
+                width: 500px;
+                height: 500px;
+                &::before {
+                    width: 45px;
+                    height: 45px;
+                }
+            }
+        }
+    }
+    // USER
+    .main-user-header {
+        height: 7.2em;
+        &__logo-wrap {
+            width: 140px;
+        }
+        &__title {
+            width: 57%;
+            font-size: 2.6em;
+        }
+    }
+    .main-user-content {
+        min-height: calc(100vh - 7.2em);
+        &__container {
+            font-size: 2.1em;
+        }
+        &__label {
+            &-registration {
+                width: 560px;
+            }
+            &-input {
+                width: 280px;
+            }
+        }
+        &__btn {
+            min-width: 250px;
+        }
+    }
 }
 @media(max-width:900px) {
     .container {
@@ -2014,6 +2294,54 @@
             display: none;
         }
     }
+    // MAIN
+    .main-page-header {
+        height: 4em;
+    }
+    .main-page-content {
+        height: calc(100vh - 4em);
+        &__inner {
+            align-items: center;
+            padding-left: 0px;
+            width: 100%;
+        }
+        &__drum {
+           display: none;
+        }
+    }
+    // USER
+    .main-user-header {
+        height: 12.5em;
+        &__logo-wrap {
+            width: 135px;
+            top: .85em;
+        }
+        &__title {
+            height: initial;
+            align-self: flex-end;
+            padding: 0.6em 1em;
+            width: 70%;
+            font-size: 2.4em;
+        }
+    }
+    .main-user-content {
+        min-height: calc(100vh - 12.5em);
+        &__container {
+            font-size: 2em;
+            padding: 3.5em 0;
+        }
+        &__label {
+            &-registration {
+                width: 530px;
+            }
+            &-input {
+                width: 260px;
+            }
+        }
+        &__btn {
+            min-width: 230px;
+        }
+    }
 }
 @media(max-width:700px) {
     .container {
@@ -2410,6 +2738,68 @@
             display: none;
         }
     }
+    // MAIN
+    .main-page {
+        background: url(/img/main-page/main-page-table.png) left -100px top -100px / auto 100% no-repeat;
+    }
+    .main-page-header {
+        height: 3.8em;
+    }
+    .main-page-content {
+        height: calc(100vh - 3.8em);
+        &__logo {
+            width: 250px;
+        }
+        &__title {
+            font-size: 2.3em;
+        }
+        &__links {
+            font-size: 1.3em;
+            &-item {
+                min-width: 175px;
+            }
+        }
+        &__download {
+            font-size: 1.3em;
+            &-item {
+                width: 175px;
+                height: 60px;
+            }
+        }
+    }
+    // USER
+    .main-user-header {
+        height: 11em;
+        &__logo-wrap {
+            width: 125px;
+            top: .8em;
+        }
+        &__title {
+            padding: 0.6em 1em;
+            width: 85%;
+            font-size: 2em;
+        }
+    }
+    .main-user-content {
+        min-height: calc(100vh - 11em);
+        &__container {
+            font-size: 1.8em;
+        }
+        &__label {
+            &-registration {
+                width: 425px;
+            }
+            &-input {
+                width: 235px;
+            }
+        }
+        &__btn {
+            min-width: 210px;
+        }
+        &__link {
+            margin: .7em 0;
+        }
+    }
 }
 @media(max-width:500px) {
     .container {
@@ -2732,6 +3122,73 @@
                 width: 120px;
                 height: 40px;
             }
+        }
+    }
+    // MAIN
+    .main-page {
+        background: none;
+    }
+    .main-page-header {
+        height: 3.6em;
+    }
+    .main-page-content {
+        height: calc(100vh - 3.6em);
+        &__logo {
+            width: 230px;
+        }
+        &__title {
+            font-size: 1.9em;
+        }
+        &__links {
+            font-size: 1.1em;
+            &-item {
+                min-width: 145px;
+            }
+        }
+        &__download {
+            font-size: 1.1em;
+            &-item {
+                width: 145px;
+                height: 50px;
+            }
+        }
+    }
+     // USER
+     .main-user-header {
+        height: 10em;
+        &__logo-wrap {
+            width: 110px;
+            top: .7em;
+        }
+        &__title {
+            padding: 0.6em 1em;
+            width: 95%;
+            font-size: 1.6em;
+        }
+    }
+    .main-user-content {
+        min-height: calc(100vh - 10em);
+        &__container {
+            font-size: 1.6em;
+            padding: 2em 0;
+        }
+        &__label {
+            width: 305px;
+            &-registration {
+                width: 305px;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: flex-start;
+            }
+            &-input {
+                width: 100%;
+            }
+            &-title {
+                margin: 0 0 .3em .1em;
+            }
+        }
+        &__btn {
+            min-width: 180px;
         }
     }
 }

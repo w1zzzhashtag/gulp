@@ -1,0 +1,11 @@
+.main-user-content__btn_text-color_white {
+    color: #fff;
+    &:hover {
+        color: #9400FF;
+        text-shadow: 0 0 .5em rgba(#9400FF, .1);
+    }
+    &:disabled {
+        color: #fff;
+        text-shadow: none;
+    }
+}

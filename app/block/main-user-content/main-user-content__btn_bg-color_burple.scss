@@ -1,0 +1,13 @@
+.main-user-content__btn_bg-color_burple {
+    background-color: #9400FF;
+    &:hover {
+        background-color: #fff;
+        border: .15em solid #9400FF;
+        box-shadow: 0 0 .5em rgba(#9400FF, .4);
+    }
+    &:disabled {
+        background-color: #9400FF;
+        border: transparent;
+        box-shadow: none;
+    }
+}

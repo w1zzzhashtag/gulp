@@ -1,0 +1,8 @@
+.main-user-content__link {
+    font-family: 'Museo Sans 300';
+    color: #000;
+    margin: 1em 0;
+    &:hover {
+        text-decoration: underline;
+    }
+}

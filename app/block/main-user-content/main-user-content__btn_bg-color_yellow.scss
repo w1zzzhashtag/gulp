@@ -1,0 +1,8 @@
+.main-user-content__btn_bg-color_yellow {
+    background-color: #FFD900;
+    &:hover {
+        background-color: #fff;
+        border: .15em solid #000;
+        box-shadow: 0 0 .5em rgba(#000, .4);
+    }
+}

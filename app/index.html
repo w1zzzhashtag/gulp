@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <meta name="msapplication-TileColor" content="#2F2F2F">
-    <meta name="theme-color" content="#2F2F2F">
+    <meta name="msapplication-TileColor" content="#7e01fc">
+    <meta name="theme-color" content="#7e01fc">
 
-    <title>Призовая молния -  Главная</title>
+    <title>Призовая молния - Главная</title>
     <!-- build:css /css/style.min.css-->
     <link rel="stylesheet" href="/css/compile.css">
     <link rel="stylesheet" href="/css/style.css">
@@ -16,16 +17,40 @@
     <link rel="stylesheet" href="/css/media.css">
     <!-- endbuild -->
 </head>
+
 <body>
-    
-  
-    <a href="/pages/client.html">Сайт для клиентов</a>
-    <a href="/pages/partner.html">Сайт для партнеров</a>
+    <main class="main main-page">
+        <header class="main-page-header">
+            <div class="main-page-header__container container">
+                <a href="/pages/user/login.html" class="header__link link-login">Вход в личный кабинет</a>
+            </div>
+        </header>
 
+        <section class="main-page-content">
+            <div class="main-page-content__container container">
+                <div class="main-page-content__inner">
+                    <img src="/img/main-page-content/main-page-content__logo.png" alt="" class="main-page-content__logo">
+                    <h2 class="main-page-content__title">Выберите сайт<br>подходящий именно вам</h2>
+                    <div class="main-page-content__links">
+                        <a href="/pages/client.html" class="main-page-content__links-item">Сайт для клиентов</a>
+                        <a href="/pages/partner.html" class="main-page-content__links-item">Сайт для партнеров</a>
+                    </div>
+                    <div class="main-page-content__download">
+                        <a target="_blank" href="https://play.google.com/store/apps/details?id=com.oplanet.lightning&hl=ru" class="main-page-content__download-item google-play"></a>
+                        <a target="_blank" href="https://apps.apple.com/ru/app/%D0%BF%D1%80%D0%B8%D0%B7%D0%BE%D0%B2%D0%B0%D1%8F-%D0%BC%D0%BE%D0%BB%D0%BD%D0%B8%D1%8F/id1459626313" class="main-page-content__download-item app-store"></a>
+                    </div>
+                </div>
 
-    
+                <div class="main-page-content__drum">
+                    <div class="main-page-content__drum-content">
+                        <img src="/img/main-page-content/main-page-content__drum-img.png" alt="" class="main-page-content__drum-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://e-timer.ru/js/etimer.js"></script>
     <script type="text/javascript">
         jQuery(document).ready(function () {
@@ -41,4 +66,5 @@
     <script src="/block/frequent-requests/frequent-requests.js"></script>
     <!-- endbuild -->
 </body>
+
 </html>

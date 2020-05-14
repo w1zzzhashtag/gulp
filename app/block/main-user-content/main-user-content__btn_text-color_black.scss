@@ -1,0 +1,6 @@
+.main-user-content__btn_text-color_black {
+    color: #000;
+    &:hover {
+        text-shadow: 0 0 .5em rgba(#000, .1);
+    }
+}

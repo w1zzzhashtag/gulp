@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <meta name="msapplication-TileColor" content="#7e01fc">
+    <meta name="theme-color" content="#7e01fc">
+
+    <title>Призовая молния - Регстрация клиента</title>
+    <!-- build:css /css/style.min.css-->
+    <link rel="stylesheet" href="/css/compile.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <!-- endbuild -->
+</head>
+
+<body>
+    <main class="main main-user">
+        <header class="main-user-header">
+            <div class="main-user-header__container container">
+                <a href="/" class="main-user-header__logo-wrap">
+                    <img src="/img/logo/logo.png" alt="" class="main-user-header__logo logo">
+                </a>
+                <h2 class="main-user-header__title">Регистрация клиента</h2>
+            </div>
+        </header>
+
+        <section class="main-user-content">
+            <div class="main-user-content__container container">
+                <h6 class="main-user-content__title main-user-content__title-registration">Личные данные</h6>
+
+                <form action="" class="main-user-content__form">
+                    <label for="" class="main-user-content__label-registration"> 
+                        <span class="main-user-content__label-title">Фамилия</span>
+                        <input type="text" class="main-user-content__label-input">
+                    </label>
+                    <label for="" class="main-user-content__label-registration"> 
+                        <span class="main-user-content__label-title">Имя</span>
+                        <input type="text" class="main-user-content__label-input">
+                    </label>
+                    <label for="" class="main-user-content__label-registration"> 
+                        <span class="main-user-content__label-title">Отчество</span>
+                        <input type="text" class="main-user-content__label-input">
+                    </label>
+                    <label for="" class="main-user-content__label-registration"> 
+                        <span class="main-user-content__label-title">Телефон</span>
+                        <input type="tel" class="main-user-content__label-input">
+                    </label>
+                    <label for="" class="main-user-content__label-registration"> 
+                        <span class="main-user-content__label-title">E-mail</span>
+                        <input type="email" class="main-user-content__label-input">
+                    </label>
+                    <label for="" class="main-user-content__label-registration">
+                        <span class="main-user-content__label-title">Пароль</span>
+                        <input type="password" class="main-user-content__label-input">
+                    </label>
+                    <label for="" class="main-user-content__label-registration">
+                        <span class="main-user-content__label-title">Подтвердите пароль</span>
+                        <input type="password" class="main-user-content__label-input">
+                    </label>
+
+                    <label for="" class="main-user-content__label-registration">
+                        <span class="main-user-content__label-title">Дата рождения</span>
+                        <select name="" id="" class="main-user-content__label-input">
+                            <option value="male">Мужской</option>
+                            <option value="female">Женский</option>
+                        </select>
+                    </label>
+
+                    <label for="" class="main-user-content__label-registration">
+                        <span class="main-user-content__label-title">Дата рождения</span>
+                        <input type="date" class="main-user-content__label-input">
+                    </label>
+                    
+                    <input disabled="disabled" type="submit" value="Регистрация" class="main-user-content__btn main-user-content__btn_bg-color_burple main-user-content__btn_text-color_white">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://e-timer.ru/js/etimer.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            jQuery(".eTimer").eTimer({
+                etType: 0, etDate: "04.06.2022.0.0", etShowSign: 1, etSep: ":", etLastUnit: 4
+            });
+        });
+    </script>
+    <!-- build:js /js/main.min.js -->
+    <script src="/js/libs.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/block/burger/burger.js"></script>
+    <script src="/block/frequent-requests/frequent-requests.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>
