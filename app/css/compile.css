@@ -2982,6 +2982,132 @@ template {
 .app-store {
   background: url(/img/app-store/app-store.png) center/contain no-repeat; }
 
+.btn {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: "RussoOne";
+  letter-spacing: 0.03em;
+  padding: .8em 1.7em;
+  border-radius: 2em;
+  transition: all .2s; }
+
+.btn_bg-color_orange {
+  background-color: #e0662f; }
+  .btn_bg-color_orange:hover {
+    box-shadow: 0 0 0.5em rgba(224, 102, 47, 0.5); }
+
+.btn_bg-color_purple {
+  background-color: #7e01fc; }
+  .btn_bg-color_purple:hover {
+    box-shadow: 0 0 0.5em rgba(126, 1, 252, 0.5); }
+
+.btn_border-color_orange {
+  border: 3px solid #fdd832; }
+  .btn_border-color_orange:hover {
+    box-shadow: 0 0 0.5em rgba(253, 216, 50, 0.5) !important; }
+
+.btn_border-color_purple {
+  border: 3px solid #7e01fc; }
+
+.btn_margin_right {
+  margin-right: 2em; }
+
+.btn_text-color_black {
+  color: #000; }
+  .btn_text-color_black:hover {
+    text-shadow: 0 0 0.5em rgba(0, 0, 0, 0.25); }
+
+.btn_text-color_white {
+  color: #fff; }
+  .btn_text-color_white:hover {
+    text-shadow: 0 0 0.5em white; }
+
+.btn__bg-color__white {
+  background-color: #fff; }
+  .btn__bg-color__white:hover {
+    box-shadow: 0 0 0.5em white; }
+
+.btn__text-color__purple {
+  color: #4f009f; }
+  .btn__text-color__purple:hover {
+    text-shadow: 0 0 0.5em rgba(79, 0, 159, 0.25); }
+
+.become-partner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: url(/img/become-partner/become-partner.png) center/100% auto no-repeat; }
+
+.become-partner__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 8em 0; }
+
+.become-partner__info {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start; }
+
+.become-partner__info__link {
+  color: #7e01fc;
+  font-size: 4em;
+  margin-bottom: 1em;
+  font-family: "Museo Sans 900"; }
+
+.become-partner__info__list-item {
+  position: relative;
+  font-size: 3em;
+  color: #000;
+  margin-bottom: .8em;
+  padding-left: 1.5em; }
+  .become-partner__info__list-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 1em;
+    height: 1.1em;
+    background: url(/img/become-partner/become-partner__info__list-item.png) center/contain no-repeat; }
+
+.become-partner__info__title {
+  color: #000000;
+  font-size: 5.8em;
+  margin-bottom: 0.9em;
+  line-height: 1;
+  position: relative;
+  font-family: "Museo Sans 900";
+  padding-left: 1.5em; }
+  .become-partner__info__title::before {
+    content: '5';
+    position: absolute;
+    left: 0;
+    bottom: -.05em;
+    font-size: 2.4em;
+    color: #7e01fc; }
+
+.become-partner__references {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end; }
+
+.become-partner__references__download {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start; }
+
+.become-partner__references__download__item {
+  width: 200px;
+  height: 65px;
+  margin-bottom: 25px; }
+
+.burger {
+  display: none; }
+
 .benefits {
   position: absolute;
   bottom: 4em;
@@ -3068,59 +3194,6 @@ template {
   letter-spacing: 0.05em;
   color: #6e03da;
   margin: 0.8em 0 .3em; }
-
-.burger {
-  display: none; }
-
-.btn {
-  text-transform: uppercase;
-  font-size: 2rem;
-  font-family: "RussoOne";
-  letter-spacing: 0.03em;
-  padding: .8em 1.7em;
-  border-radius: 2em;
-  transition: all .2s; }
-
-.btn_bg-color_orange {
-  background-color: #e0662f; }
-  .btn_bg-color_orange:hover {
-    box-shadow: 0 0 0.5em rgba(224, 102, 47, 0.5); }
-
-.btn_bg-color_purple {
-  background-color: #7e01fc; }
-  .btn_bg-color_purple:hover {
-    box-shadow: 0 0 0.5em rgba(126, 1, 252, 0.5); }
-
-.btn_border-color_orange {
-  border: 3px solid #fdd832; }
-  .btn_border-color_orange:hover {
-    box-shadow: 0 0 0.5em rgba(253, 216, 50, 0.5) !important; }
-
-.btn_border-color_purple {
-  border: 3px solid #7e01fc; }
-
-.btn_margin_right {
-  margin-right: 2em; }
-
-.btn_text-color_black {
-  color: #000; }
-  .btn_text-color_black:hover {
-    text-shadow: 0 0 0.5em rgba(0, 0, 0, 0.25); }
-
-.btn_text-color_white {
-  color: #fff; }
-  .btn_text-color_white:hover {
-    text-shadow: 0 0 0.5em white; }
-
-.btn__bg-color__white {
-  background-color: #fff; }
-  .btn__bg-color__white:hover {
-    box-shadow: 0 0 0.5em white; }
-
-.btn__text-color__purple {
-  color: #4f009f; }
-  .btn__text-color__purple:hover {
-    text-shadow: 0 0 0.5em rgba(79, 0, 159, 0.25); }
 
 .client-banner {
   width: 100%;
@@ -3337,7 +3410,8 @@ template {
   border-radius: 1em;
   box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
   padding: 2em;
-  margin-bottom: 5em; }
+  margin-bottom: 5em;
+  background-color: #fff; }
 
 .cost__table {
   width: 100%;
@@ -3353,81 +3427,6 @@ template {
     font-family: "Museo Sans 900"; }
   .cost__table th, .cost__table td {
     padding: 1.5em 1em; }
-  .cost__table tr {
-    border-bottom: 1px solid #818181; }
-
-.become-partner {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  background: url(/img/become-partner/become-partner.png) center/100% auto no-repeat; }
-
-.become-partner__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 8em 0; }
-
-.become-partner__info {
-  width: 45%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start; }
-
-.become-partner__info__link {
-  color: #7e01fc;
-  font-size: 4em;
-  margin-bottom: 1em;
-  font-family: "Museo Sans 900"; }
-
-.become-partner__info__list-item {
-  position: relative;
-  font-size: 3em;
-  color: #000;
-  margin-bottom: .8em;
-  padding-left: 1.5em; }
-  .become-partner__info__list-item::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    width: 1em;
-    height: 1.1em;
-    background: url(/img/become-partner/become-partner__info__list-item.png) center/contain no-repeat; }
-
-.become-partner__info__title {
-  color: #000000;
-  font-size: 5.8em;
-  margin-bottom: 0.9em;
-  line-height: 1;
-  position: relative;
-  font-family: "Museo Sans 900";
-  padding-left: 1.5em; }
-  .become-partner__info__title::before {
-    content: '5';
-    position: absolute;
-    left: 0;
-    bottom: -.05em;
-    font-size: 2.4em;
-    color: #7e01fc; }
-
-.become-partner__references {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end; }
-
-.become-partner__references__download {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start; }
-
-.become-partner__references__download__item {
-  width: 200px;
-  height: 65px;
-  margin-bottom: 25px; }
 
 .eTimer {
   width: 540px;
@@ -3657,6 +3656,9 @@ template {
     height: 100%;
     background: url(/img/form-winners/form-winners__search.png) center/contain no-repeat; }
 
+.google-play {
+  background: url(/img/google-play/google-play.png) center/contain no-repeat; }
+
 .frequent-requests {
   width: 100%;
   display: flex;
@@ -3741,9 +3743,6 @@ template {
 .frequent-requests__question_active::after {
   transform: translateY(-50%) rotate(90deg);
   opacity: 0; }
-
-.google-play {
-  background: url(/img/google-play/google-play.png) center/contain no-repeat; }
 
 .header {
   width: 100%;
@@ -3853,6 +3852,13 @@ template {
     bottom: -0.1em;
     background: url(/img/link-login/link-login.png) center/contain no-repeat; }
 
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; }
+
 .link-registration {
   color: #2b2a29; }
   .link-registration::before {
@@ -3860,13 +3866,6 @@ template {
     width: 2em;
     bottom: -0.1em;
     background: url(/img/link-registration/link-registration.png) center/contain no-repeat; }
-
-.main {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center; }
 
 .nav__link {
   color: #2b2a29;
@@ -3962,6 +3961,57 @@ template {
   justify-content: flex-start;
   align-items: flex-start;
   height: 700px; }
+
+.partners-download-app__phone {
+  width: 320px; }
+
+.partners-download-app {
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: url(/img/partners-download-app/partners-download-app.png) center/100% auto no-repeat; }
+
+.partners-download-app__container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-top: 10em; }
+
+.partners-download-app__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 4.6em;
+  margin: 0 2em 3em 4em; }
+
+.partners-download-app__download {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center; }
+
+.partners-download-app__download__item {
+  width: 250px;
+  height: 85px;
+  margin-right: .5em; }
+
+.partners-download-app__subtitle {
+  color: #000;
+  font-family: "Museo Sans 300";
+  margin-bottom: 1.5em; }
+
+.partners-download-app__title {
+  color: #7e01fc;
+  font-size: 1.4em;
+  font-family: "Museo Sans 900";
+  text-transform: uppercase; }
+
+.partners-download-app__title_size_s {
+  font-size: .7em; }
+
+.partners-download-app__title_text-color_black {
+  color: #000; }
 
 .partner-banner {
   width: 100%;
@@ -4073,61 +4123,22 @@ template {
 .partner-banner__title_lowercase {
   text-transform: capitalize; }
 
-.partners-download-app__phone {
-  width: 320px; }
-
-.partners-download-app {
+.prizes {
   width: 100%;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  background: url(/img/partners-download-app/partners-download-app.png) center/100% auto no-repeat; }
-
-.partners-download-app__container {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
-  padding-top: 10em; }
-
-.partners-download-app__content {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  font-size: 4.6em;
-  margin: 0 2em 3em 4em; }
-
-.partners-download-app__download {
-  display: flex;
   justify-content: flex-start;
   align-items: center; }
 
-.partners-download-app__download__item {
-  width: 250px;
-  height: 85px;
-  margin-right: .5em; }
-
-.partners-download-app__subtitle {
-  color: #000;
-  font-family: "Museo Sans 300";
-  margin-bottom: 1.5em; }
-
-.partners-download-app__title {
-  color: #7e01fc;
-  font-size: 1.4em;
-  font-family: "Museo Sans 900";
-  text-transform: uppercase; }
-
-.partners-download-app__title_size_s {
-  font-size: .7em; }
-
-.partners-download-app__title_text-color_black {
-  color: #000; }
+.prizes__content {
+  width: 100%;
+  height: 850px;
+  background: url(/img/prizes/prizes__content.png) center bottom/cover no-repeat; }
 
 .partnership-step {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   width: 45%; }
 
@@ -4171,6 +4182,7 @@ template {
   margin-bottom: 2em;
   border-radius: .8em;
   box-shadow: 0 0 0.5em rgba(0, 0, 0, 0.5);
+  background-color: #fff;
   position: relative; }
 
 .partnership-step__num {
@@ -4193,17 +4205,43 @@ template {
   text-transform: uppercase;
   font-size: .4em; }
 
-.prizes {
-  width: 100%;
+.text-offers {
+  font-size: 2.7em;
+  margin-bottom: 3em;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center; }
+  align-items: flex-start; }
 
-.prizes__content {
-  width: 100%;
-  height: 850px;
-  background: url(/img/prizes/prizes__content.png) center bottom/cover no-repeat; }
+.text-offers__item {
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  padding-left: 1.5em;
+  position: relative; }
+  .text-offers__item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 1em;
+    height: 1.5em;
+    background: url(/img/text-offers/text-offers__item.png) center/contain no-repeat; }
+
+.text-offers__subtitle {
+  text-transform: uppercase;
+  color: #212021;
+  font-family: "Museo Sans 900";
+  font-size: 1.4em;
+  margin-bottom: 1em; }
+
+.text-offers__title {
+  text-transform: uppercase;
+  color: #6c06f7;
+  font-family: "RussoOne";
+  font-size: 3em;
+  line-height: 1.05em;
+  letter-spacing: 0.03em;
+  margin: .3em 0 .5em; }
 
 .rules {
   width: 100%;
@@ -4282,44 +4320,6 @@ template {
 
 .table-winners__title {
   background-color: #fdd832; }
-
-.text-offers {
-  font-size: 2.7em;
-  margin-bottom: 3em;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start; }
-
-.text-offers__item {
-  text-transform: uppercase;
-  margin-bottom: 1em;
-  padding-left: 1.5em;
-  position: relative; }
-  .text-offers__item::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 1em;
-    height: 1.5em;
-    background: url(/img/text-offers/text-offers__item.png) center/contain no-repeat; }
-
-.text-offers__subtitle {
-  text-transform: uppercase;
-  color: #212021;
-  font-family: "Museo Sans 900";
-  font-size: 1.4em;
-  margin-bottom: 1em; }
-
-.text-offers__title {
-  text-transform: uppercase;
-  color: #6c06f7;
-  font-family: "RussoOne";
-  font-size: 3em;
-  line-height: 1.05em;
-  letter-spacing: 0.03em;
-  margin: .3em 0 .5em; }
 
 .title {
   width: 100%;

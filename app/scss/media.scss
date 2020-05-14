@@ -218,6 +218,159 @@
             }
         }
     }
+    // ПАРТЕНРЫ
+    .partner-banner {
+        &__container {
+            padding: 120px 0 160px 60px;
+        }
+        &__phone {
+            width: 630px;
+            right: -13%;
+        }
+        &__title {
+            font-size: 7.6em;
+        }
+        &__list {
+            font-size: 2.7em;
+        }
+        &__arrow {
+            &__text {
+                font-size: 2em;
+            }
+            &__img-1 {
+                width: 30px;
+            }
+            &__img-2 {
+                width: 55px;
+            }
+        }
+    }
+    .one-of-us {
+        &__container {
+            padding: 85px 0 190px 35px;   
+        }
+        &__content {
+            width: 52%;
+            font-size: 2.1em;
+        }
+    }
+    .benefits {
+        bottom: 3.5em;
+        width: 53%;
+        &__inner {
+            font-size: 2em;
+        }
+        &__association {
+            &__img {
+                height: 55px;
+            }
+        }
+        &__rays_wrap {
+            bottom: 3.5em;
+            width: 900px;
+        }
+        &__man {
+            width: 550px;
+            bottom: 89%;
+            right: -5%;
+        }
+        &__info {
+            bottom: 120%;
+            left: 11%;
+            &__text {
+                font-size: 1.8em;
+            }
+        }
+    }
+    .become-partner {
+        &__container {
+            padding: 7em 0;
+        }
+        &__info {
+            &__title {
+                font-size: 5.4em;
+            }
+            &__list-item {
+                font-size: 2.8em;
+            }
+            &__link {
+                font-size: 3.6em;
+            }
+        }
+        &__references {
+            &__qrcode {
+                width: 230px;
+            }
+            &__download {
+                &__item {
+                    width: 180px;
+                    height: 60px;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+    .partnership-step {
+        &__item {
+            font-size: 2.6em;
+            &-1 {
+                &::before {
+                    width: 45px;
+                    height: 140px;
+                    right: 102%;
+                    top: 70%;
+                }
+            }
+            &-2 {
+                &::before {
+                    width: 45px;
+                    height: 140px;
+                    left: 102%;
+                    top: 70%;
+                }
+            }
+            &-3 {
+                &::before {
+                    width: 30px;
+                    height: 35px;
+                }
+            }
+        }
+    }
+    .how-working {
+        &__container {
+            font-size: 1.5em;
+        }
+        &__item{
+            width: 33%;
+            margin-bottom: 3em;
+        }
+        &__img {
+            height: 150px;
+        }
+    } 
+    .cost {
+        &__container {
+            font-size: 1.4em;
+        }
+    }
+    .partners-download-app {
+        &__container{
+            padding-top: 9em;
+        }
+        &__content {
+            font-size: 4.2em;
+        }
+        &__download {
+            &__item {
+                width: 235px;
+                height: 80px;
+            }
+        }
+        &__phone {
+            width: 300px;
+        }
+    }
 }
 @media(max-width:1500px) {
     .container {
@@ -423,6 +576,157 @@
         &__timer {
 
             margin-bottom: 4rem;
+        }
+    }
+    // ПАРТЕНРЫ
+    .partner-banner {
+        &__container {
+            padding: 110px 0 140px 50px;
+        }
+        &__phone {
+            width: 550px;
+        }
+        &__title {
+            font-size: 6.7em;
+        }
+        &__list {
+            font-size: 2.4em;
+        }
+        &__arrow {
+            &__text {
+                font-size: 1.8em;
+            }
+            &__img-1 {
+                width: 25px;
+            }
+            &__img-2 {
+                width: 50px;
+            }
+        }
+    }
+    .one-of-us {
+        &__container {
+            padding: 75px 0 160px 25px;   
+        }
+        &__content {
+            width: 53%;
+            font-size: 1.9em;
+        }
+    }
+    .benefits {
+        bottom: 3em;
+        &__inner {
+            font-size: 1.8em;
+        }
+        &__association {
+            &__img {
+                height: 47px;
+            }
+        }
+        &__rays_wrap {
+            bottom: 3.5em;
+            width: 800px;
+            right: -2.5em;
+        }
+        &__man {
+            width: 450px;
+            bottom: 89.5%;
+        }
+        &__info {
+            left: 17%;
+        }
+    }
+
+    .become-partner {
+        &__container {
+            padding: 6em 0;
+        }
+        &__info {
+            &__title {
+                font-size: 4.8em;
+            }
+            &__list-item {
+                font-size: 2.6em;
+            }
+            &__link {
+                font-size: 3.3em;
+            }
+        }
+        &__references {
+            &__qrcode {
+                width: 200px;
+            }
+            &__download {
+                &__item {
+                    width: 160px;
+                    height: 55px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    .partnership-step {
+        &__item {
+            font-size: 2.4em;
+            &-1 {
+                &::before {
+                    width: 40px;
+                    height: 130px;
+                    top: 80%;
+                }
+            }
+            &-2 {
+                &::before {
+                    width: 40px;
+                    height: 130px;
+                    top: 80%;
+                }
+            }
+            &-3 {
+                &::before {
+                    width: 25px;
+                    height: 30px;
+                }
+            }
+        }
+    }
+    .how-working {
+        &__container {
+            font-size: 1.4em;
+        }
+        &__item{
+            width: 40%;
+            margin-bottom: 3em;
+        }
+        &__img {
+            height: 140px;
+        }
+    } 
+    .cost {
+        &__container {
+            font-size: 1.3em;
+        }
+        &__content {
+            width: 95%;
+        }
+    }
+
+    .partners-download-app {
+        &__container{
+            padding-top: 8em;
+        }
+        &__content {
+            font-size: 3.8em;
+            margin: 0 2em 3em;
+        }
+        &__download {
+            &__item {
+                width: 220px;
+                height: 75px;
+            }
+        }
+        &__phone {
+            width: 280px;
         }
     }
 }
@@ -652,6 +956,154 @@
             &__text {
                 font-size: 2.3em;
             }
+        }
+    }
+    // ПАРТЕНРЫ
+    .partner-banner {
+        &__container {
+            padding: 100px 0 130px 40px;
+        }
+        &__phone {
+            width: 480px;
+        }
+        &__title {
+            font-size: 5.9em;
+        }
+        &__list {
+            font-size: 2.2em;
+        }
+        &__arrow {
+            &__text {
+                font-size: 1.6em;
+            }
+            &__img-1 {
+                width: 23px;
+            }
+            &__img-2 {
+                width: 45px;
+            }
+        }
+    }
+    .one-of-us {
+        &__container {
+            padding: 60px 0 130px;   
+        }
+        &__content {
+            width: 54%;
+            font-size: 1.8em;
+            padding: 3em;
+        }
+    }
+    .benefits {
+        bottom: 2.5em;
+        width: 54%;
+        &__inner {
+            font-size: 1.6em;
+        }
+        &__association {
+            &__img {
+                height: 42px;
+            }
+        }
+        &__rays_wrap {
+            bottom: 4.5em;
+            width: 700px;
+            right: -2.5em;
+        }
+        &__man {
+            width: 400px;
+        }
+        &__info {
+            bottom: 140%;
+            left: 12%;
+        }
+    }
+    .become-partner {
+        &__container {
+            padding: 5em 0;
+        }
+        &__info {
+            width: 47%;
+            &__title {
+                font-size: 4.3em;
+            }
+            &__list-item {
+                font-size: 2.4em;
+            }
+            &__link {
+                font-size: 3em;
+            }
+        }
+        &__references {
+            &__qrcode {
+                width: 180px;
+            }
+            &__download {
+                &__item {
+                    width: 140px;
+                    height: 48px;
+                    margin-bottom: 9px;
+                }
+            }
+        }
+    }
+    .partnership-step {
+        width: 47%;
+        &__item {
+            font-size: 2.2em;
+            &-1 {
+                &::before {
+                    width: 35px;
+                    height: 120px;
+                    right: 101.5%;
+                }
+            }
+            &-2 {
+                &::before {
+                    width: 35px;
+                    height: 120px;
+                    left: 101%;
+                }
+            }
+            &-3 {
+                &::before {
+                    width: 22px;
+                    height: 27px;
+                }
+            }
+        }
+    }
+    .how-working {
+        &__container {
+            font-size: 1.3em;
+        }
+        &__img {
+            height: 130px;
+        }
+    } 
+    .cost {
+        &__container {
+            font-size: 1.2em;
+        }
+        &__content {
+            width: 100%;
+        }
+    }
+    .partners-download-app {
+        &__container{
+            padding-top: 7em;
+        }
+        &__content {
+            font-size: 3.6em;
+        }
+        &__download {
+            &__item {
+                width: 200px;
+                height: 68px;
+            }
+        }
+        &__phone {
+            width: 260px;
         }
     }
 }
@@ -1014,6 +1466,141 @@
             display: none;
         }
     }
+    // ПАРТЕНРЫ
+    .partner-banner {
+        background: url(/img/partner-banner/partner-banner.png) right bottom / 115% auto no-repeat;
+        &__container {
+            padding: 90px 0 120px 20px;
+        }
+        &__phone {
+            display: none;
+        }
+        &__title {
+            font-size: 5.6em;
+        }
+        &__list {
+            font-size: 2.1em;
+        }
+        &__arrow {
+            &__text {
+                font-size: 1.5em;
+            }
+            &__img-1 {
+                width: 21px;
+            }
+            &__img-2 {
+                width: 42px;
+            }
+        }
+    }
+    .one-of-us {
+        &__container {
+            padding: 50px 0 110px;   
+        }
+        &__content {
+            width: 60%;
+            font-size: 1.6em;
+        }
+    }
+    .benefits {
+        bottom: 2em;
+        width: 45%;
+        &__inner {
+            font-size: 1.5em;
+            flex-wrap: wrap;
+            padding: 1.8em 0 0 2.2em;
+        }
+        &__item {
+            width: 50%;
+            margin-bottom: 1.5em;
+        }
+        &__association {
+            justify-content: flex-start;
+            &__img {
+                height: 40px;
+            }
+        }
+        &__rays_wrap {
+            bottom: 16em;
+            width: 400px;
+        }
+        &__man {
+            display: none;
+        }
+        &__info {
+            bottom: 105%;
+            left: 30%;
+        }
+    }
+    .become-partner {
+        &__container {
+            padding: 4em 0;
+            flex-direction: column-reverse;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        &__info {
+            width: 60%;
+            margin-bottom: 3em;
+        }
+        &__references {
+            &__download {
+                align-self: center;
+            }
+        }
+    }
+    .partnership-step {
+        width: 60%;
+        &__item {
+            font-size: 2.2em;
+            margin-bottom: 1.5em;
+        }
+    }
+    .how-working {
+        &__container {
+            font-size: 1.2em;
+        }
+        &__item{
+            width: 50%;
+        }
+        &__img {
+            height: 110px;
+        }
+    } 
+    .cost {
+        &__container {
+            font-size: 1.1em;
+        }
+        &__content {
+            overflow-x: scroll;
+            border-radius: 1em 1em 0 0;
+            &::-webkit-scrollbar {
+                width: 5px;
+                height: 5px;
+            }
+        }
+        &__table {
+            width: 900px;
+        }
+    }
+    .partners-download-app {
+        &__container{
+            padding-top: 6em;
+        }
+        &__content {
+            font-size: 2.9em;
+            margin: 0 2em 3em 1em;
+        }
+        &__download {
+            &__item {
+                width: 180px;
+                height: 60px;
+            }
+        }
+        &__phone {
+            width: 240px;
+        }
+    }
 }
 @media(max-width:900px) {
     .container {
@@ -1265,6 +1852,166 @@
             &__text {
                 font-size: 2em;
             }
+        }
+    }
+    // ПАРТЕНРЫ
+    .partner-banner {
+        &__container {
+            padding: 80px 0 110px 10px;
+        }
+        &__title {
+            font-size: 5em;
+        }
+        &__list {
+            font-size: 1.9em;
+        }
+        &__arrow {
+            &__text {
+                font-size: 1.4em;
+            }
+            &__img-1 {
+                width: 18px;
+            }
+            &__img-2 {
+                width: 30px;
+            }
+        }
+    }
+    .one-of-us {
+        &__container {
+            padding: 85px 0 ;   
+        }
+        &__content {
+            width: 70%;
+            font-size: 1.4em;
+        }
+    }
+    .benefits {
+        bottom: 1.5em;
+        width: 30%;
+        &__inner {
+            font-size: 1.4em;
+            padding: 1.8em 2.2em 0 2.2em;
+        }
+        &__item {
+            width: 100%;
+        }
+        &__association {
+            &__img {
+                height: 35px;
+            }
+        }
+        &__rays_wrap {
+            display: none;
+        }
+        &__info {
+            display: none;
+        }
+    }
+    .become-partner {
+        &__container {
+            padding: 4em 0;
+            flex-direction: column-reverse;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        &__info {
+            width: 80%;
+            margin-bottom: 2.5em;
+            &__title {
+                font-size: 3.8em;
+            }
+            &__list-item {
+                font-size: 2.2em;
+            }
+            &__link {
+                font-size: 2.6em;
+            }
+        }
+        &__references {
+            &__qrcode {
+                width: 150px;
+            }
+            &__download {
+                &__item {
+                    width: 120px;
+                    height: 40px;
+                    margin-bottom: 8px;
+                }
+            }
+        }
+    }
+    .partnership-step {
+        width: 80%;
+        &__item {
+            font-size: 2em;
+            &-1 {
+                &::before {
+                    width: 30px;
+                    height: 110px;
+                }
+            }
+            &-2 {
+                &::before {
+                    width: 30px;
+                    height: 110px;
+                    left: 100.5%;
+                }
+            }
+            &-3 {
+                &::before {
+                    width: 20px;
+                    height: 23px;
+                    top: 104%;
+                }
+            }
+        }
+    }
+    .how-working {
+        &__container {
+            font-size: 1.1em;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        &__item{
+            width: 100%;
+            justify-content: center;
+        }
+        &__img {
+            height: 100px;
+        }
+    } 
+    .cost {
+        &__container {
+            font-size: 1.05em;
+        }
+        &__content {
+            padding: 1.5em;
+        }
+        &__table {
+            width: 800px;
+            th,td {
+                padding: 1.3em .8em;
+            }
+        }
+    }
+    .partners-download-app {
+        background: url(/img/partners-download-app/partners-download-app.png) center right / 110% auto no-repeat;
+        &__container{
+            padding-top: 3em;
+        }
+        &__content {
+            font-size: 2.7em;
+            margin: 0 0 1em 1em;
+        }
+        &__download {
+            &__item {
+                width: 160px;
+                height: 55px;
+            }
+        }
+        &__phone {
+            display: none;
         }
     }
 }
@@ -1531,6 +2278,138 @@
             }
         }
     }
+    // ПАРТЕНРЫ
+    .partner-banner {
+        &__container {
+            padding: 40px 0;
+        }
+        &__title {
+            font-size: 4em;
+        }
+        &__list {
+            font-size: 1.7em;
+        }
+        &__btn-wrap {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        &__arrow {
+           display: none;
+        }
+    }
+    #pres-btn {
+        display: none;
+    }
+    .one-of-us {
+        &__container {
+            padding: 105px 0 ;   
+        }
+        &__content {
+            width: 72%;
+            font-size: 1.2em;
+            padding: 2em;
+        }
+        &__title {
+            font-size: 1.8em;
+            margin-bottom: 0.8em;
+        }
+        &__list-item {
+            padding: 0 0 0 4em;
+        }
+    }
+    .benefits {
+        bottom: 1em;
+        width: 29%;
+        &__inner {
+            font-size: 1.3em;
+            padding: 1.5em 1.5em 0 1.5em;
+        }
+        &__association {
+            &__img {
+                height: 30px;
+            }
+        }
+    }
+    .become-partner {
+        &__container {
+            padding: 3em 0;
+        }
+        &__info {
+            width: 100%;
+            margin-bottom: 2em;
+            &__title {
+                font-size: 3.5em;
+            }
+            &__list-item {
+                font-size: 2em;
+            }
+            &__link {
+                font-size: 2.3em;
+            }
+        }
+        &__references {
+            &__qrcode {
+                width: 130px;
+            }
+            &__download {
+                &__item {
+                    width: 105px;
+                    height: 35px;
+                    margin-bottom: 7px;
+                }
+            }
+        }
+    }
+    .partnership-step {
+        width: 100%;
+        &__item {
+            font-size: 1.8em;
+            margin-bottom: 1.4em;
+            &-1 {
+                &::before {
+                    width: 25px;
+                    height: 100px;
+                    top: 70%;
+                }
+            }
+            &-2 {
+                &::before {
+                    width: 25px;
+                    height: 100px;
+                    top: 70%;
+                }
+            }
+            &-3 {
+                &::before {
+                    width: 17px;
+                    height: 20px;
+                }
+            }
+        }
+    }
+    .cost {
+        &__container {
+            padding: 5em 0;
+        }
+    }
+    .partners-download-app {
+        &__container{
+            padding-top: 2.5em;
+        }
+        &__content {
+            font-size: 2.5em;
+            margin: 0 0 1em;
+        }
+        &__download {
+            &__item {
+                width: 140px;
+                height: 47px;
+            }
+        }
+        &__phone {
+            display: none;
+        }
+    }
 }
 @media(max-width:500px) {
     .container {
@@ -1736,6 +2615,122 @@
             }
             &__text {
                 font-size: 1.6em;
+            }
+        }
+    }
+    // ПАРТЕНРЫ
+    .partner-banner {
+        &__container {
+            padding: 30px 0;
+        }
+        &__title {
+            font-size: 3em;
+        }
+        &__list {
+            font-size: 1.4em;
+        }
+    }
+    .one-of-us {
+        &__container {
+            padding:25px 0 ;   
+        }
+        &__content {
+            width: 100%;
+            font-size: 1.1em;
+        }
+    }
+    .benefits {
+       display: none;
+    }
+    .become-partner {
+        &__container {
+            padding: 2.5em 0;
+        }
+        &__info {
+            margin-bottom: 1.5em;
+            &__title {
+                font-size: 2.6em;
+            }
+            &__list-item {
+                font-size: 1.7em;
+            }
+            &__link {
+                font-size: 2em;
+            }
+        }
+        &__references {
+            &__qrcode {
+                width: 100px;
+            }
+            &__download {
+                &__item {
+                    width: 90px;
+                    height: 30px;
+                    margin-bottom: 6px;
+                }
+            }
+        }
+    }
+    .partnership-step {
+        &__item {
+            font-size: 1.3em;
+            margin-bottom: 1em;
+            &-1 {
+                &::before {
+                   display: none;
+                }
+            }
+            &-2 {
+                &::before {
+                    display: none;
+                }
+            }
+            &-3 {
+                &::before {
+                    display: none;
+                }
+            }
+        }
+    }
+    .how-working {
+        &__container {
+            font-size: 1em;
+            padding: 4em 0 2em;
+        }
+        &__item{
+            margin-bottom: 2em;
+        }
+        &__img {
+            height: 80px;
+        }
+    } 
+    .cost {
+        &__container {
+            font-size: .95em;
+            padding: 4em 0;
+        }
+        &__content {
+            padding: 1.3em;
+            margin-bottom: 3em;
+        }
+        &__table {
+            width: 650px;
+            th,td {
+                padding: 1em .5em;
+            }
+        }
+    }
+    .partners-download-app {
+        &__container{
+            padding-top: 2em;
+        }
+        &__content {
+            font-size: 1.8em;
+        }
+        &__download {
+            &__item {
+                width: 120px;
+                height: 40px;
             }
         }
     }

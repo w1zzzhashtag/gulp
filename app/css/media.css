@@ -122,7 +122,93 @@
       font-size: 1.5em !important; }
     .client-download-app__timer__text {
       font-size: 2.5em;
-      margin: 0 0 .6em 0; } }
+      margin: 0 0 .6em 0; }
+  .partner-banner__container {
+    padding: 120px 0 160px 60px; }
+  .partner-banner__phone {
+    width: 630px;
+    right: -13%; }
+  .partner-banner__title {
+    font-size: 7.6em; }
+  .partner-banner__list {
+    font-size: 2.7em; }
+  .partner-banner__arrow__text {
+    font-size: 2em; }
+  .partner-banner__arrow__img-1 {
+    width: 30px; }
+  .partner-banner__arrow__img-2 {
+    width: 55px; }
+  .one-of-us__container {
+    padding: 85px 0 190px 35px; }
+  .one-of-us__content {
+    width: 52%;
+    font-size: 2.1em; }
+  .benefits {
+    bottom: 3.5em;
+    width: 53%; }
+    .benefits__inner {
+      font-size: 2em; }
+    .benefits__association__img {
+      height: 55px; }
+    .benefits__rays_wrap {
+      bottom: 3.5em;
+      width: 900px; }
+    .benefits__man {
+      width: 550px;
+      bottom: 89%;
+      right: -5%; }
+    .benefits__info {
+      bottom: 120%;
+      left: 11%; }
+      .benefits__info__text {
+        font-size: 1.8em; }
+  .become-partner__container {
+    padding: 7em 0; }
+  .become-partner__info__title {
+    font-size: 5.4em; }
+  .become-partner__info__list-item {
+    font-size: 2.8em; }
+  .become-partner__info__link {
+    font-size: 3.6em; }
+  .become-partner__references__qrcode {
+    width: 230px; }
+  .become-partner__references__download__item {
+    width: 180px;
+    height: 60px;
+    margin-bottom: 15px; }
+  .partnership-step__item {
+    font-size: 2.6em; }
+    .partnership-step__item-1::before {
+      width: 45px;
+      height: 140px;
+      right: 102%;
+      top: 70%; }
+    .partnership-step__item-2::before {
+      width: 45px;
+      height: 140px;
+      left: 102%;
+      top: 70%; }
+    .partnership-step__item-3::before {
+      width: 30px;
+      height: 35px; }
+  .how-working__container {
+    font-size: 1.5em; }
+  .how-working__item {
+    width: 33%;
+    margin-bottom: 3em; }
+  .how-working__img {
+    height: 150px; }
+  .cost__container {
+    font-size: 1.4em; }
+  .partners-download-app__container {
+    padding-top: 9em; }
+  .partners-download-app__content {
+    font-size: 4.2em; }
+  .partners-download-app__download__item {
+    width: 235px;
+    height: 80px; }
+  .partners-download-app__phone {
+    width: 300px; } }
 
 @media (max-width: 1500px) {
   .container {
@@ -240,7 +326,89 @@
     width: 250px;
     height: 85px; }
   .client-download-app__timer {
-    margin-bottom: 4rem; } }
+    margin-bottom: 4rem; }
+  .partner-banner__container {
+    padding: 110px 0 140px 50px; }
+  .partner-banner__phone {
+    width: 550px; }
+  .partner-banner__title {
+    font-size: 6.7em; }
+  .partner-banner__list {
+    font-size: 2.4em; }
+  .partner-banner__arrow__text {
+    font-size: 1.8em; }
+  .partner-banner__arrow__img-1 {
+    width: 25px; }
+  .partner-banner__arrow__img-2 {
+    width: 50px; }
+  .one-of-us__container {
+    padding: 75px 0 160px 25px; }
+  .one-of-us__content {
+    width: 53%;
+    font-size: 1.9em; }
+  .benefits {
+    bottom: 3em; }
+    .benefits__inner {
+      font-size: 1.8em; }
+    .benefits__association__img {
+      height: 47px; }
+    .benefits__rays_wrap {
+      bottom: 3.5em;
+      width: 800px;
+      right: -2.5em; }
+    .benefits__man {
+      width: 450px;
+      bottom: 89.5%; }
+    .benefits__info {
+      left: 17%; }
+  .become-partner__container {
+    padding: 6em 0; }
+  .become-partner__info__title {
+    font-size: 4.8em; }
+  .become-partner__info__list-item {
+    font-size: 2.6em; }
+  .become-partner__info__link {
+    font-size: 3.3em; }
+  .become-partner__references__qrcode {
+    width: 200px; }
+  .become-partner__references__download__item {
+    width: 160px;
+    height: 55px;
+    margin-bottom: 10px; }
+  .partnership-step__item {
+    font-size: 2.4em; }
+    .partnership-step__item-1::before {
+      width: 40px;
+      height: 130px;
+      top: 80%; }
+    .partnership-step__item-2::before {
+      width: 40px;
+      height: 130px;
+      top: 80%; }
+    .partnership-step__item-3::before {
+      width: 25px;
+      height: 30px; }
+  .how-working__container {
+    font-size: 1.4em; }
+  .how-working__item {
+    width: 40%;
+    margin-bottom: 3em; }
+  .how-working__img {
+    height: 140px; }
+  .cost__container {
+    font-size: 1.3em; }
+  .cost__content {
+    width: 95%; }
+  .partners-download-app__container {
+    padding-top: 8em; }
+  .partners-download-app__content {
+    font-size: 3.8em;
+    margin: 0 2em 3em; }
+  .partners-download-app__download__item {
+    width: 220px;
+    height: 75px; }
+  .partners-download-app__phone {
+    width: 280px; } }
 
 @media (max-width: 1300px) {
   .container {
@@ -378,7 +546,91 @@
     .client-download-app__timer .eTimer .etUnit .etSign {
       font-size: 1.4em !important; }
     .client-download-app__timer__text {
-      font-size: 2.3em; } }
+      font-size: 2.3em; }
+  .partner-banner__container {
+    padding: 100px 0 130px 40px; }
+  .partner-banner__phone {
+    width: 480px; }
+  .partner-banner__title {
+    font-size: 5.9em; }
+  .partner-banner__list {
+    font-size: 2.2em; }
+  .partner-banner__arrow__text {
+    font-size: 1.6em; }
+  .partner-banner__arrow__img-1 {
+    width: 23px; }
+  .partner-banner__arrow__img-2 {
+    width: 45px; }
+  .one-of-us__container {
+    padding: 60px 0 130px; }
+  .one-of-us__content {
+    width: 54%;
+    font-size: 1.8em;
+    padding: 3em; }
+  .benefits {
+    bottom: 2.5em;
+    width: 54%; }
+    .benefits__inner {
+      font-size: 1.6em; }
+    .benefits__association__img {
+      height: 42px; }
+    .benefits__rays_wrap {
+      bottom: 4.5em;
+      width: 700px;
+      right: -2.5em; }
+    .benefits__man {
+      width: 400px; }
+    .benefits__info {
+      bottom: 140%;
+      left: 12%; }
+  .become-partner__container {
+    padding: 5em 0; }
+  .become-partner__info {
+    width: 47%; }
+    .become-partner__info__title {
+      font-size: 4.3em; }
+    .become-partner__info__list-item {
+      font-size: 2.4em; }
+    .become-partner__info__link {
+      font-size: 3em; }
+  .become-partner__references__qrcode {
+    width: 180px; }
+  .become-partner__references__download__item {
+    width: 140px;
+    height: 48px;
+    margin-bottom: 9px; }
+  .partnership-step {
+    width: 47%; }
+    .partnership-step__item {
+      font-size: 2.2em; }
+      .partnership-step__item-1::before {
+        width: 35px;
+        height: 120px;
+        right: 101.5%; }
+      .partnership-step__item-2::before {
+        width: 35px;
+        height: 120px;
+        left: 101%; }
+      .partnership-step__item-3::before {
+        width: 22px;
+        height: 27px; }
+  .how-working__container {
+    font-size: 1.3em; }
+  .how-working__img {
+    height: 130px; }
+  .cost__container {
+    font-size: 1.2em; }
+  .cost__content {
+    width: 100%; }
+  .partners-download-app__container {
+    padding-top: 7em; }
+  .partners-download-app__content {
+    font-size: 3.6em; }
+  .partners-download-app__download__item {
+    width: 200px;
+    height: 68px; }
+  .partners-download-app__phone {
+    width: 260px; } }
 
 @media (max-width: 1100px) {
   .container {
@@ -629,7 +881,91 @@
       .client-download-app__timer__text {
         font-size: 2.2em; }
     .client-download-app__phone {
-      display: none; } }
+      display: none; }
+  .partner-banner {
+    background: url(/img/partner-banner/partner-banner.png) right bottom/115% auto no-repeat; }
+    .partner-banner__container {
+      padding: 90px 0 120px 20px; }
+    .partner-banner__phone {
+      display: none; }
+    .partner-banner__title {
+      font-size: 5.6em; }
+    .partner-banner__list {
+      font-size: 2.1em; }
+    .partner-banner__arrow__text {
+      font-size: 1.5em; }
+    .partner-banner__arrow__img-1 {
+      width: 21px; }
+    .partner-banner__arrow__img-2 {
+      width: 42px; }
+  .one-of-us__container {
+    padding: 50px 0 110px; }
+  .one-of-us__content {
+    width: 60%;
+    font-size: 1.6em; }
+  .benefits {
+    bottom: 2em;
+    width: 45%; }
+    .benefits__inner {
+      font-size: 1.5em;
+      flex-wrap: wrap;
+      padding: 1.8em 0 0 2.2em; }
+    .benefits__item {
+      width: 50%;
+      margin-bottom: 1.5em; }
+    .benefits__association {
+      justify-content: flex-start; }
+      .benefits__association__img {
+        height: 40px; }
+    .benefits__rays_wrap {
+      bottom: 16em;
+      width: 400px; }
+    .benefits__man {
+      display: none; }
+    .benefits__info {
+      bottom: 105%;
+      left: 30%; }
+  .become-partner__container {
+    padding: 4em 0;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center; }
+  .become-partner__info {
+    width: 60%;
+    margin-bottom: 3em; }
+  .become-partner__references__download {
+    align-self: center; }
+  .partnership-step {
+    width: 60%; }
+    .partnership-step__item {
+      font-size: 2.2em;
+      margin-bottom: 1.5em; }
+  .how-working__container {
+    font-size: 1.2em; }
+  .how-working__item {
+    width: 50%; }
+  .how-working__img {
+    height: 110px; }
+  .cost__container {
+    font-size: 1.1em; }
+  .cost__content {
+    overflow-x: scroll;
+    border-radius: 1em 1em 0 0; }
+    .cost__content::-webkit-scrollbar {
+      width: 5px;
+      height: 5px; }
+  .cost__table {
+    width: 900px; }
+  .partners-download-app__container {
+    padding-top: 6em; }
+  .partners-download-app__content {
+    font-size: 2.9em;
+    margin: 0 2em 3em 1em; }
+  .partners-download-app__download__item {
+    width: 180px;
+    height: 60px; }
+  .partners-download-app__phone {
+    width: 240px; } }
 
 @media (max-width: 900px) {
   .container {
@@ -788,7 +1124,102 @@
       .client-download-app__timer .eTimer .etUnit .etSign {
         font-size: 1.25em !important; }
       .client-download-app__timer__text {
-        font-size: 2em; } }
+        font-size: 2em; }
+  .partner-banner__container {
+    padding: 80px 0 110px 10px; }
+  .partner-banner__title {
+    font-size: 5em; }
+  .partner-banner__list {
+    font-size: 1.9em; }
+  .partner-banner__arrow__text {
+    font-size: 1.4em; }
+  .partner-banner__arrow__img-1 {
+    width: 18px; }
+  .partner-banner__arrow__img-2 {
+    width: 30px; }
+  .one-of-us__container {
+    padding: 85px 0; }
+  .one-of-us__content {
+    width: 70%;
+    font-size: 1.4em; }
+  .benefits {
+    bottom: 1.5em;
+    width: 30%; }
+    .benefits__inner {
+      font-size: 1.4em;
+      padding: 1.8em 2.2em 0 2.2em; }
+    .benefits__item {
+      width: 100%; }
+    .benefits__association__img {
+      height: 35px; }
+    .benefits__rays_wrap {
+      display: none; }
+    .benefits__info {
+      display: none; }
+  .become-partner__container {
+    padding: 4em 0;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center; }
+  .become-partner__info {
+    width: 80%;
+    margin-bottom: 2.5em; }
+    .become-partner__info__title {
+      font-size: 3.8em; }
+    .become-partner__info__list-item {
+      font-size: 2.2em; }
+    .become-partner__info__link {
+      font-size: 2.6em; }
+  .become-partner__references__qrcode {
+    width: 150px; }
+  .become-partner__references__download__item {
+    width: 120px;
+    height: 40px;
+    margin-bottom: 8px; }
+  .partnership-step {
+    width: 80%; }
+    .partnership-step__item {
+      font-size: 2em; }
+      .partnership-step__item-1::before {
+        width: 30px;
+        height: 110px; }
+      .partnership-step__item-2::before {
+        width: 30px;
+        height: 110px;
+        left: 100.5%; }
+      .partnership-step__item-3::before {
+        width: 20px;
+        height: 23px;
+        top: 104%; }
+  .how-working__container {
+    font-size: 1.1em;
+    justify-content: flex-start;
+    align-items: center; }
+  .how-working__item {
+    width: 100%;
+    justify-content: center; }
+  .how-working__img {
+    height: 100px; }
+  .cost__container {
+    font-size: 1.05em; }
+  .cost__content {
+    padding: 1.5em; }
+  .cost__table {
+    width: 800px; }
+    .cost__table th, .cost__table td {
+      padding: 1.3em .8em; }
+  .partners-download-app {
+    background: url(/img/partners-download-app/partners-download-app.png) center right/110% auto no-repeat; }
+    .partners-download-app__container {
+      padding-top: 3em; }
+    .partners-download-app__content {
+      font-size: 2.7em;
+      margin: 0 0 1em 1em; }
+    .partners-download-app__download__item {
+      width: 160px;
+      height: 55px; }
+    .partners-download-app__phone {
+      display: none; } }
 
 @media (max-width: 700px) {
   .container {
@@ -956,7 +1387,84 @@
         font-size: 1.15em !important;
         margin: 0.4em 0 1.5em !important; }
       .client-download-app__timer__text {
-        font-size: 1.8em; } }
+        font-size: 1.8em; }
+  .partner-banner__container {
+    padding: 40px 0; }
+  .partner-banner__title {
+    font-size: 4em; }
+  .partner-banner__list {
+    font-size: 1.7em; }
+  .partner-banner__btn-wrap {
+    flex-direction: column;
+    align-items: flex-start; }
+  .partner-banner__arrow {
+    display: none; }
+  #pres-btn {
+    display: none; }
+  .one-of-us__container {
+    padding: 105px 0; }
+  .one-of-us__content {
+    width: 72%;
+    font-size: 1.2em;
+    padding: 2em; }
+  .one-of-us__title {
+    font-size: 1.8em;
+    margin-bottom: 0.8em; }
+  .one-of-us__list-item {
+    padding: 0 0 0 4em; }
+  .benefits {
+    bottom: 1em;
+    width: 29%; }
+    .benefits__inner {
+      font-size: 1.3em;
+      padding: 1.5em 1.5em 0 1.5em; }
+    .benefits__association__img {
+      height: 30px; }
+  .become-partner__container {
+    padding: 3em 0; }
+  .become-partner__info {
+    width: 100%;
+    margin-bottom: 2em; }
+    .become-partner__info__title {
+      font-size: 3.5em; }
+    .become-partner__info__list-item {
+      font-size: 2em; }
+    .become-partner__info__link {
+      font-size: 2.3em; }
+  .become-partner__references__qrcode {
+    width: 130px; }
+  .become-partner__references__download__item {
+    width: 105px;
+    height: 35px;
+    margin-bottom: 7px; }
+  .partnership-step {
+    width: 100%; }
+    .partnership-step__item {
+      font-size: 1.8em;
+      margin-bottom: 1.4em; }
+      .partnership-step__item-1::before {
+        width: 25px;
+        height: 100px;
+        top: 70%; }
+      .partnership-step__item-2::before {
+        width: 25px;
+        height: 100px;
+        top: 70%; }
+      .partnership-step__item-3::before {
+        width: 17px;
+        height: 20px; }
+  .cost__container {
+    padding: 5em 0; }
+  .partners-download-app__container {
+    padding-top: 2.5em; }
+  .partners-download-app__content {
+    font-size: 2.5em;
+    margin: 0 0 1em; }
+  .partners-download-app__download__item {
+    width: 140px;
+    height: 47px; }
+  .partners-download-app__phone {
+    display: none; } }
 
 @media (max-width: 500px) {
   .container {
@@ -1075,4 +1583,66 @@
       .client-download-app__timer .eTimer {
         width: 305px; }
       .client-download-app__timer__text {
-        font-size: 1.6em; } }
+        font-size: 1.6em; }
+  .partner-banner__container {
+    padding: 30px 0; }
+  .partner-banner__title {
+    font-size: 3em; }
+  .partner-banner__list {
+    font-size: 1.4em; }
+  .one-of-us__container {
+    padding: 25px 0; }
+  .one-of-us__content {
+    width: 100%;
+    font-size: 1.1em; }
+  .benefits {
+    display: none; }
+  .become-partner__container {
+    padding: 2.5em 0; }
+  .become-partner__info {
+    margin-bottom: 1.5em; }
+    .become-partner__info__title {
+      font-size: 2.6em; }
+    .become-partner__info__list-item {
+      font-size: 1.7em; }
+    .become-partner__info__link {
+      font-size: 2em; }
+  .become-partner__references__qrcode {
+    width: 100px; }
+  .become-partner__references__download__item {
+    width: 90px;
+    height: 30px;
+    margin-bottom: 6px; }
+  .partnership-step__item {
+    font-size: 1.3em;
+    margin-bottom: 1em; }
+    .partnership-step__item-1::before {
+      display: none; }
+    .partnership-step__item-2::before {
+      display: none; }
+    .partnership-step__item-3::before {
+      display: none; }
+  .how-working__container {
+    font-size: 1em;
+    padding: 4em 0 2em; }
+  .how-working__item {
+    margin-bottom: 2em; }
+  .how-working__img {
+    height: 80px; }
+  .cost__container {
+    font-size: .95em;
+    padding: 4em 0; }
+  .cost__content {
+    padding: 1.3em;
+    margin-bottom: 3em; }
+  .cost__table {
+    width: 650px; }
+    .cost__table th, .cost__table td {
+      padding: 1em .5em; }
+  .partners-download-app__container {
+    padding-top: 2em; }
+  .partners-download-app__content {
+    font-size: 1.8em; }
+  .partners-download-app__download__item {
+    width: 120px;
+    height: 40px; } }
