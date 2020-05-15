@@ -423,6 +423,11 @@
         grid-auto-columns: 285px;
         grid-gap: 18px;
     }
+    .p-404 {
+        &__content {
+            font-size: 2.4em;
+        }
+    }
 }
 @media(max-width:1500px) {
     .main {
@@ -552,6 +557,15 @@
             }
             &__desc {
                 font-size: 13px;
+            }
+        }
+    }
+    .p-404 {
+        &__content {
+            font-size: 2.2em;
+            &::before {
+                width: 280px;
+                height: 660px;
             }
         }
     }
@@ -1007,6 +1021,16 @@
         grid-auto-columns: 240px;
         grid-gap: 16px;
     }
+    .p-404 {
+        &__content {
+            font-size: 2em;
+            width: 70%;
+            &::before {
+                width: 260px;
+                height: 620px;
+            }
+        }
+    }
 }
 @media(max-width:1100px) {
     .container {
@@ -1446,6 +1470,16 @@
         grid-auto-rows: 180px;
         grid-auto-columns: 214px;
         grid-gap: 14px;
+    }
+    .p-404 {
+        &__content {
+            font-size: 1.8em;
+            width: 73%;
+            &::before {
+                width: 240px;
+                height: 580px;
+            }
+        }
     }
 }
 @media(max-width:900px) {
@@ -1961,6 +1995,16 @@
         grid-auto-rows: 160px;
         grid-auto-columns: 195px;
         grid-gap: 12px;
+    }
+    .p-404 {
+        align-items: center;
+        &__content {
+            font-size: 1.7em;
+            width: 80%;
+            &::before {
+                display: none;
+            }
+        }
     }
 }
 @media(max-width:700px) {
@@ -2496,6 +2540,12 @@
         grid-auto-columns: 220px;
         grid-gap: 10px;
     }
+    .p-404 {
+        &__content {
+            font-size: 1.5em;
+            width: 70%;
+        }
+    }
 }
 @media(max-width:500px) {
     .container {
@@ -2900,5 +2950,11 @@
         grid-template-columns: 147px 147px;
         grid-auto-rows: 120px;
         grid-auto-columns: 147px;
+    }
+    .p-404 {
+        &__content {
+            font-size: 1.3em;
+            width: 90%;
+        }
     }
 }

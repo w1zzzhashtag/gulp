@@ -1,0 +1,22 @@
+.p-404__content {
+    background-color: #FBA549;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: #fff;
+    width: 60%;
+    padding: 1em;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        right: 99%;
+        top: -20%;
+        width: 300px;
+        height: 700px;
+        background: url(/img/p-404/p-404__content.png) center / contain no-repeat;
+    }
+}

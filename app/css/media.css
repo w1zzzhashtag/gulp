@@ -275,7 +275,9 @@
     grid-template-columns: 285px 285px 285px;
     grid-auto-rows: 220px;
     grid-auto-columns: 285px;
-    grid-gap: 18px; } }
+    grid-gap: 18px; }
+  .p-404__content {
+    font-size: 2.4em; } }
 
 @media (max-width: 1500px) {
   .main__title {
@@ -360,7 +362,12 @@
     .become-our-client__item__title {
       font-size: 17px; }
     .become-our-client__item__desc {
-      font-size: 13px; } }
+      font-size: 13px; }
+  .p-404__content {
+    font-size: 2.2em; }
+    .p-404__content::before {
+      width: 280px;
+      height: 660px; } }
 
 @media (max-width: 1300px) {
   .container {
@@ -662,7 +669,13 @@
     grid-template-columns: 240px 240px 240px;
     grid-auto-rows: 190px;
     grid-auto-columns: 240px;
-    grid-gap: 16px; } }
+    grid-gap: 16px; }
+  .p-404__content {
+    font-size: 2em;
+    width: 70%; }
+    .p-404__content::before {
+      width: 260px;
+      height: 620px; } }
 
 @media (max-width: 1100px) {
   .container {
@@ -960,7 +973,13 @@
     grid-template-columns: 214px 214px 214px;
     grid-auto-rows: 180px;
     grid-auto-columns: 214px;
-    grid-gap: 14px; } }
+    grid-gap: 14px; }
+  .p-404__content {
+    font-size: 1.8em;
+    width: 73%; }
+    .p-404__content::before {
+      width: 240px;
+      height: 580px; } }
 
 @media (max-width: 900px) {
   .container {
@@ -1320,7 +1339,14 @@
     grid-template-columns: 195px 195px 195px;
     grid-auto-rows: 160px;
     grid-auto-columns: 195px;
-    grid-gap: 12px; } }
+    grid-gap: 12px; }
+  .p-404 {
+    align-items: center; }
+    .p-404__content {
+      font-size: 1.7em;
+      width: 80%; }
+      .p-404__content::before {
+        display: none; } }
 
 @media (max-width: 700px) {
   .container {
@@ -1694,7 +1720,10 @@
     grid-template-columns: 220px 220px;
     grid-auto-rows: 180px;
     grid-auto-columns: 220px;
-    grid-gap: 10px; } }
+    grid-gap: 10px; }
+  .p-404__content {
+    font-size: 1.5em;
+    width: 70%; } }
 
 @media (max-width: 500px) {
   .container {
@@ -1968,4 +1997,7 @@
   .p-inner-gallery-body__gallery {
     grid-template-columns: 147px 147px;
     grid-auto-rows: 120px;
-    grid-auto-columns: 147px; } }
+    grid-auto-columns: 147px; }
+  .p-404__content {
+    font-size: 1.3em;
+    width: 90%; } }
