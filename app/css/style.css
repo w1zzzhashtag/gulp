@@ -41,7 +41,8 @@ body {
   font-family: 'Lato Regular'; }
 
 section {
-  max-width: 1920px; }
+  max-width: 1920px;
+  padding: 5em 0; }
 
 ::selection {
   color: #D8AB56;
@@ -50,8 +51,8 @@ section {
 *::-webkit-scrollbar {
   width: 10px;
   height: 10px;
-  background: #2F2F2F; }
+  background: #000822; }
 
 *::-webkit-scrollbar-thumb {
-  background: #FBA549;
+  background: #F8F3E5;
   border-radius: 2px; }

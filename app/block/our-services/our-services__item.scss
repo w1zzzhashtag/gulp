@@ -4,13 +4,12 @@
     justify-content: flex-end;
     align-items: center;
     width: 450px;
-    // height: 430px;
     position: relative;
     background: linear-gradient(to top, #F8F3E5 80%, #fff 80%);
     cursor: pointer;
     &:hover {
         .our-services__item-btn {
-            transform: translateY(-2.5em);
+            transform: translateY(-3.5em);
         }
     }
 }
