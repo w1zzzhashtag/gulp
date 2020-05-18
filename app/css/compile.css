@@ -3165,11 +3165,15 @@ template {
   font-size: 3em;
   overflow: hidden; }
 
+.our-services__item-btn {
+  font-size: 0.6em;
+  position: absolute;
+  top: 100%;
+  transition: .2s; }
+
 .our-services__item-img {
   width: 85%;
-  position: absolute;
-  bottom: 30%;
-  transform: translateY(-50px); }
+  margin-bottom: 1em; }
 
 .our-services__item-text {
   display: flex;
@@ -3178,7 +3182,8 @@ template {
   align-items: center;
   text-align: center;
   width: 85%;
-  padding-bottom: 1.5em; }
+  margin-bottom: 4em;
+  height: 165px; }
 
 .our-services__item-text__desc {
   color: #392601;
@@ -3194,9 +3199,11 @@ template {
   justify-content: flex-end;
   align-items: center;
   width: 450px;
-  height: 430px;
   position: relative;
-  background-color: #F8F3E5; }
+  background: linear-gradient(to top, #F8F3E5 80%, #fff 80%);
+  cursor: pointer; }
+  .our-services__item:hover .our-services__item-btn {
+    transform: translateY(-2.5em); }
 
 .title {
   text-align: center;
