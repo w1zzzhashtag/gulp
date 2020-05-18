@@ -1,5 +1,6 @@
 *, *::before, *::after {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 ul[class],
 ol[class] {
@@ -27,21 +28,24 @@ margin: 0;
 a {
   text-decoration: none;
 }
+html {
+  font-size: 10px;
+  line-height: 1.2
+}
 body {
   width: 100vw;
   min-height: 100vh;
-  scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
   color: #000;
   overflow-x: hidden;
+  font-family: 'Lato Regular';
 }
 section {
   max-width: 1920px;
 }
 ::selection {
-  color: #fff;
-  background-color: #444;
+  color: #D8AB56;
+  background-color: #000822;
 }
 *::-webkit-scrollbar {
   width: 10px;

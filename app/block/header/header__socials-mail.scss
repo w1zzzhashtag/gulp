@@ -1,0 +1,22 @@
+.header__socials-mail {
+    position: relative;
+    padding: 0 1.6em;
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: -50%;
+        height: 200%;
+        width: 0.1em;
+        background-color: #D8AB56;
+    }   
+    &::after {
+        content: '';
+        position: absolute;
+        right: 0;
+        top: -50%;
+        height: 200%;
+        width: 0.1em;
+        background-color: #D8AB56;
+    }
+}
