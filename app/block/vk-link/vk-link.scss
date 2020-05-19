@@ -1,5 +1,10 @@
 .vk-link {
-    background: url(/img/vk-link/vk-link.png) center / contain no-repeat;
-    width: 1.45em;
-    height: 1.45em;
+    background: url(/public/img/vk-link/vk-link.png) center / contain no-repeat;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    transition: .2s;
+    &:hover {
+        box-shadow: 0 0 .5em rgba(#D8AB56, .5);
+    }
 }

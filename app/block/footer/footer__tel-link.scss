@@ -1,0 +1,9 @@
+.footer__tel-link {
+    color: #D8AB56;
+    font-size: 1.34em;
+    margin-bottom: 1em;
+    transition: .2s;
+    &:hover {
+        text-shadow: 0 0 .5em rgba(#D8AB56, 1);
+    }
+}

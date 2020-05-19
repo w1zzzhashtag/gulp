@@ -1,0 +1,25 @@
+.slick {
+    &-slide { 
+        margin: 0 1.5em; 
+    }
+    &-prev, &-next {
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+        font-size: 0;
+        position: absolute;
+        top: 50%;
+        width: 40px;
+        height: 80px;
+        transform: translateY(-50%);
+        background: url(/public/img/slick/slick-prev.png) center / contain no-repeat;
+        outline: none;
+    }
+    &-prev {
+        right: 102%;
+    }
+    &-next {
+        left: 102%;
+        transform: translateY(-50%) rotate(180deg);
+    }
+}

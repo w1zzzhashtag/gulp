@@ -1,0 +1,18 @@
+.company__title {
+    font-size: 2em;
+    padding-bottom: 0.7em;
+    margin-bottom: .7em;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    color: #392601;
+    position: relative;
+    &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        height: 0.05em;
+        width: 100%;
+        background-color: #392601;
+    }
+}

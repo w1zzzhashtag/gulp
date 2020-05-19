@@ -1,15 +1,21 @@
 .our-services__item {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
     width: 450px;
     position: relative;
     background: linear-gradient(to top, #F8F3E5 80%, #fff 80%);
     cursor: pointer;
     &:hover {
+        .our-services__item-img {
+            transform: translateY(-1.5em);
+        }
+        .our-services__item-text {
+            transform: translateY(-1.5em);
+        }
         .our-services__item-btn {
-            transform: translateY(-3.5em);
+            transform: translateY(-4.6em);
         }
     }
 }

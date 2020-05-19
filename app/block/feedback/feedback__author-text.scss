@@ -1,0 +1,7 @@
+.feedback__author-text {
+    margin-left: .5em;
+    width: calc(100% - 2.5em);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

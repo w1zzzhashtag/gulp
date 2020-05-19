@@ -16,10 +16,10 @@ gulp.task('serve', function() {
         server: "./app"
     });
     gulp.watch("app/block/**/*.scss", gulp.series('sassCompile'));
-    gulp.watch("app/scss/**/*.scss", gulp.series('sass'));
-    gulp.watch("app/**/*.html").on('change', browserSync.reload);
+    gulp.watch("app/public/scss/**/*.scss", gulp.series('sass'));
+    gulp.watch("app/*.html").on('change', browserSync.reload);
     gulp.watch("app/pages/**/*.html").on('change', browserSync.reload);
-    gulp.watch("app/js/**/*.js").on('change', browserSync.reload);
+    gulp.watch("app/public/js/**/*.js").on('change', browserSync.reload);
     gulp.watch("app/block/**/*.js").on('change', browserSync.reload);
 });
 
@@ -32,13 +32,13 @@ gulp.task('sassCompile', function() {
         'app/block/**/*.scss'
     ])
     .pipe(concat('compile.scss'))
-    .pipe(gulp.dest("app/scss"))
+    .pipe(gulp.dest("app/public/scss"))
     .pipe(browserSync.stream());
 });
 gulp.task('sass', function() {
-    return gulp.src('app/scss/*.scss')
+    return gulp.src('app/public/scss/*.scss')
     .pipe(sass())
-    .pipe(gulp.dest("app/css"))
+    .pipe(gulp.dest("app/public/css"))
     .pipe(browserSync.stream());
 });
 
@@ -48,7 +48,7 @@ gulp.task('libsJs', function(){
       'node_modules/slick-carousel/slick/slick.js',
     ])
       .pipe(concat('libs.js'))
-      .pipe(gulp.dest('app/js'))
+      .pipe(gulp.dest('app/public/js'))
       .pipe(browserSync.stream());
   });
 
@@ -63,11 +63,11 @@ gulp.task('useref', function() {
 });
 
 gulp.task('images', function(){
-    return gulp.src('app/img/**/*.+(png|jpg|jpeg|gif|svg)')
+    return gulp.src('app/public/img/**/*.+(png|jpg|jpeg|gif|svg)')
     .pipe(cache(imagemin({
         interlaced: true
       })))
-    .pipe(gulp.dest('dist/img'))
+    .pipe(gulp.dest('dist/public/img'))
 });
 
 gulp.task('clear', function (done) {
@@ -75,18 +75,18 @@ gulp.task('clear', function (done) {
 });
 
 gulp.task('fonts', function() {
-    return gulp.src('app/fonts/**/*')
-    .pipe(gulp.dest('dist/fonts'))
+    return gulp.src('app/public/fonts/**/*')
+    .pipe(gulp.dest('dist/public/fonts'))
 });
 
 gulp.task('libs', function() {
-    return gulp.src('app/libs/**/*')
-    .pipe(gulp.dest('dist/libs'))
+    return gulp.src('app/public/libs/**/*')
+    .pipe(gulp.dest('dist/public/libs'))
 });
 
 gulp.task('docs', function() {
-    return gulp.src('app/docs/*/*')
-    .pipe(gulp.dest('dist/docs'))
+    return gulp.src('app/public/docs/*/*')
+    .pipe(gulp.dest('dist/public/docs'))
 });
 
 gulp.task('favicon', function() {

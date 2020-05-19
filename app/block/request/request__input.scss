@@ -1,0 +1,19 @@
+.request__input {
+    border: none;
+    background-color: transparent;
+    color: #F8F3E5;
+    font-size: 2em;
+    margin-bottom: 1.5em;
+    border-bottom: .1em solid #F8F3E5;
+    width: 100%;
+    outline: none;
+    padding: .5em;
+    transition: .2s;
+    &::placeholder {
+        color: #F8F3E5;
+    }
+    &:focus {
+        background-color: rgba(#F8F3E5, .1);
+        box-shadow: 0 .3em .3em rgba(#F8F3E5, .3);
+    }
+}
