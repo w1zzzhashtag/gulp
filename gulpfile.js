@@ -63,7 +63,7 @@ gulp.task('useref', function() {
 });
 
 gulp.task('images', function(){
-    return gulp.src('app/img/**/*.+(png|jpg|jpeg|gif|svg)')
+    return gulp.src('app/img/**/**/*.+(png|jpg|jpeg|gif|svg)')
     .pipe(cache(imagemin({
         interlaced: true
       })))
