@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <meta name="msapplication-TileColor" content="#2F2F2F">
-    <meta name="theme-color" content="#2F2F2F">
+    <meta name="msapplication-TileColor" content="#000822">
+    <meta name="theme-color" content="#000822">
 
     <title>Ваш повар</title>
-    <link rel="stylesheet" href="/css/style.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/public/css/style.min.css">
 
 </head>
-<body>
 
+<body>
 
     <header class="header">
         <div class="header__container">
@@ -30,7 +32,7 @@
 
             <div class="header__socials">
                 <a href="mailto:vashpovar24@yandex.ru" class="mail-link header__socials-mail">vashpovar24@yandex.ru</a>
-                <div class="header__socials-link_wrap">
+                <div class="socials-links header__socials-links">
                     <a href="#" class="vk-link"></a>
                     <a href="#" class="instagram-link"></a>
                 </div>
@@ -38,7 +40,32 @@
 
             <div class="header__tel">
                 <button class="header__tel-btn btn">Заказать звонок</button>
-                <a href="tel:+79021922424" class="header_tel-link">+7 902 192 24 24</a>
+                <a href="tel:+79021922424" class="header__tel-link">+7 902 192 24 24</a>
+            </div>
+
+            <div class="burger burger__header">
+                <span class="burger__item burger__header-item-1"></span>
+                <span class="burger__item burger__header-item-2"></span>
+                <span class="burger__item burger__header-item-3"></span>
+            </div>
+
+            <div class="header__mobile">
+                <div class="mobile__inner">
+                    <nav class="mobile__nav">
+                        <a href="#" class="nav__link">Наши услуги</a>
+                        <a href="#" class="nav__link">Меню</a>
+                        <a href="#" class="nav__link">Преимущества</a>
+                        <a href="#" class="nav__link">Условия работы</a>
+                    </nav>
+                    <div class="mobile__socials">
+                        <div class="socials-links mobile__socials-links">
+                            <a href="#" class="vk-link"></a>
+                            <a href="#" class="instagram-link"></a>
+                        </div>
+                        <a href="mailto:vashpovar24@yandex.ru" class="mail-link header__socials-mail">vashpovar24@yandex.ru</a>
+                    </div>
+                    <button class="btn">Заказать звонок</button>
+                </div>
             </div>
         </div>
     </header>
@@ -52,26 +79,30 @@
                 </div>
                 <div class="banner__icons">
                     <div class="banner__icons-item">
-                        <img src="/public/img/banner/banner__icons-item__img-1.png" alt="" class="banner__icons-item__img">
+                        <img src="/public/img/banner/banner__icons-item__img-1.png" alt=""
+                            class="banner__icons-item__img">
                         <span class="banner__icons-item__title">Мангал</span>
                     </div>
                     <div class="banner__icons-item">
-                        <img src="/public/img/banner/banner__icons-item__img-2.png" alt="" class="banner__icons-item__img">
+                        <img src="/public/img/banner/banner__icons-item__img-2.png" alt=""
+                            class="banner__icons-item__img">
                         <span class="banner__icons-item__title">BBQ</span>
                     </div>
                     <div class="banner__icons-item">
-                        <img src="/public/img/banner/banner__icons-item__img-3.png" alt="" class="banner__icons-item__img">
+                        <img src="/public/img/banner/banner__icons-item__img-3.png" alt=""
+                            class="banner__icons-item__img">
                         <span class="banner__icons-item__title">Коптильня</span>
                     </div>
                     <div class="banner__icons-item">
-                        <img src="/public/img/banner/banner__icons-item__img-4.png" alt="" class="banner__icons-item__img">
+                        <img src="/public/img/banner/banner__icons-item__img-4.png" alt=""
+                            class="banner__icons-item__img">
                         <span class="banner__icons-item__title">Казан</span>
                     </div>
                 </div>
 
                 <h2 class="banner__title">Услуги профессионального
                     <br>
-                    <span class="banner__title_uppercase">Повара | шашлычника | грилье</span> 
+                    <span class="banner__title_uppercase">Повара | шашлычника | грилье</span>
                 </h2>
 
                 <button class="btn banner__btn">Оставить заявку</button>
@@ -83,14 +114,16 @@
                 <h2 class="title">Наши услуги</h2>
                 <div class="our-services__inner">
                     <div class="our-services__item">
-                        <img src="/public/img/our-services/our-services__item-img-1.jpg" alt="" class="our-services__item-img">
+                        <img src="/public/img/our-services/our-services__item-img-1.jpg" alt=""
+                            class="our-services__item-img">
                         <div class="our-services__item-text">
-                            <p class="our-services__item-text__title">Услуги повара / шашлычника / грилье  на выезд</p>
+                            <p class="our-services__item-text__title">Услуги повара / шашлычника / грилье на выезд</p>
                         </div>
                         <button class="btn our-services__item-btn">Заказать</button>
                     </div>
                     <div class="our-services__item">
-                        <img src="/public/img/our-services/our-services__item-img-2.jpg" alt="" class="our-services__item-img">
+                        <img src="/public/img/our-services/our-services__item-img-2.jpg" alt=""
+                            class="our-services__item-img">
                         <div class="our-services__item-text">
                             <p class="our-services__item-text__title">Предзаказ и доставка шашлыка и плова</p>
                             <p class="our-services__item-text__desc">от 10 порций</p>
@@ -98,10 +131,12 @@
                         <button class="btn our-services__item-btn">Заказать</button>
                     </div>
                     <div class="our-services__item">
-                        <img src="/public/img/our-services/our-services__item-img-3.jpg" alt="" class="our-services__item-img">
+                        <img src="/public/img/our-services/our-services__item-img-3.jpg" alt=""
+                            class="our-services__item-img">
                         <div class="our-services__item-text">
                             <p class="our-services__item-text__title">Предзаказ и доставка натуральных копчёностей</p>
-                            <p class="our-services__item-text__desc">Колбаска, мясо, грудинка, сало, котлеты, пельмени</p>
+                            <p class="our-services__item-text__desc">Колбаска, мясо, грудинка, сало, котлеты, пельмени
+                            </p>
                         </div>
                         <button class="btn our-services__item-btn">Заказать</button>
                     </div>
@@ -109,81 +144,239 @@
             </div>
         </section>
 
-       <section class="our-menu">
-           <div class="our-menu__сontainer container">
-            <h2 class="title">Меню</h2>
-            <div class="our-menu__inner">
-                <div class="our-menu__item">
-                    <img src="/public/img/our-menu/our-menu__item-img-1.jpg" alt="" class="our-menu__item-img">
-                    <div class="our-menu__item-text">
-                        <p class="our-menu__item-desc">Шашлык из свинины с болгарским перцем, томатами и луком </p>
-                        <span class="our-menu__item-quantity">10 порций</span>
-                        <span class="our-menu__item-price">1 800 ₽</span>
+        <section class="our-menu">
+            <div class="our-menu__сontainer container">
+                <h2 class="title">Меню</h2>
+                <div class="our-menu__inner">
+                    <div class="our-menu__item">
+                        <img src="/public/img/our-menu/our-menu__item-img-1.jpg" alt="" class="our-menu__item-img">
+                        <div class="our-menu__item-text">
+                            <p class="our-menu__item-desc">Шашлык из свинины с болгарским перцем, томатами и луком </p>
+                            <span class="our-menu__item-quantity">10 порций</span>
+                            <span class="our-menu__item-price">1 800 ₽</span>
+                        </div>
+                    </div>
+                    <div class="our-menu__item">
+                        <img src="/public/img/our-menu/our-menu__item-img-2.jpg" alt="" class="our-menu__item-img">
+                        <div class="our-menu__item-text">
+                            <p class="our-menu__item-desc">Стейк из свинины гриль</p>
+                            <span class="our-menu__item-quantity">10 порций</span>
+                            <span class="our-menu__item-price">3 000 ₽</span>
+                        </div>
+                    </div>
+                    <div class="our-menu__item">
+                        <img src="/public/img/our-menu/our-menu__item-img-3.jpg" alt="" class="our-menu__item-img">
+                        <div class="our-menu__item-text">
+                            <p class="our-menu__item-desc">Свиные рёбрышки гриль с запечёнными томатами и сыром</p>
+                            <span class="our-menu__item-quantity">1 кг.</span>
+                            <span class="our-menu__item-price">1 500 ₽</span>
+                        </div>
+                    </div>
+                    <div class="our-menu__item">
+                        <img src="/public/img/our-menu/our-menu__item-img-4.jpg" alt="" class="our-menu__item-img">
+                        <div class="our-menu__item-text">
+                            <p class="our-menu__item-desc">Сало копчёное</p>
+                            <span class="our-menu__item-quantity">1 кг.</span>
+                            <span class="our-menu__item-price">1 000 ₽</span>
+                        </div>
                     </div>
                 </div>
-                <div class="our-menu__item">
-                    <img src="/public/img/our-menu/our-menu__item-img-2.jpg" alt="" class="our-menu__item-img">
-                    <div class="our-menu__item-text">
-                        <p class="our-menu__item-desc">Стейк из свинины гриль</p>
-                        <span class="our-menu__item-quantity">10 порций</span>
-                        <span class="our-menu__item-price">3 000 ₽</span>
+                <button class="btn our-menu__btn">Показать ещё</button>
+            </div>
+        </section>
+
+        <section class="advantages">
+            <div class="advantages__container container">
+                <h2 class="title">Преимущества</h2>
+                <div class="advantages__inner">
+                    <div class="advantages__item">
+                        <img src="/public/img/advantages/advantages__img-1.png" alt="" class="advantages__img">
+                        <span class="advantages__title">Профессионализм</span>
                     </div>
-                </div>
-                <div class="our-menu__item">
-                    <img src="/public/img/our-menu/our-menu__item-img-3.jpg" alt="" class="our-menu__item-img">
-                    <div class="our-menu__item-text">
-                        <p class="our-menu__item-desc">Свиные рёбрышки гриль с запечёнными томатами и сыром</p>
-                        <span class="our-menu__item-quantity">1 кг.</span>
-                        <span class="our-menu__item-price">1 500 ₽</span>
+                    <div class="advantages__item">
+                        <img src="/public/img/advantages/advantages__img-2.png" alt="" class="advantages__img">
+                        <span class="advantages__title">Огромный опыт работы</span>
                     </div>
-                </div>
-                <div class="our-menu__item">
-                    <img src="/public/img/our-menu/our-menu__item-img-4.jpg" alt="" class="our-menu__item-img">
-                    <div class="our-menu__item-text">
-                        <p class="our-menu__item-desc">Сало копчёное</p>
-                        <span class="our-menu__item-quantity">1 кг.</span>
-                        <span class="our-menu__item-price">1 000 ₽</span>
+                    <div class="advantages__item">
+                        <img src="/public/img/advantages/advantages__img-3.png" alt="" class="advantages__img">
+                        <span class="advantages__title">Качество</span>
+                    </div>
+                    <div class="advantages__item">
+                        <img src="/public/img/advantages/advantages__img-4.png" alt="" class="advantages__img">
+                        <span class="advantages__title">Цены на любой бюджет </span>
                     </div>
                 </div>
             </div>
-            <button class="btn our-menu__btn">Показать ещё</button>
-           </div>
-       </section>
+        </section>
 
-       <section class="advantages">
-           <div class="advantages__container container">
-               <div class="advantages__item">
-                   <img src="/public/img/advantages/advantages__img-1.png" alt="" class="advantages__img">
-                   <span class="advantages__title">Профессионализм</span>
-               </div>
-               <div class="advantages__item">
-                   <img src="/public/img/advantages/advantages__img-2.png" alt="" class="advantages__img">
-                   <span class="advantages__title">Огромный опыт работы</span>
-               </div>
-               <div class="advantages__item">
-                   <img src="/public/img/advantages/advantages__img-3.png" alt="" class="advantages__img">
-                   <span class="advantages__title">Качество</span>
-               </div>
-               <div class="advantages__item">
-                   <img src="/public/img/advantages/advantages__img-4.png" alt="" class="advantages__img">
-                   <span class="advantages__title">Цены на любой бюджет </span>
-               </div>
-           </div>
-       </section>
-
-       <section class="company">
-           <div class="company__container container">
+        <section class="company">
+            <div class="company__container container">
                 <h2 class="title">О компании</h2>
-           </div>
-       </section>
-    </main>
-    
+                <div class="company__inner">
+                    <div class="company__img_wrap">
+                        <img src="/public/img/company/company__img.jpg" alt="" class="company__img">
+                    </div>
 
- 
-    <script
-    src="https://code.jquery.com/jquery-3.5.1.min.js"
-    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
-    crossorigin="anonymous"></script>
-   <script src="/js/main.min.js"></script>
+                    <div class="company__text">
+                        <h6 class="company__title">Мы знаем, как сделать Ваше мероприятие незабываемым!</h6>
+                        <p class="company__desc">Всем рекомендуем данное заведение! Кухня не реально вкусная!!! Обстановка уютная, комфортная, тёплая! Замечательное обслуживание! P.S. Богдан и Александр мы желаем вам удачи и процветания! Идите только вперёд, у вас всё получится!!!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="operation-condition">
+            <div class="operation-condition__container container">
+                <h2 class="title">Условия работы</h2>
+                <div class="operation-condition__inner">
+                    <div class="operation-condition__item">
+                        <img src="/public/img/operation-condition/operation-condition__img-1.png" alt="" class="operation-condition__img">
+                        <p class="operation-condition__desc">Работаем по заранее утвержденным сметам и договорам</p>
+                    </div>
+                    <div class="operation-condition__item">
+                        <img src="/public/img/operation-condition/operation-condition__img-2.png" alt="" class="operation-condition__img">
+                        <p class="operation-condition__desc">Предоплата за мероприятие до 50% , остаток — в день проведения мероприятия</p>
+                    </div>
+                    <div class="operation-condition__item">
+                        <img src="/public/img/operation-condition/operation-condition__img-3.png" alt="" class="operation-condition__img">
+                        <p class="operation-condition__desc">У каждого нашего повара есть медкнижка и допуск до работы с продуктами</p>
+                    </div>
+                    <div class="operation-condition__item">
+                        <img src="/public/img/operation-condition/operation-condition__img-4.png" alt="" class="operation-condition__img">
+                        <p class="operation-condition__desc">Мы сотрудничаем с рынками и частными фермерскими хозяйствами Ульяновской области</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="feedback">
+            <div class="feedback__container container">
+                <h2 class="title">Отзывы</h2>
+                <div class="feedback__inner">
+                    <div class="feedback__item">
+                        <div class="feedback__author">
+                            <img src="/public/img/feedback/feedback__author-img-1.png" alt="" class="feedback__author-img">
+                            <span class="feedback__author-text">Марина Цыбина</span>
+                        </div>
+                        <p class="feedback__text">Всем рекомендуем данное заведение! Кухня не реально вкусная!!! Обстановка уютная, комфортная, тёплая! Замечательное обслуживание! P.S. Богдан и Александр мы желаем вам удачи и процветания! Идите только вперёд, у вас всё получится!!!</p>
+                    </div>
+                    <div class="feedback__item">
+                        <div class="feedback__author">
+                            <img src="/public/img/feedback/feedback__author-img-2.png" alt="" class="feedback__author-img">
+                            <span class="feedback__author-text">Вероника Литвинова</span>
+                        </div>
+                        <p class="feedback__text">Когда мне сказали про ребят, что можно их пригласить на организацию банкета на свадьбу, я сомневалась, все ли получится но когда я увидела их работу, никаких сомнений не осталось -я не ошиблась! Ребята приготовили все очень вкусно, красиво украсили, работа официанта также на высшем уровне очень внимательно следил за чистотой стола)))) Мы в восторге, наши гости в восторге, уже спрашивали номер телефона, чтобы воспользоваться услугами в случае необходимости. Спасибо вам большое!!!</p>
+                    </div>
+                    <div class="feedback__item">
+                        <div class="feedback__author">
+                            <img src="/public/img/feedback/feedback__author-img-3.png" alt="" class="feedback__author-img">
+                            <span class="feedback__author-text">Маргарита Кипелова</span>
+                        </div>
+                        <p class="feedback__text">Нам посчастливилось в эти выходные быть гостями на мероприятии, где готовил Ваш повар. Спасибо, огромное!!! все очень вкусно!!! Фото только одно успели сделать, остальные блюда очень быстро разлетались по тарелкам</p>
+                    </div>
+                    <div class="feedback__item">
+                        <div class="feedback__author">
+                            <img src="/public/img/feedback/feedback__author-img-1.png" alt="" class="feedback__author-img">
+                            <span class="feedback__author-text">Марина Цыбина</span>
+                        </div>
+                        <p class="feedback__text">Всем рекомендуем данное заведение! Кухня не реально вкусная!!! Обстановка уютная, комфортная, тёплая! Замечательное обслуживание! P.S. Богдан и Александр мы желаем вам удачи и процветания! Идите только вперёд, у вас всё получится!!!</p>
+                    </div>
+                    <div class="feedback__item">
+                        <div class="feedback__author">
+                            <img src="/public/img/feedback/feedback__author-img-2.png" alt="" class="feedback__author-img">
+                            <span class="feedback__author-text">Вероника Литвинова</span>
+                        </div>
+                        <p class="feedback__text">Когда мне сказали про ребят, что можно их пригласить на организацию банкета на свадьбу, я сомневалась, все ли получится но когда я увидела их работу, никаких сомнений не осталось -я не ошиблась! Ребята приготовили все очень вкусно, красиво украсили, работа официанта также на высшем уровне очень внимательно следил за чистотой стола)))) Мы в восторге, наши гости в восторге, уже спрашивали номер телефона, чтобы воспользоваться услугами в случае необходимости. Спасибо вам большое!!!</p>
+                    </div>
+                    <div class="feedback__item">
+                        <span class="feedback__author">
+                            <img src="/public/img/feedback/feedback__author-img-3.png" alt="" class="feedback__author-img">
+                            <span class="feedback__author-text">Маргарита Кипелова</span>
+                        </span>
+                        <p class="feedback__text">Нам посчастливилось в эти выходные быть гостями на мероприятии, где готовил Ваш повар. Спасибо, огромное!!! все очень вкусно!!! Фото только одно успели сделать, остальные блюда очень быстро разлетались по тарелкам</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="request">
+            <div class="request__container container">
+                <div class="request__inner">
+                    <h2 class="request__title">мы готовы начать готовить для Вас прямо сейчас!</h2>
+                    <form action="" class="request__form">
+                        <input type="text" placeholder="Ваше имя" class="request__input">
+                        <input type="tel" placeholder="Контактный телефон" class="request__input"> 
+                        <input type="text" placeholder="Предполагаемая дата мероприятия" class="request__input">
+                        <input type="submit" value="Связаться с нами" class="btn request__btn"> 
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__inner">
+                <a href="/" class="logo footer__logo">
+                    <img src="/public/img/logo/logo.png" alt="logo" class="logo__img">
+                </a>
+                <nav class="footer__nav nav">
+                    <a href="#" class="nav__link footer-nav__link">Наши услуги</a>
+                    <a href="#" class="nav__link footer-nav__link">Меню</a>
+                    <a href="#" class="nav__link footer-nav__link">Преимущества</a>
+                    <a href="#" class="nav__link footer-nav__link">Условия работы</a>
+                </nav>
+               
+
+                <div class="footer__socials">
+                    <a href="mailto:vashpovar24@yandex.ru" class="mail-link">vashpovar24@yandex.ru</a>
+                    <div class="socials-links footer__socials-links">
+                        <a href="#" class="vk-link"></a>
+                        <a href="#" class="instagram-link"></a>
+                    </div>
+                </div>
+    
+                <div class="footer__tel">
+                    <a href="tel:+79021922424" class="footer__tel-link">+7 902 192 24 24</a>
+                    <button class="footer__tel-btn btn">Заказать звонок</button>
+                </div>
+
+                <div class="burger burger__footer">
+                    <span class="burger__item burger__footer-item-1"></span>
+                    <span class="burger__item burger__footer-item-2"></span>
+                    <span class="burger__item burger__footer-item-3"></span>
+                </div>
+    
+                <div class="footer__mobile mobile">
+                    <div class="mobile__inner">
+                        <nav class="mobile__nav">
+                            <a href="#" class="nav__link">Наши услуги</a>
+                            <a href="#" class="nav__link">Меню</a>
+                            <a href="#" class="nav__link">Преимущества</a>
+                            <a href="#" class="nav__link">Условия работы</a>
+                        </nav>
+                        <div class="mobile__socials">
+                            <div class="socials-links mobile__socials-links">
+                                <a href="#" class="vk-link"></a>
+                                <a href="#" class="instagram-link"></a>
+                            </div>
+                            <a href="mailto:vashpovar24@yandex.ru" class="mail-link header__socials-mail">vashpovar24@yandex.ru</a>
+                        </div>
+                        <button class="btn">Заказать звонок</button>
+                    </div>
+                </div>
+            </div>
+            <span class="footer__copyright">Сделано в Агатеч, 2020</span>
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="/public/js/main.min.js"></script>
 </body>
+
 </html>
