@@ -100,7 +100,7 @@
             <h1 class="triangle-title p-title-orange-line">RIADI PRO - это</h1>
         </section>
 
-        <section class="company-desc">
+        <div class="company-desc">
             <div class="container company-desc__container">
                 <div class="company-desc__paragraph--wrap">
                     <p class="company-desc__paragraph">
@@ -125,7 +125,7 @@
                     </p>
                 </div>
             </div>
-        </section>
+        </div>
 
         <section class="company-reasons">
             <div class="container company-reasons__container">
@@ -161,19 +161,19 @@
         <section class="company-feedback">
             <div class="container company-feedback__container">
                 <img src="/img/company-feedback__img/company-feedback__img.png" alt="" class="company-feedback__img">
-                <form action="" class="company-feedback__form">
-                    <span class="company-feedback__form__title">Напишите нам</span>
-                    <label for="" class="company-feedback__label">
+                <form class="company-feedback__form">
+                    <h2 class="company-feedback__form__title">Напишите нам</h2>
+                    <label for="name" class="company-feedback__label">
                         <span class="company-feedback__label__title">Имя</span>
-                        <input type="text" placeholder="Введите имя">
+                        <input type="text" placeholder="Введите имя" id="name">
                     </label>
-                    <label for="" class="company-feedback__label">
+                    <label for="mail" class="company-feedback__label">
                         <span class="company-feedback__label__title">E-mail</span>
-                        <input type="email" placeholder="Введите почту">
+                        <input type="email" placeholder="Введите почту" id="mail">
                     </label>
-                    <label for="" class="company-feedback__label">
+                    <label for="area" class="company-feedback__label">
                         <span class="company-feedback__label__title">Сообщение</span>
-                        <textarea placeholder="Введите текст"></textarea>
+                        <textarea placeholder="Введите текст" id="area"></textarea>
                     </label>
                     <input type="submit" value="Отправить" class="company-feedback__btn">
                 </form>
