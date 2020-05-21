@@ -494,7 +494,10 @@
       width: 100%;
       height: 0.1em;
       background-color: #d8ab56; }
+  .mobile__btn {
+    display: block; }
   .mobile__socials {
+    display: block;
     margin-bottom: 2.5em; }
   .socials-links {
     justify-content: space-between;
