@@ -5008,6 +5008,11 @@ template {
     font-family: "Museo Sans 900";
     text-transform: uppercase;
 }
+.instagram {
+    &::before {
+        background: url(/img/instagram/instagram.png) center / contain no-repeat;
+    }
+}
 .link-login {
     color: #7e01fc;
     &::before {

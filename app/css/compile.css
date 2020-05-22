@@ -3275,6 +3275,10 @@ template {
   justify-content: flex-start;
   width: 48%; }
 
+.container {
+  width: 1600px;
+  margin: 0 auto; }
+
 .client-download-app {
   width: 100%;
   display: flex;
@@ -3384,10 +3388,6 @@ template {
 
 .client-download-app__title_text-color_black {
   color: #000; }
-
-.container {
-  width: 1600px;
-  margin: 0 auto; }
 
 .cost {
   width: 100%;
@@ -4495,6 +4495,20 @@ template {
   height: 850px;
   background: url(/img/prizes/prizes__content.png) center bottom/cover no-repeat; }
 
+.table-winners {
+  width: 100%;
+  text-align: center;
+  border-spacing: 0; }
+  .table-winners td, .table-winners th {
+    padding: .8em 0;
+    color: #2b2a29;
+    font-family: "Museo Sans 500"; }
+  .table-winners td {
+    border-bottom: 2px solid #b0b0b0; }
+
+.table-winners__title {
+  background-color: #fdd832; }
+
 .rules {
   width: 100%;
   display: flex;
@@ -4558,20 +4572,6 @@ template {
   font-size: 3.8em;
   font-weight: lighter;
   margin-bottom: 2.5em; }
-
-.table-winners {
-  width: 100%;
-  text-align: center;
-  border-spacing: 0; }
-  .table-winners td, .table-winners th {
-    padding: .8em 0;
-    color: #2b2a29;
-    font-family: "Museo Sans 500"; }
-  .table-winners td {
-    border-bottom: 2px solid #b0b0b0; }
-
-.table-winners__title {
-  background-color: #fdd832; }
 
 .text-offers {
   font-size: 2.7em;
