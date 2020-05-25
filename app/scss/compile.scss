@@ -4603,6 +4603,19 @@ template {
     margin: .6em 0 1.5em!important;
     text-transform: capitalize;
 } 
+.eTimer-title {
+    text-transform: uppercase;
+}
+.eTimer-title_wrap {
+    width: 540px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #2b2a29;
+    font-size: 1.8em;
+    letter-spacing: 0.02em;
+    margin-bottom: 1.3em;
+}   
 .footer {
     width: 100%;
     display: flex;
@@ -4737,19 +4750,6 @@ template {
     letter-spacing: .025em;
     margin-bottom: .1em;
 }
-.eTimer-title {
-    text-transform: uppercase;
-}
-.eTimer-title_wrap {
-    width: 540px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #2b2a29;
-    font-size: 1.8em;
-    letter-spacing: 0.02em;
-    margin-bottom: 1.3em;
-}   
 .form-winners {
     width: 50%;
     display: flex;
@@ -4954,11 +4954,6 @@ template {
     font-size: 1.8em;
     padding: 0 2em;
 }
-.instagram {
-    &::before {
-        background: url(/img/instagram/instagram.png) center / contain no-repeat;
-    }
-}
 .how-working {
     width: 100%;
     display: flex;
@@ -5147,14 +5142,6 @@ template {
     text-transform: uppercase;
     font-family: 'Museo Sans 900';
 }
-.main-user {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
 .main-page-header {
     width: 100%;
     display: flex;
@@ -5168,43 +5155,13 @@ template {
     align-items: center;
     height: 100%;
 }
-.main-user-header {
+.main-user {
     width: 100%;
-    height: 10em;
+    min-height: 100vh;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-}
-.main-user-header__container {
-    display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    position: relative;
-    height: 100%;
-}
-.main-user-header__logo-wrap {
-    position: absolute;
-    left: 0;
-    width: 180px;
-}
-.main-user-header__logo {
-    width: 100%;
-}
-.main-user-header__title {
-    height: 100%;
-    width: 60%;
-    font-family: "RussoOne";
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: uppercase;
-    color: #fff;
-    font-size: 3.5em;
-    padding: 0.25em;
-    background-color: #7e01fc;
-    letter-spacing: 0.1em;
-    clip-path: polygon(4% 0, 100% 0, 96% 100%, 0 100%);
 }
 .main-user-content {
     width: 100%;
@@ -5345,6 +5302,44 @@ template {
     font-size: 1em;
     margin-bottom: 1.5em;
     font-family: 'Museo Sans 700';
+}
+.main-user-header {
+    width: 100%;
+    height: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.main-user-header__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+}
+.main-user-header__logo-wrap {
+    position: absolute;
+    left: 0;
+    width: 180px;
+}
+.main-user-header__logo {
+    width: 100%;
+}
+.main-user-header__title {
+    height: 100%;
+    width: 60%;
+    font-family: "RussoOne";
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 3.5em;
+    padding: 0.25em;
+    background-color: #7e01fc;
+    letter-spacing: 0.1em;
+    clip-path: polygon(4% 0, 100% 0, 96% 100%, 0 100%);
 }
 .nav__link {
     color: #2b2a29;
@@ -5691,18 +5686,6 @@ template {
     text-transform: uppercase;
     font-size: .4em;
 }
-.prizes {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
-.prizes__content {
-    width: 100%;
-    height: 850px;
-    background: url(/img/prizes/prizes__content.png) center bottom / cover no-repeat;
-}
 .rules {
     width: 100%;
     display: flex;
@@ -5766,6 +5749,18 @@ template {
     font-size: 3.8em;
     font-weight: lighter;
     margin-bottom: 2.5em;
+}
+.prizes {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.prizes__content {
+    width: 100%;
+    height: 850px;
+    background: url(/img/prizes/prizes__content.png) center bottom / cover no-repeat;
 }
 .table-winners {
     width: 100%;

@@ -2982,6 +2982,79 @@ template {
 .app-store {
   background: url(/img/app-store/app-store.png) center/contain no-repeat; }
 
+.become-partner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: url(/img/become-partner/become-partner.png) center/100% auto no-repeat; }
+
+.become-partner__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 8em 0; }
+
+.become-partner__info {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start; }
+
+.become-partner__info__link {
+  color: #7e01fc;
+  font-size: 4em;
+  margin-bottom: 1em;
+  font-family: "Museo Sans 900"; }
+
+.become-partner__info__list-item {
+  position: relative;
+  font-size: 3em;
+  color: #000;
+  margin-bottom: .8em;
+  padding-left: 1.5em; }
+  .become-partner__info__list-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 1em;
+    height: 1.1em;
+    background: url(/img/become-partner/become-partner__info__list-item.png) center/contain no-repeat; }
+
+.become-partner__info__title {
+  color: #000000;
+  font-size: 5.8em;
+  margin-bottom: 0.9em;
+  line-height: 1;
+  position: relative;
+  font-family: "Museo Sans 900";
+  padding-left: 1.5em; }
+  .become-partner__info__title::before {
+    content: '5';
+    position: absolute;
+    left: 0;
+    bottom: -.05em;
+    font-size: 2.4em;
+    color: #7e01fc; }
+
+.become-partner__references {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end; }
+
+.become-partner__references__download {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start; }
+
+.become-partner__references__download__item {
+  width: 200px;
+  height: 65px;
+  margin-bottom: 25px; }
+
 .benefits {
   position: absolute;
   bottom: 4em;
@@ -3068,79 +3141,6 @@ template {
   letter-spacing: 0.05em;
   color: #6e03da;
   margin: 0.8em 0 .3em; }
-
-.become-partner {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  background: url(/img/become-partner/become-partner.png) center/100% auto no-repeat; }
-
-.become-partner__container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 8em 0; }
-
-.become-partner__info {
-  width: 45%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start; }
-
-.become-partner__info__link {
-  color: #7e01fc;
-  font-size: 4em;
-  margin-bottom: 1em;
-  font-family: "Museo Sans 900"; }
-
-.become-partner__info__list-item {
-  position: relative;
-  font-size: 3em;
-  color: #000;
-  margin-bottom: .8em;
-  padding-left: 1.5em; }
-  .become-partner__info__list-item::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    width: 1em;
-    height: 1.1em;
-    background: url(/img/become-partner/become-partner__info__list-item.png) center/contain no-repeat; }
-
-.become-partner__info__title {
-  color: #000000;
-  font-size: 5.8em;
-  margin-bottom: 0.9em;
-  line-height: 1;
-  position: relative;
-  font-family: "Museo Sans 900";
-  padding-left: 1.5em; }
-  .become-partner__info__title::before {
-    content: '5';
-    position: absolute;
-    left: 0;
-    bottom: -.05em;
-    font-size: 2.4em;
-    color: #7e01fc; }
-
-.become-partner__references {
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-end; }
-
-.become-partner__references__download {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start; }
-
-.become-partner__references__download__item {
-  width: 200px;
-  height: 65px;
-  margin-bottom: 25px; }
 
 .btn {
   text-transform: uppercase;
@@ -3274,10 +3274,6 @@ template {
   align-items: flex-start;
   justify-content: flex-start;
   width: 48%; }
-
-.container {
-  width: 1600px;
-  margin: 0 auto; }
 
 .client-download-app {
   width: 100%;
@@ -3428,6 +3424,10 @@ template {
   .cost__table th, .cost__table td {
     padding: 1.5em 1em; }
 
+.container {
+  width: 1600px;
+  margin: 0 auto; }
+
 .eTimer {
   width: 540px;
   text-align: left;
@@ -3458,19 +3458,6 @@ template {
   font-size: 1.6em !important;
   margin: 0.6em 0 1.5em !important;
   text-transform: capitalize; }
-
-.eTimer-title {
-  text-transform: uppercase; }
-
-.eTimer-title_wrap {
-  width: 540px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: #2b2a29;
-  font-size: 1.8em;
-  letter-spacing: 0.02em;
-  margin-bottom: 1.3em; }
 
 .footer {
   width: 100%;
@@ -3604,6 +3591,19 @@ template {
   font-size: 2.8em;
   letter-spacing: .025em;
   margin-bottom: .1em; }
+
+.eTimer-title {
+  text-transform: uppercase; }
+
+.eTimer-title_wrap {
+  width: 540px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #2b2a29;
+  font-size: 1.8em;
+  letter-spacing: 0.02em;
+  margin-bottom: 1.3em; }
 
 .form-winners {
   width: 50%;
@@ -3795,14 +3795,6 @@ template {
 .instagram::before {
   background: url(/img/instagram/instagram.png) center/contain no-repeat; }
 
-.link-registration {
-  color: #2b2a29; }
-  .link-registration::before {
-    height: 1.8em;
-    width: 2em;
-    bottom: -0.1em;
-    background: url(/img/link-registration/link-registration.png) center/contain no-repeat; }
-
 .how-working {
   width: 100%;
   display: flex;
@@ -3852,6 +3844,9 @@ template {
   font-family: "Museo Sans 900";
   text-transform: uppercase; }
 
+.instagram::before {
+  background: url(/img/instagram/instagram.png) center/contain no-repeat; }
+
 .link-login {
   color: #7e01fc; }
   .link-login::before {
@@ -3859,6 +3854,14 @@ template {
     width: 2em;
     bottom: -0.1em;
     background: url(/img/link-login/link-login.png) center/contain no-repeat; }
+
+.link-registration {
+  color: #2b2a29; }
+  .link-registration::before {
+    height: 1.8em;
+    width: 2em;
+    bottom: -0.1em;
+    background: url(/img/link-registration/link-registration.png) center/contain no-repeat; }
 
 .main {
   width: 100%;
@@ -3967,6 +3970,14 @@ template {
   text-transform: uppercase;
   font-family: 'Museo Sans 900'; }
 
+.main-user {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; }
+
 .main-page-header {
   width: 100%;
   display: flex;
@@ -3980,13 +3991,43 @@ template {
   align-items: center;
   height: 100%; }
 
-.main-user {
+.main-user-header {
   width: 100%;
-  min-height: 100vh;
+  height: 10em;
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center; }
+  justify-content: center;
+  align-items: flex-start; }
+
+.main-user-header__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100%; }
+
+.main-user-header__logo-wrap {
+  position: absolute;
+  left: 0;
+  width: 180px; }
+
+.main-user-header__logo {
+  width: 100%; }
+
+.main-user-header__title {
+  height: 100%;
+  width: 60%;
+  font-family: "RussoOne";
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 3.5em;
+  padding: 0.25em;
+  background-color: #7e01fc;
+  letter-spacing: 0.1em;
+  clip-path: polygon(4% 0, 100% 0, 96% 100%, 0 100%); }
 
 .main-user-content {
   width: 100%;
@@ -4128,44 +4169,6 @@ template {
   .nav__link:hover {
     color: #fff;
     background-color: #7e01fc; }
-
-.main-user-header {
-  width: 100%;
-  height: 10em;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start; }
-
-.main-user-header__container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  height: 100%; }
-
-.main-user-header__logo-wrap {
-  position: absolute;
-  left: 0;
-  width: 180px; }
-
-.main-user-header__logo {
-  width: 100%; }
-
-.main-user-header__title {
-  height: 100%;
-  width: 60%;
-  font-family: "RussoOne";
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-transform: uppercase;
-  color: #fff;
-  font-size: 3.5em;
-  padding: 0.25em;
-  background-color: #7e01fc;
-  letter-spacing: 0.1em;
-  clip-path: polygon(4% 0, 100% 0, 96% 100%, 0 100%); }
 
 .one-of-us {
   width: 100%;
@@ -4495,20 +4498,6 @@ template {
   height: 850px;
   background: url(/img/prizes/prizes__content.png) center bottom/cover no-repeat; }
 
-.table-winners {
-  width: 100%;
-  text-align: center;
-  border-spacing: 0; }
-  .table-winners td, .table-winners th {
-    padding: .8em 0;
-    color: #2b2a29;
-    font-family: "Museo Sans 500"; }
-  .table-winners td {
-    border-bottom: 2px solid #b0b0b0; }
-
-.table-winners__title {
-  background-color: #fdd832; }
-
 .rules {
   width: 100%;
   display: flex;
@@ -4572,6 +4561,20 @@ template {
   font-size: 3.8em;
   font-weight: lighter;
   margin-bottom: 2.5em; }
+
+.table-winners {
+  width: 100%;
+  text-align: center;
+  border-spacing: 0; }
+  .table-winners td, .table-winners th {
+    padding: .8em 0;
+    color: #2b2a29;
+    font-family: "Museo Sans 500"; }
+  .table-winners td {
+    border-bottom: 2px solid #b0b0b0; }
+
+.table-winners__title {
+  background-color: #fdd832; }
 
 .text-offers {
   font-size: 2.7em;
