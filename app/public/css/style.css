@@ -38,7 +38,8 @@ body {
   text-rendering: optimizeSpeed;
   color: #000;
   overflow-x: hidden;
-  font-family: 'Lato Regular'; }
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400; }
 
 section {
   max-width: 1920px;
