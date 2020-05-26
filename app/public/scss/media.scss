@@ -17,7 +17,7 @@
             width: 95px;
         }
     }
-    .banner {
+    .preview {
         min-height: calc(100vh - 75px);
         &__logo {
             width: 450px;
@@ -170,7 +170,7 @@
         width: 1.7em;
         height: 1.7em;
     }
-    .banner {
+    .preview {
         min-height: calc(100vh - 65px);
         &__logo {
             width: 370px;
@@ -409,7 +409,7 @@
             }
         }
     }
-    .banner {
+    .preview {
         min-height: calc(100vh - 50px);
         &__logo {
             width: 300px;
@@ -605,7 +605,7 @@
     .footer__mobile_active {
         height: 135px;
     }
-    .banner {
+    .preview {
         min-height: calc(100vh - 45px);
         &__logo {
             width: 250px;
@@ -869,7 +869,7 @@
         width: 2.2em;
         height: 2.2em;
     }
-    .banner {
+    .preview {
         &__logo {
             width: 250px;
         }
@@ -1080,7 +1080,7 @@
     .footer__mobile_active {
         height: 273px;
     }
-    .banner {
+    .preview {
         &__logo {
             width: 90%;
         }

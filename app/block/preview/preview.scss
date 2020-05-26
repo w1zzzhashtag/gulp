@@ -1,9 +1,9 @@
-.banner {
+.preview {
     width: 100%;
     min-height: calc(100vh - 80px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url(/public/img/banner/banner.jpg) center / cover no-repeat;
+    background: url(/public/img/preview/preview.jpg) center / cover no-repeat;
 }

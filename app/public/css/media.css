@@ -11,16 +11,16 @@
       font-size: 1.6em; }
     .header__logo {
       width: 95px; }
-  .banner {
+  .preview {
     min-height: calc(100vh - 75px); }
-    .banner__logo {
+    .preview__logo {
       width: 450px; }
-    .banner__icons {
+    .preview__icons {
       width: 450px;
       font-size: 1.65em; }
-    .banner__title {
+    .preview__title {
       font-size: 2.7em; }
-    .banner__btn {
+    .preview__btn {
       font-size: 2.1em; }
   .our-services__inner {
     font-size: 2.5em; }
@@ -104,16 +104,16 @@
   .instagram-link {
     width: 1.7em;
     height: 1.7em; }
-  .banner {
+  .preview {
     min-height: calc(100vh - 65px); }
-    .banner__logo {
+    .preview__logo {
       width: 370px; }
-    .banner__icons {
+    .preview__icons {
       width: 370px;
       font-size: 1.4em; }
-    .banner__title {
+    .preview__title {
       font-size: 2.3em; }
-    .banner__btn {
+    .preview__btn {
       font-size: 1.75em; }
   .our-services__inner {
     font-size: 2.2em; }
@@ -263,16 +263,16 @@
       margin: 0 0 1em; }
       .mobile__nav .nav__link:last-child {
         margin-bottom: 0; }
-  .banner {
+  .preview {
     min-height: calc(100vh - 50px); }
-    .banner__logo {
+    .preview__logo {
       width: 300px; }
-    .banner__icons {
+    .preview__icons {
       width: 300px;
       font-size: 1.2em; }
-    .banner__title {
+    .preview__title {
       font-size: 2.1em; }
-    .banner__btn {
+    .preview__btn {
       font-size: 1.55em; }
   .our-services__inner {
     font-size: 1.9em; }
@@ -384,16 +384,16 @@
     width: 220px; }
   .footer__mobile_active {
     height: 135px; }
-  .banner {
+  .preview {
     min-height: calc(100vh - 45px); }
-    .banner__logo {
+    .preview__logo {
       width: 250px; }
-    .banner__icons {
+    .preview__icons {
       width: 250px;
       font-size: 1.05em; }
-    .banner__title {
+    .preview__title {
       font-size: 1.8em; }
-    .banner__btn {
+    .preview__btn {
       font-size: 1.35em; }
   .our-services__inner {
     font-size: 1.5em; }
@@ -552,15 +552,15 @@
   .instagram-link {
     width: 2.2em;
     height: 2.2em; }
-  .banner__logo {
+  .preview__logo {
     width: 250px; }
-  .banner__icons {
+  .preview__icons {
     width: 90%;
     justify-content: space-around;
     font-size: 1.05em; }
-  .banner__title {
+  .preview__title {
     font-size: 1.5em; }
-  .banner__btn {
+  .preview__btn {
     font-size: 1.2em; }
   .our-services__inner {
     font-size: 1.3em;
@@ -687,13 +687,13 @@
     width: 200px; }
   .footer__mobile_active {
     height: 273px; }
-  .banner__logo {
+  .preview__logo {
     width: 90%; }
-  .banner__icons {
+  .preview__icons {
     width: 100%;
     justify-content: space-between;
     font-size: 1em; }
-  .banner__title {
+  .preview__title {
     font-size: 1.4em; }
   .our-menu__inner {
     flex-wrap: nowrap;
