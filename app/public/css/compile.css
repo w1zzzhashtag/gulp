@@ -3350,14 +3350,21 @@ template {
   .instagram-link:hover {
     box-shadow: 0 0 0.5em rgba(216, 171, 86, 0.5); }
 
+.logo__img {
+  width: 100%; }
+
 .mail-link {
   color: #D8AB56;
   transition: .2s; }
   .mail-link:hover {
     text-shadow: 0 0 0.5em #d8ab56; }
 
-.logo__img {
-  width: 100%; }
+.main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; }
 
 .mobile__btn {
   display: none; }
@@ -3367,13 +3374,6 @@ template {
 
 .mobile__socials {
   display: none; }
-
-.main {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center; }
 
 .nav__link {
   color: #D8AB56;
@@ -3478,6 +3478,66 @@ template {
   justify-content: flex-start;
   align-items: center; }
 
+.request {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: url(/public/img/request/request.jpg) center/cover no-repeat; }
+
+.request__btn {
+  font-size: 2em;
+  margin-top: 2em; }
+
+.request__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end; }
+
+.request__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%; }
+
+.request__inner {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 1.2em;
+  padding: 2em 8em 7em 0; }
+
+.request__input {
+  border: none;
+  background-color: transparent;
+  color: #F8F3E5;
+  font-size: 2em;
+  margin-bottom: 1.5em;
+  border-bottom: .1em solid #F8F3E5;
+  width: 100%;
+  outline: none;
+  padding: .5em;
+  transition: .2s; }
+  .request__input::placeholder {
+    color: #F8F3E5; }
+  .request__input:focus {
+    background-color: rgba(248, 243, 229, 0.1);
+    box-shadow: 0 0.3em 0.3em rgba(248, 243, 229, 0.3); }
+
+.request__title {
+  color: #F8F3E5;
+  font-size: 3em;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  text-align: center; }
+
 .our-services {
   width: 100%;
   display: flex;
@@ -3546,66 +3606,6 @@ template {
   .our-services__item:hover .our-services__item-btn {
     transform: translateY(-4.6em); }
 
-.request {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  background: url(/public/img/request/request.jpg) center/cover no-repeat; }
-
-.request__btn {
-  font-size: 2em;
-  margin-top: 2em; }
-
-.request__container {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-end; }
-
-.request__form {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  width: 100%; }
-
-.request__inner {
-  width: 45%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  font-size: 1.2em;
-  padding: 2em 8em 7em 0; }
-
-.request__input {
-  border: none;
-  background-color: transparent;
-  color: #F8F3E5;
-  font-size: 2em;
-  margin-bottom: 1.5em;
-  border-bottom: .1em solid #F8F3E5;
-  width: 100%;
-  outline: none;
-  padding: .5em;
-  transition: .2s; }
-  .request__input::placeholder {
-    color: #F8F3E5; }
-  .request__input:focus {
-    background-color: rgba(248, 243, 229, 0.1);
-    box-shadow: 0 0.3em 0.3em rgba(248, 243, 229, 0.3); }
-
-.request__title {
-  color: #F8F3E5;
-  font-size: 3em;
-  margin-bottom: 1em;
-  text-transform: uppercase;
-  font-family: 'Playfair Display', serif;
-  font-weight: 600;
-  text-align: center; }
-
 .slick-slide {
   margin: 0 1.5em; }
 
@@ -3635,15 +3635,6 @@ template {
   align-items: center;
   width: 4.5em; }
 
-.vk-link {
-  background: url(/public/img/vk-link/vk-link.png) center/contain no-repeat;
-  width: 2em;
-  height: 2em;
-  border-radius: 50%;
-  transition: .2s; }
-  .vk-link:hover {
-    box-shadow: 0 0 0.5em rgba(216, 171, 86, 0.5); }
-
 .title {
   text-align: center;
   letter-spacing: 0.05em;
@@ -3653,3 +3644,12 @@ template {
   color: #AE7E24;
   font-family: 'Playfair Display', serif;
   font-weight: 600; }
+
+.vk-link {
+  background: url(/public/img/vk-link/vk-link.png) center/contain no-repeat;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  transition: .2s; }
+  .vk-link:hover {
+    box-shadow: 0 0 0.5em rgba(216, 171, 86, 0.5); }
