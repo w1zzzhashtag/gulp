@@ -3385,6 +3385,10 @@ template {
 .client-download-app__title_text-color_black {
   color: #000; }
 
+.container {
+  width: 1600px;
+  margin: 0 auto; }
+
 .cost {
   width: 100%;
   display: flex;
@@ -3424,10 +3428,6 @@ template {
   .cost__table th, .cost__table td {
     padding: 1.5em 1em; }
 
-.container {
-  width: 1600px;
-  margin: 0 auto; }
-
 .eTimer {
   width: 540px;
   text-align: left;
@@ -3458,19 +3458,6 @@ template {
   font-size: 1.6em !important;
   margin: 0.6em 0 1.5em !important;
   text-transform: capitalize; }
-
-.eTimer-title {
-  text-transform: uppercase; }
-
-.eTimer-title_wrap {
-  width: 540px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: #2b2a29;
-  font-size: 1.8em;
-  letter-spacing: 0.02em;
-  margin-bottom: 1.3em; }
 
 .footer {
   width: 100%;
@@ -3605,56 +3592,18 @@ template {
   letter-spacing: .025em;
   margin-bottom: .1em; }
 
-.form-winners {
-  width: 50%;
+.eTimer-title {
+  text-transform: uppercase; }
+
+.eTimer-title_wrap {
+  width: 540px;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
-  .form-winners input[type="date"] {
-    border: none;
-    outline-color: #7e01fc;
-    padding: .4em .4em .4em 3em;
-    position: relative; }
-  .form-winners input[type="date"]::-webkit-datetime-edit-text {
-    padding: 0 0.1em; }
-  .form-winners input[type="date"]::-webkit-calendar-picker-indicator {
-    color: rgba(0, 0, 0, 0);
-    opacity: 1;
-    display: block;
-    background: url(/img/form-winners/form-winners__date.png) center/contain no-repeat;
-    width: 1.3em;
-    height: 1em;
-    cursor: pointer;
-    position: absolute;
-    left: .4em; }
-  .form-winners input[type="date"]::-webkit-inner-spin-button {
-    display: none; }
-  .form-winners input[type="date"]::-webkit-clear-button {
-    display: none; }
-
-.form-winners__search {
-  font-size: .8em;
-  position: relative; }
-  .form-winners__search input[type="tel"] {
-    border: none;
-    border-radius: 5px;
-    border: 3px solid #7e01fc;
-    width: 350px;
-    padding: .8em .8em .8em 3em;
-    font-style: italic;
-    color: #000000;
-    font-family: "Museo Sans 300";
-    outline: none; }
-  .form-winners__search input[type="submit"] {
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-    position: absolute;
-    left: 0.5em;
-    top: 0;
-    width: 2em;
-    height: 100%;
-    background: url(/img/form-winners/form-winners__search.png) center/contain no-repeat; }
+  align-items: center;
+  color: #2b2a29;
+  font-size: 1.8em;
+  letter-spacing: 0.02em;
+  margin-bottom: 1.3em; }
 
 .frequent-requests {
   width: 100%;
@@ -3740,6 +3689,57 @@ template {
 .frequent-requests__question_active::after {
   transform: translateY(-50%) rotate(90deg);
   opacity: 0; }
+
+.form-winners {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .form-winners input[type="date"] {
+    border: none;
+    outline-color: #7e01fc;
+    padding: .4em .4em .4em 3em;
+    position: relative; }
+  .form-winners input[type="date"]::-webkit-datetime-edit-text {
+    padding: 0 0.1em; }
+  .form-winners input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url(/img/form-winners/form-winners__date.png) center/contain no-repeat;
+    width: 1.3em;
+    height: 1em;
+    cursor: pointer;
+    position: absolute;
+    left: .4em; }
+  .form-winners input[type="date"]::-webkit-inner-spin-button {
+    display: none; }
+  .form-winners input[type="date"]::-webkit-clear-button {
+    display: none; }
+
+.form-winners__search {
+  font-size: .8em;
+  position: relative; }
+  .form-winners__search input[type="tel"] {
+    border: none;
+    border-radius: 5px;
+    border: 3px solid #7e01fc;
+    width: 350px;
+    padding: .8em .8em .8em 3em;
+    font-style: italic;
+    color: #000000;
+    font-family: "Museo Sans 300";
+    outline: none; }
+  .form-winners__search input[type="submit"] {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    left: 0.5em;
+    top: 0;
+    width: 2em;
+    height: 100%;
+    background: url(/img/form-winners/form-winners__search.png) center/contain no-repeat; }
 
 .google-play {
   background: url(/img/google-play/google-play.png) center/contain no-repeat; }
@@ -4483,6 +4483,18 @@ template {
   text-transform: uppercase;
   font-size: .4em; }
 
+.prizes {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; }
+
+.prizes__content {
+  width: 100%;
+  height: 850px;
+  background: url(/img/prizes/prizes__content.png) center bottom/cover no-repeat; }
+
 .rules {
   width: 100%;
   display: flex;
@@ -4546,18 +4558,6 @@ template {
   font-size: 3.8em;
   font-weight: lighter;
   margin-bottom: 2.5em; }
-
-.prizes {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center; }
-
-.prizes__content {
-  width: 100%;
-  height: 850px;
-  background: url(/img/prizes/prizes__content.png) center bottom/cover no-repeat; }
 
 .table-winners {
   width: 100%;
