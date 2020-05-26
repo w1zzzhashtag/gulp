@@ -1,0 +1,11 @@
+.modal__close {
+    position: absolute;
+    right: 2em;
+    top: 1em;
+    width: 1.2em;
+    height: 1.2em;
+    border: none;
+    background-color: transparent;
+    background: url(/public/img/modal/modal__close.png) center / contain no-repeat;
+    cursor: pointer;
+}

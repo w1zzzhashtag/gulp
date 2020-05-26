@@ -4094,6 +4094,40 @@ template {
   }
 }
 
+.advantages {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.advantages__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.advantages__img {
+    height: 150px;
+}
+.advantages__inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 1em;
+    font-size: 2.4em;
+}
+.advantages__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;    
+    align-items: center;
+}
+.advantages__title {
+    color: #392601;
+    margin-top: 0.5em;
+}
 .banner {
     width: 100%;
     min-height: calc(100vh - 80px);
@@ -4163,42 +4197,12 @@ template {
         background-color: #fff;
     }
 }
-.advantages {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
-.advantages__container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-}
-.advantages__img {
-    height: 150px;
-}
-.advantages__inner {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
-    margin-top: 1em;
-    font-size: 2.4em;
-}
-.advantages__item {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;    
-    align-items: center;
-}
-.advantages__title {
-    color: #392601;
-    margin-top: 0.5em;
-}
 .burger {
     display: none;
+}
+.container {
+    width: 1600px;
+    margin: 0 auto;
 }
 .company {
     width: 100%;
@@ -4260,10 +4264,6 @@ template {
         width: 100%;
         background-color: #392601;
     }
-}
-.container {
-    width: 1600px;
-    margin: 0 auto;
 }
 .feedback {
     width: 100%;
@@ -4346,6 +4346,7 @@ template {
     align-items: flex-start;
     font-size: 1.8em;
     padding: 3em 0;
+    position: relative;
 }
 .footer__copyright {
     color: #D8AB56;
@@ -4360,6 +4361,11 @@ template {
 }
 .footer__logo {
     width: 200px;
+}
+.footer__modal_active {
+    height: 307px !important;
+    right: calc((100% - 1600px) / 2);
+    bottom: 281px;
 }
 .footer__nav {
     display: flex;
@@ -4392,16 +4398,6 @@ template {
     justify-content: flex-start;
     align-items: center;
 }
-.instagram-link {
-    background: url(/public/img/instagram-link/instagram-link.png) center / contain no-repeat;
-    width: 2em;
-    height: 2em;
-    border-radius: 50%;
-    transition: .2s;
-    &:hover {
-        box-shadow: 0 0 .5em rgba(#D8AB56, .5);
-    }
-}
 .header {
     width: 100%;
     height: 80px;
@@ -4419,10 +4415,17 @@ template {
     align-items: flex-end;
     font-size: 1.8em;
     padding-bottom: 1.2em;
+    position: relative;
+    z-index: 99;
 }
 .header__logo {
     width: 110px;
     transform: translateY(.3em);
+}
+.header__modal_active {
+    height: 307px !important;
+    top: 80px;
+    right: calc((100% - 1600px) / 2);
 }
 .header__nav {
     display: flex;
@@ -4475,6 +4478,16 @@ template {
     justify-content: flex-start;
     align-items: center;
 }
+.instagram-link {
+    background: url(/public/img/instagram-link/instagram-link.png) center / contain no-repeat;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    transition: .2s;
+    &:hover {
+        box-shadow: 0 0 .5em rgba(#D8AB56, .5);
+    }
+}
 .logo__img{
     width: 100%;
 }
@@ -4503,6 +4516,53 @@ template {
 }
 .mobile__socials {
     display: none;
+}
+.modal {
+    position: absolute;
+    background-color: #000;
+    overflow: hidden;
+    font-size: 1.8em;
+    height: 0;
+    transition: .2s;
+}
+.modal__btn {
+    margin-top: 1em;
+}
+.modal__close {
+    position: absolute;
+    right: 2em;
+    top: 1em;
+    width: 1.2em;
+    height: 1.2em;
+    border: none;
+    background-color: transparent;
+    background: url(/public/img/modal/modal__close.png) center / contain no-repeat;
+    cursor: pointer;
+}
+.modal__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 3.5em 2em 3em;
+    position: relative;
+}
+.modal__input {
+    border: none;
+    background-color: transparent;
+    border-bottom: .08em solid #fff;
+    margin-bottom: 1.5em;
+    padding: .5em .3em;
+    color: #fff;
+    width: 320px;
+    outline: 0;
+    &::placeholder {
+        color: #fff;
+    }
+    &:focus {
+        box-shadow: 0 .2em .2em rgba(#fff, .5);
+        background-color: rgba(#fff, .1);
+    }
 }
 .nav__link {
     color: #D8AB56;

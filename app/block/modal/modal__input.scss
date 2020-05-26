@@ -1,0 +1,17 @@
+.modal__input {
+    border: none;
+    background-color: transparent;
+    border-bottom: .08em solid #fff;
+    margin-bottom: 1.5em;
+    padding: .5em .3em;
+    color: #fff;
+    width: 320px;
+    outline: 0;
+    &::placeholder {
+        color: #fff;
+    }
+    &:focus {
+        box-shadow: 0 .2em .2em rgba(#fff, .5);
+        background-color: rgba(#fff, .1);
+    }
+}

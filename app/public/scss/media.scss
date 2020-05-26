@@ -117,6 +117,22 @@
             width: 170px;
         }
     }
+    .modal {
+        font-size: 1.6em;
+        &__input {
+            width: 300px;
+        }
+    }
+    .header__modal_active, .footer__modal_active {
+        height: 273px !important;
+        right: calc((100% - 1300px) / 2);
+    }
+    .header__modal_active {
+        top: 75px;
+    }
+    .footer__modal_active {
+        bottom: 250px;
+    }
 }
 @media(max-width:1500px) {
     section {
@@ -260,6 +276,22 @@
              width: 35%;
          }
      }
+     .modal {
+        font-size: 1.4em;
+        &__input {
+            width: 270px;
+        }
+    }
+    .header__modal_active, .footer__modal_active {
+        height: 240px !important;
+        right: calc((100% - 1100px) / 2);
+    }
+    .header__modal_active {
+        top: 65px;
+    }
+    .footer__modal_active {
+        bottom: 219px;
+    }
 }
 @media(max-width:1200px) {
     section {
@@ -278,8 +310,7 @@
             justify-content: space-between;
             padding-bottom: .8em;
             font-size: 1.2em;
-            position: relative;
-            z-index: 99;
+            
         }
         &__logo {
             width: 75px;
@@ -389,7 +420,6 @@
         }
         &__title {
             font-size: 2.1em;
-            // margin-bottom: 1.5em;
         }
         &__btn {
             font-size: 1.55em;
@@ -501,6 +531,22 @@
              }
          }
      }
+     .modal {
+        font-size: 1.3em;
+        &__input {
+            width: 250px;
+        }
+    }
+    .header__modal_active, .footer__modal_active {
+        height: 222px !important;
+        right: calc((100% - 900px) / 2);
+    }
+    .header__modal_active {
+        top: 50px;
+    }
+    .footer__modal_active {
+        bottom: 164px;
+    }
 }
 @media(max-width:1000px) {
     section {
@@ -682,6 +728,22 @@
              }
          }
      }
+     .modal {
+        font-size: 1.1em;
+        &__input {
+            width: 210px;
+        }
+    }
+    .header__modal_active, .footer__modal_active {
+        height: 187px !important;
+        right: calc((100% - 650px) / 2);
+    }
+    .header__modal_active {
+        top: 45px;
+    }
+    .footer__modal_active {
+        bottom: 134px;
+    }
 }
 @media(max-width:700px) {
     section {
@@ -951,6 +1013,19 @@
              }
          }
      }
+     .modal {
+        font-size: 1em;
+        &__input {
+            width: 190px;
+        }
+    }
+    .header__modal_active, .footer__modal_active {
+        height: 171px !important;
+        right: calc((100% - 405px) / 2);
+    }
+    .footer__modal_active {
+        bottom: 127px;
+    }
 }
 @media(max-width:500px) {
     section {
@@ -1080,6 +1155,19 @@
                 margin: 0 2em 0 0;
             }
         }
+    }
+    .modal {
+        font-size: .9em;
+        &__input {
+            width: 170px;
+        }
+    }
+    .header__modal_active, .footer__modal_active {
+        height: 152px !important;
+        right: calc((100% - 300px) / 2);
+    }
+    .footer__modal_active {
+        bottom: 115px;
     }
 }
 
