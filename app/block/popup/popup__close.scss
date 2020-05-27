@@ -1,0 +1,11 @@
+.popup__close {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    width: 1em;
+    height: 1em;
+    position: absolute;
+    top: 1.5em;
+    right: 2em;
+    background: url(/public/img/popup/popup__close.png) center / contain no-repeat;
+}

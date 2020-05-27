@@ -1,0 +1,18 @@
+.popup__input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: .1em solid #392601;
+    color: #392601;
+    margin-bottom: 1.5em;
+    padding: 0.2em .4em;
+    outline: 0;
+    transition: .2s;
+    &::placeholder {
+        color: #392601;
+    }
+    &:focus {
+        box-shadow: 0 .2em .2em rgba(#392601, .5);
+        background-color: rgba(#392601, .1);
+    }
+}

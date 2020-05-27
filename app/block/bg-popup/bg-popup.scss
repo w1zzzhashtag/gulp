@@ -1,0 +1,14 @@
+.bg-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 5000px;
+    height: 5000px;
+    min-height: 200vh;
+    min-width: 200vw;
+    transform: translate(-50%, -50%) scale(0);
+    border-radius: 50%;
+    z-index: 110;
+    background-color: rgba(#330F0F, 0);
+    transition: .6s;
+}

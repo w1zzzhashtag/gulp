@@ -133,6 +133,17 @@
     .footer__modal_active {
         bottom: 250px;
     }
+    .bg-popup {
+        width: 3400px;
+        height: 3400px;
+    }
+    .popup {
+        font-size: 1.5em;
+        width: 450px;
+        &__text {
+            height: 115px;
+        }
+    }
 }
 @media(max-width:1500px) {
     section {
@@ -291,6 +302,17 @@
     }
     .footer__modal_active {
         bottom: 219px;
+    }
+    .bg-popup {
+        width: 3000px;
+        height: 3000px;
+    }
+    .popup {
+        font-size: 1.4em;
+        width: 430px;
+        &__text {
+            height: 110px;
+        }
     }
 }
 @media(max-width:1200px) {
@@ -547,6 +569,17 @@
     .footer__modal_active {
         bottom: 164px;
     }
+    .bg-popup {
+        width: 2400px;
+        height: 2400px;
+    }
+    .popup {
+        font-size: 1.3em;
+        width: 400px;
+        &__text {
+            height: 100px;
+        }
+    }
 }
 @media(max-width:1000px) {
     section {
@@ -623,7 +656,7 @@
     }
     .our-services {
         &__inner {
-            font-size: 1.5em;
+            font-size: 1.4em;
         }
         &__item {
             width: 205px;
@@ -743,6 +776,17 @@
     }
     .footer__modal_active {
         bottom: 134px;
+    }
+    .bg-popup {
+        width: 2000px;
+        height: 2000px;
+    }
+    .popup {
+        font-size: 1.2em;
+        width: 370px;
+        &__text {
+            height: 95px;
+        }
     }
 }
 @media(max-width:700px) {
@@ -1026,6 +1070,17 @@
     .footer__modal_active {
         bottom: 127px;
     }
+    .bg-popup {
+        width: 1400px;
+        height: 1400px;
+    }
+    .popup {
+        font-size: 1.1em;
+        width: 340px;
+        &__text {
+            height: 85px;
+        }
+    }
 }
 @media(max-width:500px) {
     section {
@@ -1168,6 +1223,17 @@
     }
     .footer__modal_active {
         bottom: 115px;
+    }
+    .bg-popup {
+        width: 1000px;
+        height: 1000px;
+    }
+    .popup {
+        font-size: 1em;
+        width: 300px;
+        &__text {
+            height: 77px;
+        }
     }
 }
 
