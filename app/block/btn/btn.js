@@ -53,6 +53,7 @@ document.addEventListener('click', function(e) {
         } else if (e.target == popupBG || e.target == popupClose) {
             popupBG.classList.remove('bg-popup_active')
             popup.classList.remove('popup__wrap_active')
+            popupSubtitle.textContent = ''
         }  
     } 
 })

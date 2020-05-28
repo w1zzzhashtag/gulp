@@ -676,12 +676,7 @@
       background-color: #D8AB56; }
   .footer__tel-btn {
     display: none; }
-  .modal {
-    font-size: 1em; }
-    .modal__input {
-      width: 190px; }
   .header__modal_active, .footer__modal_active {
-    height: 171px !important;
     right: calc((100% - 405px) / 2); }
   .footer__modal_active {
     bottom: 127px; }
@@ -770,12 +765,7 @@
     width: 75px; }
   .footer__tel-link {
     margin: 0 2em 0 0; }
-  .modal {
-    font-size: .9em; }
-    .modal__input {
-      width: 170px; }
   .header__modal_active, .footer__modal_active {
-    height: 152px !important;
     right: calc((100% - 300px) / 2); }
   .footer__modal_active {
     bottom: 115px; }

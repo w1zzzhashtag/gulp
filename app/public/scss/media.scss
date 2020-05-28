@@ -1057,14 +1057,9 @@
              }
          }
      }
-     .modal {
-        font-size: 1em;
-        &__input {
-            width: 190px;
-        }
-    }
+    
     .header__modal_active, .footer__modal_active {
-        height: 171px !important;
+       
         right: calc((100% - 405px) / 2);
     }
     .footer__modal_active {
@@ -1211,14 +1206,7 @@
             }
         }
     }
-    .modal {
-        font-size: .9em;
-        &__input {
-            width: 170px;
-        }
-    }
     .header__modal_active, .footer__modal_active {
-        height: 152px !important;
         right: calc((100% - 300px) / 2);
     }
     .footer__modal_active {

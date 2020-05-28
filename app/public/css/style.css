@@ -47,8 +47,8 @@ section {
   padding: 5em 0; }
 
 ::selection {
-  color: #392601;
-  background-color: #F8F3E5; }
+  color: #F8F3E5;
+  background-color: #392601; }
 
 *::-webkit-scrollbar {
   width: 10px;
