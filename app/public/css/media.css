@@ -351,12 +351,7 @@
     align-items: center; }
     .footer__tel-link {
       margin: 0 2em 0 0; }
-  .modal {
-    font-size: 1.3em; }
-    .modal__input {
-      width: 250px; }
   .header__modal_active, .footer__modal_active {
-    height: 222px !important;
     right: calc((100% - 900px) / 2); }
   .header__modal_active {
     top: 50px; }
@@ -478,12 +473,7 @@
     margin: 0 0 0 1em; }
   .footer__tel-link {
     margin: 0 1em 0 0; }
-  .modal {
-    font-size: 1.1em; }
-    .modal__input {
-      width: 210px; }
   .header__modal_active, .footer__modal_active {
-    height: 187px !important;
     right: calc((100% - 650px) / 2); }
   .header__modal_active {
     top: 45px; }
