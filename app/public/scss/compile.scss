@@ -4094,6 +4094,24 @@ template {
   }
 }
 
+.bg-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 8000px;
+    height: 8000px;
+    min-height: 200vh;
+    min-width: 200vw;
+    transform: translate(-50%, -50%) scale(0);
+    border-radius: 50%;
+    z-index: 110;
+    background-color: rgba(#330F0F, 0);
+    transition: .6s;
+}
+.bg-popup_active  {
+    background-color: rgba(#330F0F, .63);
+    transform: translate(-50%, -50%) scale(1);
+}
 .advantages {
     width: 100%;
     display: flex;
@@ -4127,24 +4145,6 @@ template {
 .advantages__title {
     color: #392601;
     margin-top: 0.5em;
-}
-.bg-popup {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    width: 8000px;
-    height: 8000px;
-    min-height: 200vh;
-    min-width: 200vw;
-    transform: translate(-50%, -50%) scale(0);
-    border-radius: 50%;
-    z-index: 110;
-    background-color: rgba(#330F0F, 0);
-    transition: .6s;
-}
-.bg-popup_active  {
-    background-color: rgba(#330F0F, .63);
-    transform: translate(-50%, -50%) scale(1);
 }
 .btn {
     background-color: #D8AB56;
@@ -4452,15 +4452,15 @@ template {
         box-shadow: 0 0 .5em rgba(#D8AB56, .5);
     }
 }
-.logo__img{
-    width: 100%;
-}
 .mail-link {
     color: #D8AB56;
     transition: .2s;
     &:hover {
         text-shadow: 0 0 .5em rgba(#D8AB56, 1);
     }
+}
+.logo__img{
+    width: 100%;
 }
 .main {
     width: 100%;
