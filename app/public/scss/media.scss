@@ -553,14 +553,7 @@
              }
          }
      }
-     .modal {
-        font-size: 1.3em;
-        &__input {
-            width: 250px;
-        }
-    }
     .header__modal_active, .footer__modal_active {
-        height: 222px !important;
         right: calc((100% - 900px) / 2);
     }
     .header__modal_active {
@@ -761,14 +754,7 @@
              }
          }
      }
-     .modal {
-        font-size: 1.1em;
-        &__input {
-            width: 210px;
-        }
-    }
     .header__modal_active, .footer__modal_active {
-        height: 187px !important;
         right: calc((100% - 650px) / 2);
     }
     .header__modal_active {
@@ -1059,7 +1045,6 @@
      }
     
     .header__modal_active, .footer__modal_active {
-       
         right: calc((100% - 405px) / 2);
     }
     .footer__modal_active {
